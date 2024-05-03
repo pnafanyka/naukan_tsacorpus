@@ -1,0 +1,119 @@
+{
+  "corpus_name": "naukan",
+  "citation": "Naukan corpora",
+  "input_format": "json",
+  "debug": false,
+  "media": true,
+  "video": false,
+  "media_length": 60,
+  "max_context_expand": 10,
+  "max_distance_filter": 200000,
+  "max_docs_retrieve": 9999,
+  "max_words_in_sentence": 40,
+  "query_timeout": 60,
+  "year_sort_enabled": true,
+  "viewable_meta": [
+    "filename",
+    "title"
+  ],
+  "sentence_meta": [],
+  "search_meta": {
+    "columns": [
+      [
+        {"type": "input_text", "name": "title", "placeholder": "Text title"},
+        {"type": "input_text", "name": "speaker", "placeholder": "Speaker's name"},
+        {"type": "separator"},
+        {"type": "input_text", "name": "village", "placeholder": "Village"},
+        {"type": "input_text", "name": "narrative_subject", "placeholder": "Narrative subject"},
+        {"type": "input_text", "name": "profession", "placeholder": "Speaker's profession"},
+        {"type": "input_text", "name": "age", "placeholder": "Speaker's age"}
+      ],
+      [
+        {"type": "input_text", "name": "gender", "placeholder": "Speaker's gender"},
+        {"type": "option", "name": "gender", "value": "M", "text": "M"},
+        {"type": "option", "name": "gender", "value": "F", "text": "F"}
+	  ]
+    ],
+    "stat_options": [
+      "title",
+      "village",
+      "linguists",
+      "narrative_subject",
+      "age",
+      "profession",
+      "speaker",
+      "gender"
+    ]
+  },
+
+  "generate_dictionary": true,
+  "fulltext_view_enabled": true,
+  "use_nonpersistent_fulltext_id": true,
+  "languages": ["naukan", "russian"],
+  "language_codes": {"naukan": "naukan"},
+  "input_methods": ["normal"],
+  "interface_languages": [
+    "en",
+    "ru"
+  ],
+  "all_language_search_enabled": true,
+  "gloss_search_enabled": false,
+  "ambiguous_analyses": true,
+  "elastic_url": "http://127.0.0.1:9200",
+  "lang_props":
+  {
+    "naukan":
+    {          
+      "gr_fields_order": ["number", "person", "gender", "proper_type", "adv_type", "noun_form", "prep_type", "adj_det"],
+      "gramm_selection": {
+        "columns": [
+          [
+            {"type": "header", "value": "Parts of speech"},
+            {"type": "gramm", "value": "NOUN", "category": "pos", "tooltip": "Noun"},
+            {"type": "gramm", "value": "PRON", "category": "pos", "tooltip": "Verb"},
+            {"type": "gramm", "value": "PROPN", "category": "pos", "tooltip": "Adjective"},
+            {"type": "gramm", "value": "PREP", "category": "pos", "tooltip": "Adverb"},
+            {"type": "gramm", "value": "CONJ", "category": "pos", "tooltip": "Predicative"},
+            {"type": "gramm", "value": "AUX", "category": "pos", "tooltip": "Numeral"},
+            {"type": "gramm", "value": "ADV", "category": "pos", "tooltip": "Pronoun"},
+            {"type": "gramm", "value": "PART", "category": "pos", "tooltip": "Postposition"},
+            {"type": "gramm", "value": "ADJ", "category": "pos", "tooltip": "Conjunction"}
+          ],
+          [
+            {"type": "header", "value": "Number"},
+            {"type": "gramm", "value": "Sg", "category": "number", "tooltip": "Singular"},
+            {"type": "gramm", "value": "Pl", "category": "number", "tooltip": "Plural"},
+            {"type": "header", "value": "Person"},
+            {"type": "gramm", "value": "1", "category": "person", "tooltip": "First person"},
+            {"type": "gramm", "value": "2", "category": "person", "tooltip": "Second person"},
+            {"type": "gramm", "value": "3", "category": "person", "tooltip": "Third person"},
+            {"type": "header", "value": "Gender"},
+            {"type": "gramm", "value": "m", "category": "gender", "tooltip": "First person"},
+            {"type": "gramm", "value": "f", "category": "gender", "tooltip": "Second person"},
+            {"type": "gramm", "value": "c", "category": "gender", "tooltip": "Third person"}
+          ],
+          [
+            {"type": "header", "value": "Type of proper noun"},
+            {"type": "gramm", "value": "PER", "category": "proper_type", "tooltip": "Person"},
+            {"type": "gramm", "value": "PLACE", "category": "proper_type", "tooltip": "Place"},
+            {"type": "header", "value": "Type of adverb"},
+            {"type": "gramm", "value": "Mod", "category": "adv_type", "tooltip": "Modal adverb"},
+            {"type": "header", "value": "Type of preposition"},
+            {"type": "gramm", "value": "free", "category": "prep_type", "tooltip": "Free preposition"}
+          ],
+          [
+			      {"type": "header", "value": "Noun form"},
+            {"type": "gramm", "value": "Free", "category": "noun_form", "tooltip": "Free form"},
+            {"type": "gramm", "value": "Constr", "category": "noun_form", "tooltip": "Status constructus"},
+            {"type": "header", "value": "Adjective form"},
+            {"type": "gramm", "value": "Det", "category": "adj_det", "tooltip": "Determined adjective"},
+            {"type": "gramm", "value": "Indet", "category": "adj_det", "tooltip": "Indetermined adjective"}
+          ]
+        ]
+      }
+    },
+    "german":{
+    }
+  }
+}
+

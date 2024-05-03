@@ -1,0 +1,741 @@
+#: templates/index.html:4
+msgid "Corpus search page"
+msgstr "Page de recherche"
+
+#: templates/index.html:19 templates/index/query_area.html:54
+msgid "more_fields"
+msgstr "afficher plus de champs"
+
+#: templates/index.html:20
+msgid "fewer_fields"
+msgstr "masquer les champs"
+
+#: templates/index.html:21
+msgid "add_distance"
+msgstr "ajouter&nbsp;une distance"
+
+#: templates/index.html:22
+msgid "remove_word"
+msgstr "supprimer&nbsp;le mot"
+
+#: templates/index.html:23
+msgid "Distance to word #"
+msgstr "Distance&nbsp;par&nbsp;rapport&nbsp;au&nbsp;mot №"
+
+#: templates/index.html:24
+msgid "from "
+msgstr "de "
+
+#: templates/index.html:25
+msgid "to "
+msgstr "à "
+
+#: templates/index.html:26
+msgid "Select combinations of tags"
+msgstr "Sélectionnez une étiquette ou une combinaison d'étiquettes"
+
+#: templates/index.html:27
+msgid "Select glosses"
+msgstr "Sélectionnez les gloses"
+
+#: templates/index.html:28
+msgid "the query"
+msgstr "la requête"
+
+#: templates/index.html:29 templates/modals/subcorpus_selection.html:90
+#: templates/modals/word_stats.html:55
+msgid "Nothing found."
+msgstr "Aucun résultat n'a été trouvé."
+
+#: templates/index.html:30
+msgid "Query word"
+msgstr "Mot recherché"
+
+#: templates/index.html:67
+msgid "Sorry, the server is experiencing technical issues. Please try again later."
+msgstr "Désolé, le serveur rencontre des problèmes techniques. Veuillez réessayer plus tard."
+
+#: templates/index.html:68 templates/index/hidden_elements.html:12
+#: templates/index/hidden_elements.html:30
+#: templates/index/hidden_elements.html:44
+#: templates/index/hidden_elements.html:58
+#: templates/index/hidden_elements.html:73
+#: templates/index/hidden_elements.html:87 templates/index/query_area.html:100
+#: templates/index/results_area.html:11
+#: templates/modals/display_settings.html:6
+#: templates/modals/query_history.html:6
+#: templates/modals/query_share_load.html:6
+#: templates/modals/query_share_load.html:20
+#: templates/modals/subcorpus_selection.html:6
+#: templates/modals/word_stats.html:6
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/index/common_additional_search_fields.html:23
+msgid "Analyses: "
+msgstr "Analyses : "
+
+#: templates/index/common_additional_search_fields.html:24
+msgid "any number of analyses"
+msgstr "n'importe quel nombre"
+
+#: templates/index/common_additional_search_fields.html:26
+msgid "only ambiguous"
+msgstr "seulement avec homonymie"
+
+#: templates/index/common_additional_search_fields.html:27
+msgid "only non-ambiguous"
+msgstr "sans ambiguïté"
+
+#: templates/index/common_additional_search_fields.html:28
+#: templates/index/common_additional_search_fields.html:30
+msgid "only with analysis"
+msgstr "avec analyse"
+
+#: templates/index/common_additional_search_fields.html:32
+msgid "only without analysis"
+msgstr "sans analyse"
+
+#: templates/index/common_additional_search_fields.html:34
+msgid "Position in sentence: "
+msgstr "Position dans l'énoncé : "
+
+#: templates/index/corpus_header.html:9
+msgid "Corpus name"
+msgstr "Nom du corpus"
+
+#: templates/index/corpus_header.html:25
+#: templates/index/hidden_elements.html:72
+msgid "How to cite"
+msgstr "Comment citer le corpus"
+
+#: templates/index/corpus_header.html:28 templates/index/greeting_en.html:9
+#: templates/index/greeting_ru.html:9
+msgid "Show help"
+msgstr "Aide"
+
+#: templates/index/greeting_en.html:5 templates/index/greeting_ru.html:5
+#: templates/index/query_area.html:70
+msgid "Search sentences"
+msgstr "Recherche d'énoncés"
+
+#: templates/index/greeting_en.html:6 templates/index/greeting_ru.html:6
+#: templates/index/query_area.html:71
+msgid "Search words"
+msgstr "Recherche de mots"
+
+#: templates/index/greeting_en.html:6 templates/index/greeting_ru.html:6
+#: templates/index/query_area.html:72
+msgid "Search lemmata"
+msgstr "/ de lemmes"
+
+#: templates/index/hidden_elements.html:19
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/index/hidden_elements.html:29
+msgid "Help"
+msgstr "Aide"
+
+#: templates/index/hidden_elements.html:43
+msgid "Dictionary_header"
+msgstr "Dictionnaire"
+
+#: templates/index/hidden_elements.html:57
+msgid "Metadata_header"
+msgstr "Métadonnées"
+
+#: templates/index/progress.html:6
+msgid "Max seconds left: "
+msgstr "Nombre maximal de secondes restantes : "
+
+#: templates/index/query_area.html:8
+msgid "Options"
+msgstr "Paramètres"
+
+#: templates/index/query_area.html:9 templates/modals/query_history.html:5
+msgid "Query history"
+msgstr "Historique de requêtes"
+
+#: templates/index/query_area.html:11
+msgid "Show dictionary"
+msgstr "Afficher le dictionnaire"
+
+#: templates/index/query_area.html:19
+msgid "Word_header"
+msgstr "Mot"
+
+#: templates/index/query_area.html:19
+msgid "Number_sign"
+msgstr "№"
+
+#: templates/index/query_area.html:20
+msgid "Word:"
+msgstr "Mot :"
+
+#: templates/index/query_area.html:21
+msgid "Lemma:"
+msgstr "Lemme :"
+
+#: templates/index/query_area.html:22
+msgid "Grammar:"
+msgstr "Grammaire :"
+
+#: templates/index/query_area.html:26
+msgid "Gloss:"
+msgstr "Gloses :"
+
+#: templates/index/query_area.html:31
+#: templates/modals/subcorpus_selection.html:56
+msgid "Language/tier:"
+msgstr "Langue/couche :"
+
+#: templates/index/query_area.html:36
+#: templates/modals/subcorpus_selection.html:58
+msgid "langname_all"
+msgstr "toutes les langues"
+
+#: templates/index/query_area.html:49
+msgid "negative_query"
+msgstr "requête&nbsp;négative"
+
+#: templates/index/query_area.html:51
+msgid "add_word"
+msgstr "ajouter un mot"
+
+#: templates/index/query_area.html:61
+msgid "Full-text search:"
+msgstr "Recherche de texte intégral :"
+
+#: templates/index/query_area.html:63
+msgid "Precise match"
+msgstr "correspondance exacte"
+
+#: templates/index/query_area.html:73
+msgid "Words statistics"
+msgstr "Statistiques sur les mots"
+
+#: templates/index/query_area.html:75
+#: templates/modals/subcorpus_selection.html:5
+msgid "Select subcorpus"
+msgstr "Sélectionner un sous-corpus"
+
+#: templates/index/query_area.html:77
+msgid "Share this query"
+msgstr "Partager cette requête"
+
+#: templates/index/query_area.html:78
+msgid "Load external query"
+msgstr "Charger une requête externe"
+
+#: templates/index/query_area.html:97
+msgid "Back to search"
+msgstr "Retour à la recherche"
+
+#: templates/index/results_area.html:10
+msgid "Click on an example to see video."
+msgstr "Cliquez sur un exemple pour écouter ou voir la vidéo."
+
+#: templates/index/results_area.html:10
+msgid "Click on an example to listen."
+msgstr "Cliquez sur un exemple pour écouter ou voir la vidéo."
+
+#: templates/modals/display_settings.html:5
+msgid "Additional search and display options"
+msgstr "Options supplémentaires de recherche et d'affichage"
+
+#: templates/modals/display_settings.html:12
+msgid "Results per page:"
+msgstr "Résultats par page :"
+
+#: templates/modals/display_settings.html:16
+msgid "Sorting:"
+msgstr "Tri :"
+
+#: templates/modals/display_settings.html:18
+msgid "random"
+msgstr "aléatoire"
+
+#: templates/modals/display_settings.html:19
+msgid "by word (word queries)"
+msgstr "par mot (recherche de mots)"
+
+#: templates/modals/display_settings.html:20
+msgid "by lemma (word queries)"
+msgstr "par lemme (recherche de mots)"
+
+#: templates/modals/display_settings.html:21
+msgid "by frequency"
+msgstr "par fréquence"
+
+#: templates/modals/display_settings.html:23
+msgid "by year (decreasing; sentence queries)"
+msgstr "par année (décroissant ; recherche d'énoncés)"
+
+msgid "by sentence ID (sentence queries)"
+msgstr "par ID de l'énoncé (recherche d'énoncés)"
+
+#: templates/modals/display_settings.html:26
+msgid "no sorting"
+msgstr "sans tri"
+
+#: templates/modals/display_settings.html:32
+msgid "Word distance requirements are strict"
+msgstr "Distance entre les mots exactement comme dans la requête"
+
+#: templates/modals/display_settings.html:37
+msgid "Viewing mode:"
+msgstr "Mode d'affichage :"
+
+#: templates/modals/display_settings.html:39
+msgid "view_standard"
+msgstr "standard"
+
+#: templates/modals/display_settings.html:40
+msgid "view_glossed"
+msgstr "glosé"
+
+#: templates/modals/display_settings.html:45
+msgid "Transliteration: "
+msgstr "Translittération : "
+
+#: templates/modals/display_settings.html:55
+msgid "Character input method: "
+msgstr "Méthode de saisie de caractères : "
+
+#: templates/modals/display_settings.html:65
+msgid "Annotation layers in glossed mode:"
+msgstr "Niveaux d'annotation en mode d'affichage glosé :"
+
+#: templates/modals/display_settings.html:68
+#: templates/modals/query_history.html:18
+msgid "Lemma"
+msgstr "Lemme"
+
+#: templates/modals/display_settings.html:72
+#: templates/modals/query_history.html:19
+msgid "Grammar"
+msgstr "Grammaire"
+
+#: templates/modals/display_settings.html:77
+msgid "Gloss"
+msgstr "Gloses"
+
+#: templates/modals/display_settings.html:82
+msgid "Additional fields"
+msgstr "Champs supplémentaires"
+
+#: templates/modals/query_history.html:10
+msgid "Click on"
+msgstr "Cliquez sur"
+
+#: templates/modals/query_history.html:10
+#: templates/modals/query_history.html:23
+msgid "Repeat query"
+msgstr "Répéter une requête"
+
+#: templates/modals/query_history.html:10
+msgid "to repeat a query."
+msgstr "pour répéter une requête."
+
+#: templates/modals/query_history.html:13
+msgid "You have not made any queries yet."
+msgstr "Vous n'avez encore effectué aucune requête."
+
+#: templates/modals/query_history.html:17
+msgid "Word"
+msgstr "Mot"
+
+#: templates/modals/query_history.html:20
+msgid "Subcorpus"
+msgstr "Sous-corpus"
+
+#: templates/modals/query_history.html:21
+msgid "Search type"
+msgstr "Type de recherche"
+
+#: templates/modals/query_history.html:22
+msgid "Time"
+msgstr "Temps"
+
+#: templates/modals/query_share_load.html:5
+msgid "Share query"
+msgstr "Partager la requête"
+
+#: templates/modals/query_share_load.html:9
+msgid "If you want to share your query with someone, send them the text you see below. The person who loads this query will see the same results in the same order, unless the corpus has been re-indexed."
+msgstr "Si vous souhaitez partager votre requête avec quelqu'un, envoyez-lui le texte ci-dessous. La personne qui chargera cette requête verra les mêmes résultats dans le même ordre, à moins que le corpus n'ait été réindexé."
+
+#: templates/modals/query_share_load.html:19
+msgid "Load query"
+msgstr "Charger une requête"
+
+#: templates/modals/query_share_load.html:23
+msgid "Here you can load a corpus query someone sent you. Please enter the query below:"
+msgstr "Ici vous pouvez charger la requête que quelqu'un vous a envoyée. Veuillez saisir la requête ci-dessous :"
+
+#: templates/modals/select_gloss.html:5
+msgid "word boundary"
+msgstr "frontière de mot"
+
+#: templates/modals/select_gloss.html:6
+msgid "any number of morphs"
+msgstr "n'importe quel nombre de morphèmes"
+
+#: templates/modals/select_gloss.html:7
+msgid "any positive number of morphs"
+msgstr "tout nombre de morphèmes différent de zéro"
+
+#: templates/modals/select_gloss.html:8
+msgid "any morph"
+msgstr "n'importe quel morphème"
+
+#: templates/modals/subcorpus_selection.html:10
+msgid "Specify parameters"
+msgstr "Spécifiez les paramètres"
+
+#: templates/modals/subcorpus_selection.html:11
+msgid "Choose from a list"
+msgstr "Choisissez dans une liste"
+
+#: templates/modals/subcorpus_selection.html:12
+msgid "Subcorpus statistics"
+msgstr "Statistiques sur le sous-corpus"
+
+#: templates/modals/subcorpus_selection.html:16
+msgid "Select parameters"
+msgstr "Sélectionnez les paramètres"
+
+#: templates/modals/subcorpus_selection.html:27
+msgid "lower bound"
+msgstr "borne inférieure"
+
+#: templates/modals/subcorpus_selection.html:28
+msgid "upper bound"
+msgstr "borne supérieure"
+
+#: templates/modals/subcorpus_selection.html:42
+msgid "Select documents"
+msgstr "Sélectionnez les textes"
+
+#: templates/modals/subcorpus_selection.html:43
+msgid "(please wait for the document list to load)"
+msgstr "(veuillez attendre le chargement de la liste des textes)"
+
+#: templates/modals/subcorpus_selection.html:46
+msgid "Selected subcorpus composition"
+msgstr "Contenu du sous-corpus sélectionné"
+
+#: templates/modals/subcorpus_selection.html:47
+#: templates/modals/word_stats.html:16
+msgid "Parameter: "
+msgstr "Paramètre : "
+
+#: templates/modals/subcorpus_selection.html:71
+#: templates/modals/word_stats.html:28
+msgid "A maximum of 25 metadata values can be displayed, sorted by the number of words in the relevant texts."
+msgstr "Un maximum de 25 valeurs peuvent être affichées, triées en fonction du nombre de mots dans les textes concernés."
+
+#: templates/modals/subcorpus_selection.html:73
+#: templates/modals/word_stats.html:81
+msgid "(please wait for the plot to load)"
+msgstr "(veuillez patienter pendant le chargement du graphique)"
+
+#: templates/modals/subcorpus_selection.html:77
+msgid "Value"
+msgstr "Valeur"
+
+#: templates/modals/subcorpus_selection.html:78
+msgid "Size in words"
+msgstr "Taille en mots"
+
+#: templates/modals/subcorpus_selection.html:79
+msgid "Number of documents"
+msgstr "Nombre de textes"
+
+#: templates/modals/subcorpus_selection.html:87
+#: templates/modals/word_stats.html:52
+msgid "please wait for the plot to load"
+msgstr "veuillez patienter pendant le chargement du graphique"
+
+#: templates/modals/subcorpus_selection.html:97
+msgid "Clear subcorpus"
+msgstr "Nettoyer le sous-corpus"
+
+#: templates/modals/word_stats.html:5
+msgid "Word statistics header"
+msgstr "Statistiques sur les mots"
+
+#: templates/modals/word_stats.html:10
+msgid "By metadata values"
+msgstr "Par métadonnées"
+
+#: templates/modals/word_stats.html:11
+msgid "By frequency"
+msgstr "Par fréquence"
+
+#: templates/modals/word_stats.html:15
+msgid "Word statistics for "
+msgstr "Statistiques pour "
+
+#: templates/modals/word_stats.html:22
+msgid "Query type: "
+msgstr "Type de requête : "
+
+#: templates/modals/word_stats.html:24
+msgid "search the whole query"
+msgstr "obtenir l'ensemble de la requête"
+
+#: templates/modals/word_stats.html:25
+msgid "compare words in the query"
+msgstr "comparer les mots de la requête"
+
+#: templates/modals/word_stats.html:35
+msgid "Query word "
+msgstr "Mot de requête "
+
+#: templates/modals/word_stats.html:40
+msgid "value"
+msgstr "valeur"
+
+#: templates/modals/word_stats.html:43
+msgid "frequency (ipm)"
+msgstr "fréquence (occurrences par million de mots)"
+
+#: templates/modals/word_stats.html:44
+#, python-format
+msgid "90%% conf. int. "
+msgstr "intervalle de confiance à 90%% "
+
+#: templates/modals/word_stats.html:59
+msgid "Distribution by frequency rank"
+msgstr "Répartition par rang de fréquence"
+
+#: templates/modals/word_stats.html:60
+msgid "Explanation for frequency distributions"
+msgstr "<p>Le graphique ci-dessous est organisé de la manière suivante. L'axe des <i>x</i> contient les rangs de fréquence, c'est-à-dire les numéros de position dans la liste complète des mots/lemmes classés par ordre décroissant de fréquence. Si plusieurs mots/lemmes ont la même fréquence, ils auront tous le même rang égal à la moyenne arithmétique de leurs numéros de position. Pour chaque rang <i>r</i>, <strong>sur l'axe des <i>y</i> est représentée la proportion des mots/lemmes qui répondent à la requête de recherche, parmi tous les mots/lemmes dont le rang de fréquence ne dépasse pas <i>r</i>.</strong> Le point le plus à droite du graphique indique la proportion de ces mots/lemmes dans l'ensemble du corpus. Dans le cas de la recherche de lemmes, tous les lemmes ayant au moins une forme de mot répondant à la requête sont pris en compte.</p><p>Ce graphique ne tient pas compte du choix du sous-corpus et de tous les mots de la requête à l'exception du premier.</p>"
+
+#: templates/modals/word_stats.html:62
+msgid "words"
+msgstr "mots"
+
+#: templates/modals/word_stats.html:63
+msgid "lemmata"
+msgstr "lemmes"
+
+#: templates/modals/word_stats.html:65
+msgid "Scale of the x axis: "
+msgstr "Échelle de l'axe des x : "
+
+#: templates/modals/word_stats.html:67
+msgid "linear"
+msgstr "linéaire"
+
+#: templates/modals/word_stats.html:68
+msgid "logarithmic"
+msgstr "logarithmique"
+
+#: templates/modals/word_stats.html:70
+msgid "Max y: "
+msgstr "Y max : "
+
+#: templates/modals/word_stats.html:72
+msgid "as in data"
+msgstr "comme dans les données"
+
+#: templates/modals/word_stats.html:73
+#, python-format
+msgid "100%%"
+msgstr "100%%"
+
+#: templates/modals/word_stats.html:74
+#, python-format
+msgid "50%%"
+msgstr "50%%"
+
+#: templates/modals/word_stats.html:75
+#, python-format
+msgid "25%%"
+msgstr "25%%"
+
+#: templates/modals/word_stats.html:76
+#, python-format
+msgid "10%%"
+msgstr "10%%"
+
+#: templates/modals/word_stats.html:77
+#, python-format
+msgid "5%%"
+msgstr "5%%"
+
+#: templates/modals/word_stats.html:78
+#, python-format
+msgid "1%%"
+msgstr "1%%"
+
+#: templates/modals/word_stats.html:79
+#, python-format
+msgid "0.1%%"
+msgstr "0.1%%"
+
+#: templates/search_results/lemma_table_row.html:16
+#: templates/search_results/word_table_row.html:20
+msgid "Search in corpus"
+msgstr "Recherche dans le corpus"
+
+#: templates/search_results/lemma_table_row.html:17
+#: templates/search_results/word_table_row.html:21
+msgid "Show statistics"
+msgstr "Afficher les statistiques"
+
+#: templates/search_results/result_docs.html:1
+msgid "Filter result:"
+msgstr "Résultat du tri :"
+
+#: templates/search_results/result_docs.html:2
+msgid "document with"
+msgid_plural "documents with"
+msgstr[0] "document avec"
+msgstr[1] "documents avec"
+
+#: templates/search_results/result_docs.html:3
+msgid "word found,"
+msgid_plural "words found,"
+msgstr[0] "mot trouvé,"
+msgstr[1] "mots trouvés,"
+
+#: templates/search_results/result_docs.html:4
+msgid "of the entire corpus."
+msgstr "de l'ensemble du corpus."
+
+#: templates/search_results/result_sentences.html:2
+#: templates/search_results/result_words.html:3
+msgid "Search result:"
+msgid_plural "Search result:"
+msgstr[0] "Résultat de la recherche :"
+msgstr[1] "Résultat de la recherche :"
+
+#: templates/search_results/result_sentences.html:3
+msgid "occurrence"
+msgid_plural "occurrences"
+msgstr[0] "occurrence"
+msgstr[1] "occurrences"
+
+#: templates/search_results/result_sentences.html:4
+msgid "sentence found in approximately"
+msgid_plural "sentences found in approximately"
+msgstr[0] "énoncé trouvé dans environ"
+msgstr[1] "énoncés trouvés dans environ"
+
+#: templates/search_results/result_sentences.html:5
+msgid "in_document"
+msgid_plural "in_documents"
+msgstr[0] "document"
+msgstr[1] "documents"
+
+#: templates/search_results/result_sentences.html:9
+#: templates/search_results/result_words.html:18
+msgid "The search was not finished due to the query timeout. You only see partial results."
+msgstr "La recherche n'a pas été terminée en raison du délai d'attente de la requête. Vous ne voyez que des résultats partiels."
+
+#: templates/search_results/result_sentences.html:19
+msgid "Number of results found exceeds the maximum number of pages you can view."
+msgstr "Le nombre de résultats trouvés dépasse le nombre maximum de pages que vous pouvez afficher."
+
+#: templates/search_results/result_sentences.html:24
+#: templates/search_results/result_words.html:28
+msgid "You are searching in a subcorpus."
+msgstr "Vous cherchez dans un sous-corpus."
+
+#: templates/search_results/result_sentences.html:45
+msgid "Copy example to clipboard"
+msgstr "Copier l'exemple dans le presse-papiers"
+
+#: templates/search_results/result_sentences.html:46
+msgid "Expand context"
+msgstr "Élargir le contexte"
+
+#: templates/search_results/result_sentences.html:60
+msgid "download as CSV"
+msgstr "télécharger au format CSV"
+
+#: templates/search_results/result_sentences.html:61
+msgid "download as XLSX"
+msgstr "télécharger au format XLSX"
+
+#: templates/search_results/result_words.html:5
+msgid "unique word"
+msgid_plural "different words"
+msgstr[0] "mot"
+msgstr[1] "mots différents"
+
+#: templates/search_results/result_words.html:7
+msgid "unique lemma"
+msgid_plural "different lemmata"
+msgstr[0] "lemme"
+msgstr[1] "lemmes différents"
+
+#: templates/search_results/result_words.html:9
+msgid "in approximately"
+msgstr "dans environ"
+
+#: templates/search_results/result_words.html:9
+msgid "document found,"
+msgid_plural "documents found,"
+msgstr[0] "document trouvé,"
+msgstr[1] "documents trouvés,"
+
+#: templates/search_results/result_words.html:11
+msgid "total frequency:"
+msgstr "fréquence cumulée :"
+
+#: templates/search_results/result_words.html:13
+msgid "total frequency of found word forms:"
+msgstr "fréquence cumulée des formes de mots trouvées :"
+
+#: templates/search_results/result_words.html:34
+msgid "word_th_word"
+msgstr "mot"
+
+#: templates/search_results/result_words.html:34
+msgid "word_th_lemma"
+msgstr "lemme"
+
+#: templates/search_results/result_words.html:36
+msgid "word_th_gr"
+msgstr "grammaire"
+
+#: templates/search_results/result_words.html:41
+msgid "word_th_frequency"
+msgstr "fréquence"
+
+#: templates/search_results/result_words.html:43
+msgid "word_th_freq. rank / quantile"
+msgstr "rang de fréquence /<br>quantile"
+
+#: templates/search_results/result_words.html:46
+msgid "word_th_# forms"
+msgstr "nombre de formes de mot"
+
+#: templates/search_results/result_words.html:48
+msgid "word_th_# sentences"
+msgstr "nombre d'énoncés"
+
+#: templates/search_results/result_words.html:49
+msgid "word_th_# documents"
+msgstr "nombre de documents"
+
+#: templates/search_results/result_words.html:50
+msgid "word_th_search in corpus"
+msgstr "chercher"
+
+#: templates/search_results/result_words.html:51
+msgid "word_th_word stats"
+msgstr "statistiques"
+
+#: templates/search_results/sentence_header.html:20
+msgid "Full text (opens in a new tab)"
+msgstr "Texte intégral (s'ouvre dans un nouvel onglet)"
+
+msgid "Virtual keyboard"
+msgstr "Clavier virtuel"
