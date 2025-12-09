@@ -199,9 +199,11 @@ def add_missing_fields(in_path: Path, out_path: Path):
 
 
 def main():
-    in_path = Path("corpus/naukan/DEA_raven and fox_240623.json")
-    out_path = Path("corpus/DEA_raven and fox_240623_corrected.json")
-    add_missing_fields(in_path, out_path)
+    base_dir = Path("corpus/naukan")
+    for file in base_dir.iterdir():
+        in_path = Path(file)
+        out_path = Path(file)
+        add_missing_fields(in_path, out_path)
 
 
 if __name__ == "__main__":

@@ -1,1 +1,930 @@
-{"meta": "VAA_dog bublik_170822", "sentences": [{"lang": 0, "words": [{"wtype": "word", "wf": "nɨŋaːma", "ana": [{"parts": "nɨŋaː-ma", "gloss": "зять-ERG.POSS.1SG"}]}], "text": "nɨŋaːma saːʃam"}, {"lang": 0, "words": [{"wtype": "word", "wf": "katˈeːlˈnˈamɨŋ", "ana": [{"parts": "kateːlna-mɨŋ", "gloss": "котельная-INS"}]}, {"wtype": "word", "wf": "teːsˈima", "ana": [{"parts": "teːsi-ma-a-a", "gloss": "принести-PST-IND-3SG.S.3SG.O"}]}, {"wtype": "word", "wf": "qiqmiʁaraɣaq", "ana": [{"parts": "qiqmiʁa-raɣaq", "gloss": "собака-DIM"}]}, {"wtype": "word", "wf": "mˈikaʁamalˈuku", "ana": [{"parts": "mikaʁa-malu-ku", "gloss": "быть.маленьким-CVB.DELIM-3SG.O"}]}], "text": "katˈeːlˈnˈamɨŋ teːsˈima qiqmiʁaraɣaq mˈikaʁamalˈuku salˈi"}, {"lang": 0, "words": [], "text": "mˈikaʁapixsˈimalˈuku"}, {"lang": 0, "words": [], "text": "qɨχs'us'uraʁaχtuq"}, {"lang": 0, "words": [{"wtype": "word", "wf": "anlˈijisˈit", "ana": [{"parts": "anli-jiː-si-t", "gloss": "расти-NEG.PRS-?-PL"}]}, {"wtype": "word", "wf": "aŋujaʁmˈitɨt", "ana": [{"parts": "aŋujaɣ-mi-t-a?-t", "gloss": "русский-INHAB-PL-?-PL"}]}], "text": "anlˈijisˈit aŋujaʁmˈitɨt qiqmˈiʁat"}, {"lang": 0, "words": [{"wtype": "word", "wf": "asˈima", "ana": [{"parts": "asi-ma-a-a", "gloss": "назвать-PST-IND-3SG.S.3SG.O"}]}, {"wtype": "word", "wf": "bu:blˈilˈuq", "ana": [{"parts": "bubli-lu-ku", "gloss": "бублик-CVB-3SG.O"}]}], "text": "asˈima bu:blˈilˈuq bu:blˈiq"}, {"lang": 0, "words": [{"wtype": "word", "wf": "tawatɨn", "ana": [{"parts": "taɣʷatɨn", "gloss": "так"}]}], "text": "tawatɨn asˈima"}, {"lang": 0, "words": [{"wtype": "word", "wf": "ɨsχa", "ana": [{"parts": "ɨsχa", "gloss": "PTCL"}]}, {"wtype": "word", "wf": "nˈequχtɨpqaʁanaq", "ana": [{"parts": "niːquʁ-tɨfka-qa:-naq-pixtɨ-aq-a-χput", "gloss": "понимать-CAUS-PAUS-INT-INTS-PRS-IND-1PL.S.3SG.O"}]}], "text": "ɨsχa nˈequχtɨpqaʁanaq pij̥taqaχput"}, {"lang": 0, "words": [{"wtype": "word", "wf": "natɨn", "ana": [{"parts": "natɨn", "gloss": "как"}]}, {"wtype": "word", "wf": "ipa", "ana": [{"parts": "iːpa", "gloss": "всякий"}]}], "text": "natɨn ipa ɨskuʁakaχputam"}, {"lang": 0, "words": [{"wtype": "word", "wf": "iːtɨk", "ana": [{"parts": "iːtɨk", "gloss": "наверное"}]}, {"wtype": "word", "wf": "neːҳuʁaqjaχtuq", "ana": [{"parts": "niːquʁ-aʁ-jaχ-t-u-q", "gloss": "понимать-CONST-GOAL-PROX-IND-3SG"}]}, {"wtype": "word", "wf": "taweːnaq", "ana": [{"parts": "taɣʷeːnaq", "gloss": "только"}]}, {"wtype": "word", "wf": "pi", "ana": [{"parts": "pi-jiː-t-u-q", "gloss": "HES"}]}], "text": "iːtɨk neːҳuʁaqjaχtuq taweːnaq pi itɨq"}, {"lang": 0, "words": [], "text": " upɨsˈiːtuq"}, {"lang": 0, "words": [{"wtype": "word", "wf": "qɨnwat", "ana": [{"parts": "qɨnɣʷat", "gloss": "наконец"}]}, {"wtype": "word", "wf": "tawatɨn", "ana": [{"parts": "taɣʷatɨn", "gloss": "так"}]}], "text": "qɨnwat tawatɨn oːknaniʁaχput"}, {"lang": 0, "words": [{"wtype": "word", "wf": "ɨtaqun", "ana": [{"parts": "ɨt-aq-u-q", "gloss": "быть-PRS-IND-3SG"}]}], "text": "ɨtaqun l̥iʁan"}, {"lang": 0, "words": [], "text": "niʁifkaːʁaχput"}, {"lang": 0, "words": [], "text": "iʁeːtaqaχput"}, {"lang": 0, "words": [{"wtype": "word", "wf": "ɨmɨχtɨfkaːqa-χput", "ana": [{"parts": "ɨmɨʁ-tɨfka-aq-a-χput", "gloss": "пить-CAUS-PRS-IND-1PL.S.3SG.O"}]}, {"wtype": "word", "wf": "anlˈiːtaqaχput", "ana": [{"parts": "anɣi-ta-aq-a-χput", "gloss": "гулять-CAUS1-PRS-IND-1PL.S.3SG.O"}]}], "text": "ɨmɨχtɨfkaːqa-χput anlˈiːtaqaχput sitlˈamun"}, {"lang": 0, "words": [{"wtype": "word", "wf": "mikaʁamalˈuku", "ana": [{"parts": "mikaʁa-malu-ku", "gloss": "быть.маленьким-CVB.DELIM-3SG.O"}]}, {"wtype": "word", "wf": "nɨŋaq", "ana": [{"parts": "nɨŋaq", "gloss": "зять"}]}, {"wtype": "word", "wf": "nɨŋaːma", "ana": [{"parts": "nɨŋaː-ma", "gloss": "зять-ERG.POSS.1SG"}]}, {"wtype": "word", "wf": "saːʃam", "ana": [{"parts": "saːʃa-m", "gloss": "Саша-ERG"}]}, {"wtype": "word", "wf": "teːsˈima", "ana": [{"parts": "teːsi-ma-a-a", "gloss": "принести-PST-IND-3SG.S.3SG.O"}]}, {"wtype": "word", "wf": "katˈeːlˈnˈamɨŋ", "ana": [{"parts": "kateːlna-mɨŋ=am", "gloss": "котельная-INS=CONJ"}]}], "text": "mikaʁamalˈuku nɨŋaq nɨŋaːma saːʃam teːsˈima katˈeːlˈnˈamɨŋ am"}, {"lang": 0, "words": [{"wtype": "word", "wf": "tawaːtɨn", "ana": [{"parts": "taɣʷaːtɨn", "gloss": "так"}]}, {"wtype": "word", "wf": "qɨnwat", "ana": [{"parts": "qɨnɣʷat", "gloss": "наконец"}]}, {"wtype": "word", "wf": "unɨχtuq", "ana": [{"parts": "unɨxt-∅-u-q", "gloss": "остаться-PROX-IND-3SG"}]}], "text": "tawaːtɨn qɨnwat unɨχtuq wankunˈi"}, {"lang": 0, "words": [{"wtype": "word", "wf": "panˈeːŋan", "ana": [{"parts": "paneːnaŋ", "gloss": "до.сих.пор"}]}], "text": "panˈeːŋan ɨtaqo"}, {"lang": 0, "words": [{"wtype": "word", "wf": "quleːnɨŋ", "ana": [{"parts": "qulɨ-aː-nɨŋ", "gloss": "десять-ERG.POSS.3SG-INS"}]}], "text": "quleːnɨŋ ɣiɣʷiχsimaqʷ??"}, {"lang": 0, "words": [], "text": "anlˈijituq"}, {"lang": 0, "words": [{"wtype": "word", "wf": "mˈikˈisqit", "ana": [{"parts": "mikisqi-t", "gloss": "ребёнок-PL"}]}], "text": "mˈikˈisqit pineqapˈij̆taqeːt "}, {"lang": 0, "words": [], "text": "naqam"}, {"lang": 0, "words": [{"wtype": "word", "wf": "saːqa", "ana": [{"parts": "sa-aq-aː", "gloss": "делать.что-PRS-INTRG.3SG"}]}], "text": "saːqa l̥iŋan"}, {"lang": 0, "words": [{"wtype": "word", "wf": "ɛtɨ", "ana": [{"parts": "ɛtɨ", "gloss": "наверное"}]}], "text": "ɛtɨ taɣʷa"}, {"lang": 0, "words": [], "text": "хватит"}]}
+{
+  "meta": "VAA_dog bublik_170822",
+  "sentences": [
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "nɨŋaːma",
+          "ana": [
+            {
+              "parts": "nɨŋaː-ma",
+              "gloss": "зять-ERG.POSS.1SG",
+              "gloss_index": "STEM{nɨŋaː}-ERG.POSS.1SG{ma}-",
+              "lex": "nɨŋaː",
+              "trans_ru": "зять",
+              "gloss_ru": "зять-ERG.POSS.1SG",
+              "gloss_index_ru": "STEM{nɨŋaː}-ERG.POSS.1SG{ma}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 7,
+          "sentence_index": 0,
+          "sentence_index_neg": 0,
+          "next_word": 1
+        }
+      ],
+      "text": "nɨŋaːma saːʃam"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "katˈeːlˈnˈamɨŋ",
+          "ana": [
+            {
+              "parts": "kateːlna-mɨŋ",
+              "gloss": "котельная-INS",
+              "gloss_index": "STEM{kateːlna}-INS{mɨŋ}-",
+              "lex": "kateːlna",
+              "trans_ru": "котельная",
+              "gloss_ru": "котельная-INS",
+              "gloss_index_ru": "STEM{kateːlna}-INS{mɨŋ}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 14,
+          "sentence_index": 0,
+          "sentence_index_neg": 3,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "teːsˈima",
+          "ana": [
+            {
+              "parts": "teːsi-ma-a-a",
+              "gloss": "принести-PST-IND-3SG.S.3SG.O",
+              "gloss_index": "STEM{teːsi}-PST{ma}-IND{a}-3SG.S.3SG.O{a}-",
+              "lex": "teːsi",
+              "trans_ru": "принести",
+              "gloss_ru": "принести-PST-IND-3SG.S.3SG.O",
+              "gloss_index_ru": "STEM{teːsi}-PST{ma}-IND{a}-3SG.S.3SG.O{a}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 15,
+          "off_end": 23,
+          "sentence_index": 1,
+          "sentence_index_neg": 2,
+          "next_word": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "qiqmiʁaraɣaq",
+          "ana": [
+            {
+              "parts": "qiqmiʁa-raɣaq",
+              "gloss": "собака-DIM",
+              "gloss_index": "STEM{qiqmiʁa}-DIM{raɣaq}-",
+              "lex": "qiqmiʁa",
+              "trans_ru": "собака",
+              "gloss_ru": "собака-DIM",
+              "gloss_index_ru": "STEM{qiqmiʁa}-DIM{raɣaq}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 24,
+          "off_end": 36,
+          "sentence_index": 2,
+          "sentence_index_neg": 1,
+          "next_word": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "mˈikaʁamalˈuku",
+          "ana": [
+            {
+              "parts": "mikaʁa-malu-ku",
+              "gloss": "быть.маленьким-CVB.DELIM-3SG.O",
+              "gloss_index": "STEM{mikaʁa}-CVB.DELIM{malu}-3SG.O{ku}-",
+              "lex": "mikaʁa",
+              "trans_ru": "быть.маленьким",
+              "gloss_ru": "быть.маленьким-CVB.DELIM-3SG.O",
+              "gloss_index_ru": "STEM{mikaʁa}-CVB.DELIM{malu}-3SG.O{ku}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 37,
+          "off_end": 51,
+          "sentence_index": 3,
+          "sentence_index_neg": 0,
+          "next_word": 4
+        }
+      ],
+      "text": "katˈeːlˈnˈamɨŋ teːsˈima qiqmiʁaraɣaq mˈikaʁamalˈuku salˈi"
+    },
+    {
+      "lang": 0,
+      "words": [],
+      "text": "mˈikaʁapixsˈimalˈuku"
+    },
+    {
+      "lang": 0,
+      "words": [],
+      "text": "qɨχs'us'uraʁaχtuq"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "anlˈijisˈit",
+          "ana": [
+            {
+              "parts": "anli-jiː-si-t",
+              "gloss": "расти-NEG.PRS-?-PL",
+              "gloss_index": "STEM{anli}-NEG.PRS{jiː}-?{si}-PL{t}-",
+              "lex": "anli",
+              "trans_ru": "расти",
+              "gloss_ru": "расти-NEG.PRS-?-PL",
+              "gloss_index_ru": "STEM{anli}-NEG.PRS{jiː}-?{si}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 11,
+          "sentence_index": 0,
+          "sentence_index_neg": 1,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "aŋujaʁmˈitɨt",
+          "ana": [
+            {
+              "parts": "aŋujaɣ-mi-t-a?-t",
+              "gloss": "русский-INHAB-PL-?-PL",
+              "gloss_index": "STEM{aŋujaɣ}-INHAB{mi}-PL{t}-?{a?}-PL{t}-",
+              "lex": "aŋujaɣ",
+              "trans_ru": "русский",
+              "gloss_ru": "русский-INHAB-PL-?-PL",
+              "gloss_index_ru": "STEM{aŋujaɣ}-INHAB{mi}-PL{t}-?{a?}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 12,
+          "off_end": 24,
+          "sentence_index": 1,
+          "sentence_index_neg": 0,
+          "next_word": 2
+        }
+      ],
+      "text": "anlˈijisˈit aŋujaʁmˈitɨt qiqmˈiʁat"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "asˈima",
+          "ana": [
+            {
+              "parts": "asi-ma-a-a",
+              "gloss": "назвать-PST-IND-3SG.S.3SG.O",
+              "gloss_index": "STEM{asi}-PST{ma}-IND{a}-3SG.S.3SG.O{a}-",
+              "lex": "asi",
+              "trans_ru": "назвать",
+              "gloss_ru": "назвать-PST-IND-3SG.S.3SG.O",
+              "gloss_index_ru": "STEM{asi}-PST{ma}-IND{a}-3SG.S.3SG.O{a}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 6,
+          "sentence_index": 0,
+          "sentence_index_neg": 1,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "bu:blˈilˈuq",
+          "ana": [
+            {
+              "parts": "bubli-lu-ku",
+              "gloss": "бублик-CVB-3SG.O",
+              "gloss_index": "STEM{bubli}-CVB{lu}-3SG.O{ku}-",
+              "lex": "bubli",
+              "trans_ru": "бублик",
+              "gloss_ru": "бублик-CVB-3SG.O",
+              "gloss_index_ru": "STEM{bubli}-CVB{lu}-3SG.O{ku}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 7,
+          "off_end": 18,
+          "sentence_index": 1,
+          "sentence_index_neg": 0,
+          "next_word": 2
+        }
+      ],
+      "text": "asˈima bu:blˈilˈuq bu:blˈiq"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "tawatɨn",
+          "ana": [
+            {
+              "parts": "taɣʷatɨn",
+              "gloss": "так",
+              "gloss_index": "STEM{taɣʷatɨn}-",
+              "lex": "taɣʷatɨn",
+              "trans_ru": "так",
+              "gloss_ru": "так",
+              "gloss_index_ru": "STEM{taɣʷatɨn}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 7,
+          "sentence_index": 0,
+          "sentence_index_neg": 0,
+          "next_word": 1
+        }
+      ],
+      "text": "tawatɨn asˈima"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "ɨsχa",
+          "ana": [
+            {
+              "parts": "ɨsχa",
+              "gloss": "PTCL",
+              "gloss_index": "STEM{ɨsχa}-",
+              "lex": "ɨsχa",
+              "trans_ru": "PTCL",
+              "gloss_ru": "PTCL",
+              "gloss_index_ru": "STEM{ɨsχa}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 4,
+          "sentence_index": 0,
+          "sentence_index_neg": 1,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "nˈequχtɨpqaʁanaq",
+          "ana": [
+            {
+              "parts": "niːquʁ-tɨfka-qa:-naq-pixtɨ-aq-a-χput",
+              "gloss": "понимать-CAUS-PAUS-INT-INTS-PRS-IND-1PL.S.3SG.O",
+              "gloss_index": "STEM{niːquʁ}-CAUS{tɨfka}-PAUS{qa:}-INT{naq}-INTS{pixtɨ}-PRS{aq}-IND{a}-1PL.S.3SG.O{χput}-",
+              "lex": "niːquʁ",
+              "trans_ru": "понимать",
+              "gloss_ru": "понимать-CAUS-PAUS-INT-INTS-PRS-IND-1PL.S.3SG.O",
+              "gloss_index_ru": "STEM{niːquʁ}-CAUS{tɨfka}-PAUS{qa:}-INT{naq}-INTS{pixtɨ}-PRS{aq}-IND{a}-1PL.S.3SG.O{χput}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 5,
+          "off_end": 21,
+          "sentence_index": 1,
+          "sentence_index_neg": 0,
+          "next_word": 2
+        }
+      ],
+      "text": "ɨsχa nˈequχtɨpqaʁanaq pij̥taqaχput"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "natɨn",
+          "ana": [
+            {
+              "parts": "natɨn",
+              "gloss": "как",
+              "gloss_index": "STEM{natɨn}-",
+              "lex": "natɨn",
+              "trans_ru": "как",
+              "gloss_ru": "как",
+              "gloss_index_ru": "STEM{natɨn}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 5,
+          "sentence_index": 0,
+          "sentence_index_neg": 1,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ipa",
+          "ana": [
+            {
+              "parts": "iːpa",
+              "gloss": "всякий",
+              "gloss_index": "STEM{iːpa}-",
+              "lex": "iːpa",
+              "trans_ru": "всякий",
+              "gloss_ru": "всякий",
+              "gloss_index_ru": "STEM{iːpa}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 6,
+          "off_end": 9,
+          "sentence_index": 1,
+          "sentence_index_neg": 0,
+          "next_word": 2
+        }
+      ],
+      "text": "natɨn ipa ɨskuʁakaχputam"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "iːtɨk",
+          "ana": [
+            {
+              "parts": "iːtɨk",
+              "gloss": "наверное",
+              "gloss_index": "STEM{iːtɨk}-",
+              "lex": "iːtɨk",
+              "trans_ru": "наверное",
+              "gloss_ru": "наверное",
+              "gloss_index_ru": "STEM{iːtɨk}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 5,
+          "sentence_index": 0,
+          "sentence_index_neg": 3,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "neːҳuʁaqjaχtuq",
+          "ana": [
+            {
+              "parts": "niːquʁ-aʁ-jaχ-t-u-q",
+              "gloss": "понимать-CONST-GOAL-PROX-IND-3SG",
+              "gloss_index": "STEM{niːquʁ}-CONST{aʁ}-GOAL{jaχ}-PROX{t}-IND{u}-3SG{q}-",
+              "lex": "niːquʁ",
+              "trans_ru": "понимать",
+              "gloss_ru": "понимать-CONST-GOAL-PROX-IND-3SG",
+              "gloss_index_ru": "STEM{niːquʁ}-CONST{aʁ}-GOAL{jaχ}-PROX{t}-IND{u}-3SG{q}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 6,
+          "off_end": 20,
+          "sentence_index": 1,
+          "sentence_index_neg": 2,
+          "next_word": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "taweːnaq",
+          "ana": [
+            {
+              "parts": "taɣʷeːnaq",
+              "gloss": "только",
+              "gloss_index": "STEM{taɣʷeːnaq}-",
+              "lex": "taɣʷeːnaq",
+              "trans_ru": "только",
+              "gloss_ru": "только",
+              "gloss_index_ru": "STEM{taɣʷeːnaq}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 21,
+          "off_end": 29,
+          "sentence_index": 2,
+          "sentence_index_neg": 1,
+          "next_word": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "pi",
+          "ana": [
+            {
+              "parts": "pi-jiː-t-u-q",
+              "gloss": "HES",
+              "gloss_index": "STEM{pi}-MORPH{jiː}-MORPH{t}-MORPH{u}-MORPH{q}-",
+              "lex": "pi",
+              "trans_ru": "HES",
+              "gloss_ru": "HES",
+              "gloss_index_ru": "STEM{pi}-MORPH{jiː}-MORPH{t}-MORPH{u}-MORPH{q}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 30,
+          "off_end": 32,
+          "sentence_index": 3,
+          "sentence_index_neg": 0,
+          "next_word": 4
+        }
+      ],
+      "text": "iːtɨk neːҳuʁaqjaχtuq taweːnaq pi itɨq"
+    },
+    {
+      "lang": 0,
+      "words": [],
+      "text": " upɨsˈiːtuq"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "qɨnwat",
+          "ana": [
+            {
+              "parts": "qɨnɣʷat",
+              "gloss": "наконец",
+              "gloss_index": "STEM{qɨnɣʷat}-",
+              "lex": "qɨnɣʷat",
+              "trans_ru": "наконец",
+              "gloss_ru": "наконец",
+              "gloss_index_ru": "STEM{qɨnɣʷat}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 6,
+          "sentence_index": 0,
+          "sentence_index_neg": 1,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "tawatɨn",
+          "ana": [
+            {
+              "parts": "taɣʷatɨn",
+              "gloss": "так",
+              "gloss_index": "STEM{taɣʷatɨn}-",
+              "lex": "taɣʷatɨn",
+              "trans_ru": "так",
+              "gloss_ru": "так",
+              "gloss_index_ru": "STEM{taɣʷatɨn}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 7,
+          "off_end": 14,
+          "sentence_index": 1,
+          "sentence_index_neg": 0,
+          "next_word": 2
+        }
+      ],
+      "text": "qɨnwat tawatɨn oːknaniʁaχput"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "ɨtaqun",
+          "ana": [
+            {
+              "parts": "ɨt-aq-u-q",
+              "gloss": "быть-PRS-IND-3SG",
+              "gloss_index": "STEM{ɨt}-PRS{aq}-IND{u}-3SG{q}-",
+              "lex": "ɨt",
+              "trans_ru": "быть",
+              "gloss_ru": "быть-PRS-IND-3SG",
+              "gloss_index_ru": "STEM{ɨt}-PRS{aq}-IND{u}-3SG{q}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 6,
+          "sentence_index": 0,
+          "sentence_index_neg": 0,
+          "next_word": 1
+        }
+      ],
+      "text": "ɨtaqun l̥iʁan"
+    },
+    {
+      "lang": 0,
+      "words": [],
+      "text": "niʁifkaːʁaχput"
+    },
+    {
+      "lang": 0,
+      "words": [],
+      "text": "iʁeːtaqaχput"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "ɨmɨχtɨfkaːqa-χput",
+          "ana": [
+            {
+              "parts": "ɨmɨʁ-tɨfka-aq-a-χput",
+              "gloss": "пить-CAUS-PRS-IND-1PL.S.3SG.O",
+              "gloss_index": "STEM{ɨmɨʁ}-CAUS{tɨfka}-PRS{aq}-IND{a}-1PL.S.3SG.O{χput}-",
+              "lex": "ɨmɨʁ",
+              "trans_ru": "пить",
+              "gloss_ru": "пить-CAUS-PRS-IND-1PL.S.3SG.O",
+              "gloss_index_ru": "STEM{ɨmɨʁ}-CAUS{tɨfka}-PRS{aq}-IND{a}-1PL.S.3SG.O{χput}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 17,
+          "sentence_index": 0,
+          "sentence_index_neg": 1,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "anlˈiːtaqaχput",
+          "ana": [
+            {
+              "parts": "anɣi-ta-aq-a-χput",
+              "gloss": "гулять-CAUS1-PRS-IND-1PL.S.3SG.O",
+              "gloss_index": "STEM{anɣi}-CAUS1{ta}-PRS{aq}-IND{a}-1PL.S.3SG.O{χput}-",
+              "lex": "anɣi",
+              "trans_ru": "гулять",
+              "gloss_ru": "гулять-CAUS1-PRS-IND-1PL.S.3SG.O",
+              "gloss_index_ru": "STEM{anɣi}-CAUS1{ta}-PRS{aq}-IND{a}-1PL.S.3SG.O{χput}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 18,
+          "off_end": 32,
+          "sentence_index": 1,
+          "sentence_index_neg": 0,
+          "next_word": 2
+        }
+      ],
+      "text": "ɨmɨχtɨfkaːqa-χput anlˈiːtaqaχput sitlˈamun"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "mikaʁamalˈuku",
+          "ana": [
+            {
+              "parts": "mikaʁa-malu-ku",
+              "gloss": "быть.маленьким-CVB.DELIM-3SG.O",
+              "gloss_index": "STEM{mikaʁa}-CVB.DELIM{malu}-3SG.O{ku}-",
+              "lex": "mikaʁa",
+              "trans_ru": "быть.маленьким",
+              "gloss_ru": "быть.маленьким-CVB.DELIM-3SG.O",
+              "gloss_index_ru": "STEM{mikaʁa}-CVB.DELIM{malu}-3SG.O{ku}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 13,
+          "sentence_index": 0,
+          "sentence_index_neg": 5,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "nɨŋaq",
+          "ana": [
+            {
+              "parts": "nɨŋaq",
+              "gloss": "зять",
+              "gloss_index": "STEM{nɨŋaq}-",
+              "lex": "nɨŋaq",
+              "trans_ru": "зять",
+              "gloss_ru": "зять",
+              "gloss_index_ru": "STEM{nɨŋaq}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 14,
+          "off_end": 19,
+          "sentence_index": 1,
+          "sentence_index_neg": 4,
+          "next_word": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "nɨŋaːma",
+          "ana": [
+            {
+              "parts": "nɨŋaː-ma",
+              "gloss": "зять-ERG.POSS.1SG",
+              "gloss_index": "STEM{nɨŋaː}-ERG.POSS.1SG{ma}-",
+              "lex": "nɨŋaː",
+              "trans_ru": "зять",
+              "gloss_ru": "зять-ERG.POSS.1SG",
+              "gloss_index_ru": "STEM{nɨŋaː}-ERG.POSS.1SG{ma}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 20,
+          "off_end": 27,
+          "sentence_index": 2,
+          "sentence_index_neg": 3,
+          "next_word": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "saːʃam",
+          "ana": [
+            {
+              "parts": "saːʃa-m",
+              "gloss": "Саша-ERG",
+              "gloss_index": "STEM{saːʃa}-ERG{m}-",
+              "lex": "saːʃa",
+              "trans_ru": "Саша",
+              "gloss_ru": "Саша-ERG",
+              "gloss_index_ru": "STEM{saːʃa}-ERG{m}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 28,
+          "off_end": 34,
+          "sentence_index": 3,
+          "sentence_index_neg": 2,
+          "next_word": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "teːsˈima",
+          "ana": [
+            {
+              "parts": "teːsi-ma-a-a",
+              "gloss": "принести-PST-IND-3SG.S.3SG.O",
+              "gloss_index": "STEM{teːsi}-PST{ma}-IND{a}-3SG.S.3SG.O{a}-",
+              "lex": "teːsi",
+              "trans_ru": "принести",
+              "gloss_ru": "принести-PST-IND-3SG.S.3SG.O",
+              "gloss_index_ru": "STEM{teːsi}-PST{ma}-IND{a}-3SG.S.3SG.O{a}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 35,
+          "off_end": 43,
+          "sentence_index": 4,
+          "sentence_index_neg": 1,
+          "next_word": 5
+        },
+        {
+          "wtype": "word",
+          "wf": "katˈeːlˈnˈamɨŋ",
+          "ana": [
+            {
+              "parts": "kateːlna-mɨŋ=am",
+              "gloss": "котельная-INS=CONJ",
+              "gloss_index": "STEM{kateːlna}-MORPH{mɨŋ}-=INS=CONJ{am}-",
+              "lex": "kateːlna",
+              "trans_ru": "котельная",
+              "gloss_ru": "котельная-INS=CONJ",
+              "gloss_index_ru": "STEM{kateːlna}-MORPH{mɨŋ}-=INS=CONJ{am}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 44,
+          "off_end": 58,
+          "sentence_index": 5,
+          "sentence_index_neg": 0,
+          "next_word": 6
+        }
+      ],
+      "text": "mikaʁamalˈuku nɨŋaq nɨŋaːma saːʃam teːsˈima katˈeːlˈnˈamɨŋ am"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "tawaːtɨn",
+          "ana": [
+            {
+              "parts": "taɣʷaːtɨn",
+              "gloss": "так",
+              "gloss_index": "STEM{taɣʷaːtɨn}-",
+              "lex": "taɣʷaːtɨn",
+              "trans_ru": "так",
+              "gloss_ru": "так",
+              "gloss_index_ru": "STEM{taɣʷaːtɨn}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 8,
+          "sentence_index": 0,
+          "sentence_index_neg": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "qɨnwat",
+          "ana": [
+            {
+              "parts": "qɨnɣʷat",
+              "gloss": "наконец",
+              "gloss_index": "STEM{qɨnɣʷat}-",
+              "lex": "qɨnɣʷat",
+              "trans_ru": "наконец",
+              "gloss_ru": "наконец",
+              "gloss_index_ru": "STEM{qɨnɣʷat}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 9,
+          "off_end": 15,
+          "sentence_index": 1,
+          "sentence_index_neg": 1,
+          "next_word": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "unɨχtuq",
+          "ana": [
+            {
+              "parts": "unɨxt-∅-u-q",
+              "gloss": "остаться-PROX-IND-3SG",
+              "gloss_index": "STEM{unɨxt}-PROX{∅}-IND{u}-3SG{q}-",
+              "lex": "unɨxt",
+              "trans_ru": "остаться",
+              "gloss_ru": "остаться-PROX-IND-3SG",
+              "gloss_index_ru": "STEM{unɨxt}-PROX{∅}-IND{u}-3SG{q}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 16,
+          "off_end": 23,
+          "sentence_index": 2,
+          "sentence_index_neg": 0,
+          "next_word": 3
+        }
+      ],
+      "text": "tawaːtɨn qɨnwat unɨχtuq wankunˈi"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "panˈeːŋan",
+          "ana": [
+            {
+              "parts": "paneːnaŋ",
+              "gloss": "до.сих.пор",
+              "gloss_index": "STEM{paneːnaŋ}-",
+              "lex": "paneːnaŋ",
+              "trans_ru": "до.сих.пор",
+              "gloss_ru": "до.сих.пор",
+              "gloss_index_ru": "STEM{paneːnaŋ}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 9,
+          "sentence_index": 0,
+          "sentence_index_neg": 0,
+          "next_word": 1
+        }
+      ],
+      "text": "panˈeːŋan ɨtaqo"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "quleːnɨŋ",
+          "ana": [
+            {
+              "parts": "qulɨ-aː-nɨŋ",
+              "gloss": "десять-ERG.POSS.3SG-INS",
+              "gloss_index": "STEM{qulɨ}-ERG.POSS.3SG{aː}-INS{nɨŋ}-",
+              "lex": "qulɨ",
+              "trans_ru": "десять",
+              "gloss_ru": "десять-ERG.POSS.3SG-INS",
+              "gloss_index_ru": "STEM{qulɨ}-ERG.POSS.3SG{aː}-INS{nɨŋ}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 8,
+          "sentence_index": 0,
+          "sentence_index_neg": 0,
+          "next_word": 1
+        }
+      ],
+      "text": "quleːnɨŋ ɣiɣʷiχsimaqʷ??"
+    },
+    {
+      "lang": 0,
+      "words": [],
+      "text": "anlˈijituq"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "mˈikˈisqit",
+          "ana": [
+            {
+              "parts": "mikisqi-t",
+              "gloss": "ребёнок-PL",
+              "gloss_index": "STEM{mikisqi}-PL{t}-",
+              "lex": "mikisqi",
+              "trans_ru": "ребёнок",
+              "gloss_ru": "ребёнок-PL",
+              "gloss_index_ru": "STEM{mikisqi}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 10,
+          "sentence_index": 0,
+          "sentence_index_neg": 0,
+          "next_word": 1
+        }
+      ],
+      "text": "mˈikˈisqit pineqapˈij̆taqeːt "
+    },
+    {
+      "lang": 0,
+      "words": [],
+      "text": "naqam"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "saːqa",
+          "ana": [
+            {
+              "parts": "sa-aq-aː",
+              "gloss": "делать.что-PRS-INTRG.3SG",
+              "gloss_index": "STEM{sa}-PRS{aq}-INTRG.3SG{aː}-",
+              "lex": "sa",
+              "trans_ru": "делать.что",
+              "gloss_ru": "делать.что-PRS-INTRG.3SG",
+              "gloss_index_ru": "STEM{sa}-PRS{aq}-INTRG.3SG{aː}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 5,
+          "sentence_index": 0,
+          "sentence_index_neg": 0,
+          "next_word": 1
+        }
+      ],
+      "text": "saːqa l̥iŋan"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "ɛtɨ",
+          "ana": [
+            {
+              "parts": "ɛtɨ",
+              "gloss": "наверное",
+              "gloss_index": "STEM{ɛtɨ}-",
+              "lex": "ɛtɨ",
+              "trans_ru": "наверное",
+              "gloss_ru": "наверное",
+              "gloss_index_ru": "STEM{ɛtɨ}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 3,
+          "sentence_index": 0,
+          "sentence_index_neg": 0,
+          "next_word": 1
+        }
+      ],
+      "text": "ɛtɨ taɣʷa"
+    },
+    {
+      "lang": 0,
+      "words": [],
+      "text": "хватит"
+    }
+  ]
+}

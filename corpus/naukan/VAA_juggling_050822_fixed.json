@@ -1,1 +1,826 @@
-{"meta": "VAA_juggling_050822_fixed", "sentences": [{"lang": 0, "words": [{"wtype": "word", "wf": "nuvuqami", "ana": [{"parts": "nuvuqa-mi", "gloss": "Наукан-LOC"}]}, {"wtype": "word", "wf": "ɨsimal̥ta", "ana": [{"parts": "ɨtɨ-imalu-ta", "gloss": "быть-CVB.DELIM-1PL"}]}, {"wtype": "word", "wf": "mikaʁamaluki", "ana": [{"parts": "mikaʁa-malu-ki", "gloss": "быть.маленьким-CVB.DELIM-3PL.O"}]}, {"wtype": "word", "wf": "mikisqit", "ana": [{"parts": "mikisqi-t", "gloss": "ребенок-PL"}]}, {"wtype": "word", "wf": "nukal̥peːʁat", "ana": [{"parts": "nukal̥peːʁa-t", "gloss": "мальчик-PL"}]}, {"wtype": "word", "wf": "aʁnaʁat", "ana": [{"parts": "aʁnaʁa-t", "gloss": "девочка-PL"}]}, {"wtype": "word", "wf": "tenmaweːqeːt", "ana": [{"parts": "tenmawi-aq-a-et", "gloss": "готовить-PRS-IND-3PL.S.3PL.O"}]}], "text": "nuvuqami ɨsimal̥ta mikaʁamaluki mikisqit nukal̥peːʁat aʁnaʁat tenmaweːqeːt ɨl̥ɨχqamun"}, {"lang": 0, "words": [{"wtype": "word", "wf": "ɨnkaːm", "ana": [{"parts": "ɨnkaːm", "gloss": "потом"}]}, {"wtype": "word", "wf": "natɨlŋut", "ana": [{"parts": "natɨlŋu-t", "gloss": "какой-PL"}]}, {"wtype": "word", "wf": "iːpa", "ana": [{"parts": "iːpa", "gloss": "всякий"}]}, {"wtype": "word", "wf": "ɨnaʁat", "ana": [{"parts": "ɨnaʁa-t", "gloss": "игра-PL"}]}, {"wtype": "word", "wf": "ɨnaʁalquseːʁat", "ana": [{"parts": "ɨnaʁa-l̥qusiq-t", "gloss": "игрушка-СОБИР-PL"}]}, {"wtype": "word", "wf": "ɨnaʁat", "ana": [{"parts": "ɨnaʁa-t", "gloss": "игра-PL"}]}, {"wtype": "word", "wf": "ilisimaːkaqaput", "ana": [{"parts": "ilisimaːk-aq-a-put", "gloss": "знать-PRS-IND-1PL.S.3PL.O"}]}], "text": "ɨnkaːm natɨlŋut iːpa ɨnaʁat ɨnaʁalquseːʁat ɨnaʁat ilisimaːkaqaput mikaʁat"}, {"lang": 0, "words": [{"wtype": "word", "wf": "maːtɨmi", "ana": [{"parts": "maːtɨmi", "gloss": "сейчас"}]}, {"wtype": "word", "wf": "tawatɨlŋuʁnɨŋ", "ana": [{"parts": "tawatɨlŋuq-t-mɨŋ", "gloss": "такой-PL-INS"}]}], "text": "maːtɨmi tawatɨlŋuʁnɨŋ ɨnaʁaːnanisimat"}, {"lang": 0, "words": [], "text": "inlupɨxtaʁaqut"}, {"lang": 0, "words": [{"wtype": "word", "wf": "sawaqa", "ana": [{"parts": "sa-w-aq-a-a", "gloss": "что-PRED-PRS-IND-3SG.S.3SG.O"}]}], "text": "sawaqa l̥iːŋan"}, {"lang": 0, "words": [{"wtype": "word", "wf": "ujʁaquvinʁaʁnɨŋ", "ana": [{"parts": "ujʁa-quvinʁaq-t-mɨŋ", "gloss": "камень-PIECE-PL-INS"}]}], "text": "ujʁaquvinʁaʁnɨŋ inlupɨxtaʁaqut"}, {"lang": 0, "words": [{"wtype": "word", "wf": "aʁnaʁat", "ana": [{"parts": "aʁnaʁa-t", "gloss": "девочка-PL"}]}, {"wtype": "word", "wf": "unakɨn", "ana": [{"parts": "unakɨn", "gloss": "с.моря"}]}, {"wtype": "word", "wf": "majoʁaqut", "ana": [{"parts": "majuʁ-aq-u-t", "gloss": "подниматься-PRS-IND-3PL"}]}, {"wtype": "word", "wf": "taj̊pawkavɨk", "ana": [{"parts": "taj̊paɣavɨk", "gloss": "вверх"}]}, {"wtype": "word", "wf": "inlupɨxtaːʁumaːmɨxtɨk", "ana": [{"parts": "inlupɨxtaːʁ-umaʁ-mɨx-tɨk", "gloss": "жонглировать-CVB.SMT-CORF??-3PL.S.2DU.O"}]}], "text": "aʁnaʁat unakɨn majoʁaqut taj̊pawkavɨk inlupɨxtaːʁumaːmɨxtɨk наверное"}, {"lang": 0, "words": [{"wtype": "word", "wf": "tawatɨn", "ana": [{"parts": "tawatɨn", "gloss": "так"}]}], "text": "tawatɨn anleːqut"}, {"lang": 0, "words": [{"wtype": "word", "wf": "uɣlat", "ana": [{"parts": "uɣla-t", "gloss": "многое-PL"}]}, {"wtype": "word", "wf": "ɨnaʁaːt", "ana": [{"parts": "ɨnaʁaːn-t", "gloss": "игрушка-PL"}]}, {"wtype": "word", "wf": "avaːʁumaːput", "ana": [{"parts": "avaːʁʷ-uma-a-put", "gloss": "забывать-PST-IND-1PL.S.3PL.O"}]}], "text": "uɣlat ɨnaʁaːt avaːʁumaːput eːtɨ"}, {"lang": 0, "words": [{"wtype": "word", "wf": "mikisqit", "ana": [{"parts": "mikisqi-t", "gloss": "ребенок-PL"}]}, {"wtype": "word", "wf": "tawatɨn", "ana": [{"parts": "tawatɨn", "gloss": "так"}]}, {"wtype": "word", "wf": "ɨnaʁaʁnanisimat", "ana": [{"parts": "ɨnaʁaʁ-nanitɨ-ima-u-t", "gloss": "играть-TERM-PST-IND-3PL"}]}], "text": "mikisqit tawatɨn ɨnaʁaʁnanisimat maːtɨmi"}, {"lang": 0, "words": [{"wtype": "word", "wf": "сейчас", "ana": [{"parts": "", "gloss": ""}]}, {"wtype": "word", "wf": "уже", "ana": [{"parts": "", "gloss": ""}]}, {"wtype": "word", "wf": "дети", "ana": [{"parts": "", "gloss": ""}]}, {"wtype": "word", "wf": "наши", "ana": [{"parts": "", "gloss": ""}]}, {"wtype": "word", "wf": "так", "ana": [{"parts": "", "gloss": ""}]}, {"wtype": "word", "wf": "не", "ana": [{"parts": "", "gloss": ""}]}], "text": "сейчас уже дети наши так не играют"}]}
+{
+  "meta": "VAA_juggling_050822_fixed",
+  "sentences": [
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "nuvuqami",
+          "ana": [
+            {
+              "parts": "nuvuqa-mi",
+              "gloss": "Наукан-LOC",
+              "gloss_index": "STEM{nuvuqa}-LOC{mi}-",
+              "lex": "nuvuqa",
+              "trans_ru": "Наукан",
+              "gloss_ru": "Наукан-LOC",
+              "gloss_index_ru": "STEM{nuvuqa}-LOC{mi}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 8,
+          "sentence_index": 0,
+          "sentence_index_neg": 6,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ɨsimal̥ta",
+          "ana": [
+            {
+              "parts": "ɨtɨ-imalu-ta",
+              "gloss": "быть-CVB.DELIM-1PL",
+              "gloss_index": "STEM{ɨtɨ}-CVB.DELIM{imalu}-1PL{ta}-",
+              "lex": "ɨtɨ",
+              "trans_ru": "быть",
+              "gloss_ru": "быть-CVB.DELIM-1PL",
+              "gloss_index_ru": "STEM{ɨtɨ}-CVB.DELIM{imalu}-1PL{ta}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 9,
+          "off_end": 18,
+          "sentence_index": 1,
+          "sentence_index_neg": 5,
+          "next_word": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "mikaʁamaluki",
+          "ana": [
+            {
+              "parts": "mikaʁa-malu-ki",
+              "gloss": "быть.маленьким-CVB.DELIM-3PL.O",
+              "gloss_index": "STEM{mikaʁa}-CVB.DELIM{malu}-3PL.O{ki}-",
+              "lex": "mikaʁa",
+              "trans_ru": "быть.маленьким",
+              "gloss_ru": "быть.маленьким-CVB.DELIM-3PL.O",
+              "gloss_index_ru": "STEM{mikaʁa}-CVB.DELIM{malu}-3PL.O{ki}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 19,
+          "off_end": 31,
+          "sentence_index": 2,
+          "sentence_index_neg": 4,
+          "next_word": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "mikisqit",
+          "ana": [
+            {
+              "parts": "mikisqi-t",
+              "gloss": "ребенок-PL",
+              "gloss_index": "STEM{mikisqi}-PL{t}-",
+              "lex": "mikisqi",
+              "trans_ru": "ребенок",
+              "gloss_ru": "ребенок-PL",
+              "gloss_index_ru": "STEM{mikisqi}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 32,
+          "off_end": 40,
+          "sentence_index": 3,
+          "sentence_index_neg": 3,
+          "next_word": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "nukal̥peːʁat",
+          "ana": [
+            {
+              "parts": "nukal̥peːʁa-t",
+              "gloss": "мальчик-PL",
+              "gloss_index": "STEM{nukal̥peːʁa}-PL{t}-",
+              "lex": "nukal̥peːʁa",
+              "trans_ru": "мальчик",
+              "gloss_ru": "мальчик-PL",
+              "gloss_index_ru": "STEM{nukal̥peːʁa}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 41,
+          "off_end": 53,
+          "sentence_index": 4,
+          "sentence_index_neg": 2,
+          "next_word": 5
+        },
+        {
+          "wtype": "word",
+          "wf": "aʁnaʁat",
+          "ana": [
+            {
+              "parts": "aʁnaʁa-t",
+              "gloss": "девочка-PL",
+              "gloss_index": "STEM{aʁnaʁa}-PL{t}-",
+              "lex": "aʁnaʁa",
+              "trans_ru": "девочка",
+              "gloss_ru": "девочка-PL",
+              "gloss_index_ru": "STEM{aʁnaʁa}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 54,
+          "off_end": 61,
+          "sentence_index": 5,
+          "sentence_index_neg": 1,
+          "next_word": 6
+        },
+        {
+          "wtype": "word",
+          "wf": "tenmaweːqeːt",
+          "ana": [
+            {
+              "parts": "tenmawi-aq-a-et",
+              "gloss": "готовить-PRS-IND-3PL.S.3PL.O",
+              "gloss_index": "STEM{tenmawi}-PRS{aq}-IND{a}-3PL.S.3PL.O{et}-",
+              "lex": "tenmawi",
+              "trans_ru": "готовить",
+              "gloss_ru": "готовить-PRS-IND-3PL.S.3PL.O",
+              "gloss_index_ru": "STEM{tenmawi}-PRS{aq}-IND{a}-3PL.S.3PL.O{et}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 62,
+          "off_end": 74,
+          "sentence_index": 6,
+          "sentence_index_neg": 0,
+          "next_word": 7
+        }
+      ],
+      "text": "nuvuqami ɨsimal̥ta mikaʁamaluki mikisqit nukal̥peːʁat aʁnaʁat tenmaweːqeːt ɨl̥ɨχqamun"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "ɨnkaːm",
+          "ana": [
+            {
+              "parts": "ɨnkaːm",
+              "gloss": "потом",
+              "gloss_index": "STEM{ɨnkaːm}-",
+              "lex": "ɨnkaːm",
+              "trans_ru": "потом",
+              "gloss_ru": "потом",
+              "gloss_index_ru": "STEM{ɨnkaːm}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 6,
+          "sentence_index": 0,
+          "sentence_index_neg": 6,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "natɨlŋut",
+          "ana": [
+            {
+              "parts": "natɨlŋu-t",
+              "gloss": "какой-PL",
+              "gloss_index": "STEM{natɨlŋu}-PL{t}-",
+              "lex": "natɨlŋu",
+              "trans_ru": "какой",
+              "gloss_ru": "какой-PL",
+              "gloss_index_ru": "STEM{natɨlŋu}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 7,
+          "off_end": 15,
+          "sentence_index": 1,
+          "sentence_index_neg": 5,
+          "next_word": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "iːpa",
+          "ana": [
+            {
+              "parts": "iːpa",
+              "gloss": "всякий",
+              "gloss_index": "STEM{iːpa}-",
+              "lex": "iːpa",
+              "trans_ru": "всякий",
+              "gloss_ru": "всякий",
+              "gloss_index_ru": "STEM{iːpa}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 16,
+          "off_end": 20,
+          "sentence_index": 2,
+          "sentence_index_neg": 4,
+          "next_word": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "ɨnaʁat",
+          "ana": [
+            {
+              "parts": "ɨnaʁa-t",
+              "gloss": "игра-PL",
+              "gloss_index": "STEM{ɨnaʁa}-PL{t}-",
+              "lex": "ɨnaʁa",
+              "trans_ru": "игра",
+              "gloss_ru": "игра-PL",
+              "gloss_index_ru": "STEM{ɨnaʁa}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 21,
+          "off_end": 27,
+          "sentence_index": 3,
+          "sentence_index_neg": 3,
+          "next_word": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "ɨnaʁalquseːʁat",
+          "ana": [
+            {
+              "parts": "ɨnaʁa-l̥qusiq-t",
+              "gloss": "игрушка-СОБИР-PL",
+              "gloss_index": "STEM{ɨnaʁa}-СОБИР{l̥qusiq}-PL{t}-",
+              "lex": "ɨnaʁa",
+              "trans_ru": "игрушка",
+              "gloss_ru": "игрушка-СОБИР-PL",
+              "gloss_index_ru": "STEM{ɨnaʁa}-СОБИР{l̥qusiq}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 28,
+          "off_end": 42,
+          "sentence_index": 4,
+          "sentence_index_neg": 2,
+          "next_word": 5
+        },
+        {
+          "wtype": "word",
+          "wf": "ɨnaʁat",
+          "ana": [
+            {
+              "parts": "ɨnaʁa-t",
+              "gloss": "игра-PL",
+              "gloss_index": "STEM{ɨnaʁa}-PL{t}-",
+              "lex": "ɨnaʁa",
+              "trans_ru": "игра",
+              "gloss_ru": "игра-PL",
+              "gloss_index_ru": "STEM{ɨnaʁa}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 43,
+          "off_end": 49,
+          "sentence_index": 5,
+          "sentence_index_neg": 1,
+          "next_word": 6
+        },
+        {
+          "wtype": "word",
+          "wf": "ilisimaːkaqaput",
+          "ana": [
+            {
+              "parts": "ilisimaːk-aq-a-put",
+              "gloss": "знать-PRS-IND-1PL.S.3PL.O",
+              "gloss_index": "STEM{ilisimaːk}-PRS{aq}-IND{a}-1PL.S.3PL.O{put}-",
+              "lex": "ilisimaːk",
+              "trans_ru": "знать",
+              "gloss_ru": "знать-PRS-IND-1PL.S.3PL.O",
+              "gloss_index_ru": "STEM{ilisimaːk}-PRS{aq}-IND{a}-1PL.S.3PL.O{put}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 50,
+          "off_end": 65,
+          "sentence_index": 6,
+          "sentence_index_neg": 0,
+          "next_word": 7
+        }
+      ],
+      "text": "ɨnkaːm natɨlŋut iːpa ɨnaʁat ɨnaʁalquseːʁat ɨnaʁat ilisimaːkaqaput mikaʁat"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "maːtɨmi",
+          "ana": [
+            {
+              "parts": "maːtɨmi",
+              "gloss": "сейчас",
+              "gloss_index": "STEM{maːtɨmi}-",
+              "lex": "maːtɨmi",
+              "trans_ru": "сейчас",
+              "gloss_ru": "сейчас",
+              "gloss_index_ru": "STEM{maːtɨmi}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 7,
+          "sentence_index": 0,
+          "sentence_index_neg": 1,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "tawatɨlŋuʁnɨŋ",
+          "ana": [
+            {
+              "parts": "tawatɨlŋuq-t-mɨŋ",
+              "gloss": "такой-PL-INS",
+              "gloss_index": "STEM{tawatɨlŋuq}-PL{t}-INS{mɨŋ}-",
+              "lex": "tawatɨlŋuq",
+              "trans_ru": "такой",
+              "gloss_ru": "такой-PL-INS",
+              "gloss_index_ru": "STEM{tawatɨlŋuq}-PL{t}-INS{mɨŋ}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 8,
+          "off_end": 21,
+          "sentence_index": 1,
+          "sentence_index_neg": 0,
+          "next_word": 2
+        }
+      ],
+      "text": "maːtɨmi tawatɨlŋuʁnɨŋ ɨnaʁaːnanisimat"
+    },
+    {
+      "lang": 0,
+      "words": [],
+      "text": "inlupɨxtaʁaqut"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "sawaqa",
+          "ana": [
+            {
+              "parts": "sa-w-aq-a-a",
+              "gloss": "что-PRED-PRS-IND-3SG.S.3SG.O",
+              "gloss_index": "STEM{sa}-PRED{w}-PRS{aq}-IND{a}-3SG.S.3SG.O{a}-",
+              "lex": "sa",
+              "trans_ru": "что",
+              "gloss_ru": "что-PRED-PRS-IND-3SG.S.3SG.O",
+              "gloss_index_ru": "STEM{sa}-PRED{w}-PRS{aq}-IND{a}-3SG.S.3SG.O{a}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 6,
+          "sentence_index": 0,
+          "sentence_index_neg": 0,
+          "next_word": 1
+        }
+      ],
+      "text": "sawaqa l̥iːŋan"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "ujʁaquvinʁaʁnɨŋ",
+          "ana": [
+            {
+              "parts": "ujʁa-quvinʁaq-t-mɨŋ",
+              "gloss": "камень-PIECE-PL-INS",
+              "gloss_index": "STEM{ujʁa}-PIECE{quvinʁaq}-PL{t}-INS{mɨŋ}-",
+              "lex": "ujʁa",
+              "trans_ru": "камень",
+              "gloss_ru": "камень-PIECE-PL-INS",
+              "gloss_index_ru": "STEM{ujʁa}-PIECE{quvinʁaq}-PL{t}-INS{mɨŋ}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 15,
+          "sentence_index": 0,
+          "sentence_index_neg": 0,
+          "next_word": 1
+        }
+      ],
+      "text": "ujʁaquvinʁaʁnɨŋ inlupɨxtaʁaqut"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "aʁnaʁat",
+          "ana": [
+            {
+              "parts": "aʁnaʁa-t",
+              "gloss": "девочка-PL",
+              "gloss_index": "STEM{aʁnaʁa}-PL{t}-",
+              "lex": "aʁnaʁa",
+              "trans_ru": "девочка",
+              "gloss_ru": "девочка-PL",
+              "gloss_index_ru": "STEM{aʁnaʁa}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 7,
+          "sentence_index": 0,
+          "sentence_index_neg": 4,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "unakɨn",
+          "ana": [
+            {
+              "parts": "unakɨn",
+              "gloss": "с.моря",
+              "gloss_index": "STEM{unakɨn}-",
+              "lex": "unakɨn",
+              "trans_ru": "с.моря",
+              "gloss_ru": "с.моря",
+              "gloss_index_ru": "STEM{unakɨn}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 8,
+          "off_end": 14,
+          "sentence_index": 1,
+          "sentence_index_neg": 3,
+          "next_word": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "majoʁaqut",
+          "ana": [
+            {
+              "parts": "majuʁ-aq-u-t",
+              "gloss": "подниматься-PRS-IND-3PL",
+              "gloss_index": "STEM{majuʁ}-PRS{aq}-IND{u}-3PL{t}-",
+              "lex": "majuʁ",
+              "trans_ru": "подниматься",
+              "gloss_ru": "подниматься-PRS-IND-3PL",
+              "gloss_index_ru": "STEM{majuʁ}-PRS{aq}-IND{u}-3PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 15,
+          "off_end": 24,
+          "sentence_index": 2,
+          "sentence_index_neg": 2,
+          "next_word": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "taj̊pawkavɨk",
+          "ana": [
+            {
+              "parts": "taj̊paɣavɨk",
+              "gloss": "вверх",
+              "gloss_index": "STEM{taj̊paɣavɨk}-",
+              "lex": "taj̊paɣavɨk",
+              "trans_ru": "вверх",
+              "gloss_ru": "вверх",
+              "gloss_index_ru": "STEM{taj̊paɣavɨk}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 25,
+          "off_end": 37,
+          "sentence_index": 3,
+          "sentence_index_neg": 1,
+          "next_word": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "inlupɨxtaːʁumaːmɨxtɨk",
+          "ana": [
+            {
+              "parts": "inlupɨxtaːʁ-umaʁ-mɨx-tɨk",
+              "gloss": "жонглировать-CVB.SMT-CORF??-3PL.S.2DU.O",
+              "gloss_index": "STEM{inlupɨxtaːʁ}-CVB.SMT{umaʁ}-CORF??{mɨx}-3PL.S.2DU.O{tɨk}-",
+              "lex": "inlupɨxtaːʁ",
+              "trans_ru": "жонглировать",
+              "gloss_ru": "жонглировать-CVB.SMT-CORF??-3PL.S.2DU.O",
+              "gloss_index_ru": "STEM{inlupɨxtaːʁ}-CVB.SMT{umaʁ}-CORF??{mɨx}-3PL.S.2DU.O{tɨk}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 38,
+          "off_end": 59,
+          "sentence_index": 4,
+          "sentence_index_neg": 0,
+          "next_word": 5
+        }
+      ],
+      "text": "aʁnaʁat unakɨn majoʁaqut taj̊pawkavɨk inlupɨxtaːʁumaːmɨxtɨk наверное"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "tawatɨn",
+          "ana": [
+            {
+              "parts": "tawatɨn",
+              "gloss": "так",
+              "gloss_index": "STEM{tawatɨn}-",
+              "lex": "tawatɨn",
+              "trans_ru": "так",
+              "gloss_ru": "так",
+              "gloss_index_ru": "STEM{tawatɨn}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 7,
+          "sentence_index": 0,
+          "sentence_index_neg": 0,
+          "next_word": 1
+        }
+      ],
+      "text": "tawatɨn anleːqut"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "uɣlat",
+          "ana": [
+            {
+              "parts": "uɣla-t",
+              "gloss": "многое-PL",
+              "gloss_index": "STEM{uɣla}-PL{t}-",
+              "lex": "uɣla",
+              "trans_ru": "многое",
+              "gloss_ru": "многое-PL",
+              "gloss_index_ru": "STEM{uɣla}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 5,
+          "sentence_index": 0,
+          "sentence_index_neg": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "ɨnaʁaːt",
+          "ana": [
+            {
+              "parts": "ɨnaʁaːn-t",
+              "gloss": "игрушка-PL",
+              "gloss_index": "STEM{ɨnaʁaːn}-PL{t}-",
+              "lex": "ɨnaʁaːn",
+              "trans_ru": "игрушка",
+              "gloss_ru": "игрушка-PL",
+              "gloss_index_ru": "STEM{ɨnaʁaːn}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 6,
+          "off_end": 13,
+          "sentence_index": 1,
+          "sentence_index_neg": 1,
+          "next_word": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "avaːʁumaːput",
+          "ana": [
+            {
+              "parts": "avaːʁʷ-uma-a-put",
+              "gloss": "забывать-PST-IND-1PL.S.3PL.O",
+              "gloss_index": "STEM{avaːʁʷ}-PST{uma}-IND{a}-1PL.S.3PL.O{put}-",
+              "lex": "avaːʁʷ",
+              "trans_ru": "забывать",
+              "gloss_ru": "забывать-PST-IND-1PL.S.3PL.O",
+              "gloss_index_ru": "STEM{avaːʁʷ}-PST{uma}-IND{a}-1PL.S.3PL.O{put}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 14,
+          "off_end": 26,
+          "sentence_index": 2,
+          "sentence_index_neg": 0,
+          "next_word": 3
+        }
+      ],
+      "text": "uɣlat ɨnaʁaːt avaːʁumaːput eːtɨ"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "mikisqit",
+          "ana": [
+            {
+              "parts": "mikisqi-t",
+              "gloss": "ребенок-PL",
+              "gloss_index": "STEM{mikisqi}-PL{t}-",
+              "lex": "mikisqi",
+              "trans_ru": "ребенок",
+              "gloss_ru": "ребенок-PL",
+              "gloss_index_ru": "STEM{mikisqi}-PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 8,
+          "sentence_index": 0,
+          "sentence_index_neg": 2,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "tawatɨn",
+          "ana": [
+            {
+              "parts": "tawatɨn",
+              "gloss": "так",
+              "gloss_index": "STEM{tawatɨn}-",
+              "lex": "tawatɨn",
+              "trans_ru": "так",
+              "gloss_ru": "так",
+              "gloss_index_ru": "STEM{tawatɨn}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 9,
+          "off_end": 16,
+          "sentence_index": 1,
+          "sentence_index_neg": 1,
+          "next_word": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "ɨnaʁaʁnanisimat",
+          "ana": [
+            {
+              "parts": "ɨnaʁaʁ-nanitɨ-ima-u-t",
+              "gloss": "играть-TERM-PST-IND-3PL",
+              "gloss_index": "STEM{ɨnaʁaʁ}-TERM{nanitɨ}-PST{ima}-IND{u}-3PL{t}-",
+              "lex": "ɨnaʁaʁ",
+              "trans_ru": "играть",
+              "gloss_ru": "играть-TERM-PST-IND-3PL",
+              "gloss_index_ru": "STEM{ɨnaʁaʁ}-TERM{nanitɨ}-PST{ima}-IND{u}-3PL{t}-",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 17,
+          "off_end": 32,
+          "sentence_index": 2,
+          "sentence_index_neg": 0,
+          "next_word": 3
+        }
+      ],
+      "text": "mikisqit tawatɨn ɨnaʁaʁnanisimat maːtɨmi"
+    },
+    {
+      "lang": 0,
+      "words": [
+        {
+          "wtype": "word",
+          "wf": "сейчас",
+          "ana": [
+            {
+              "parts": "",
+              "gloss": "",
+              "gloss_index": "",
+              "lex": "",
+              "trans_ru": "",
+              "gloss_ru": "",
+              "gloss_index_ru": "",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 0,
+          "off_end": 6,
+          "sentence_index": 0,
+          "sentence_index_neg": 5,
+          "next_word": 1
+        },
+        {
+          "wtype": "word",
+          "wf": "уже",
+          "ana": [
+            {
+              "parts": "",
+              "gloss": "",
+              "gloss_index": "",
+              "lex": "",
+              "trans_ru": "",
+              "gloss_ru": "",
+              "gloss_index_ru": "",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 7,
+          "off_end": 10,
+          "sentence_index": 1,
+          "sentence_index_neg": 4,
+          "next_word": 2
+        },
+        {
+          "wtype": "word",
+          "wf": "дети",
+          "ana": [
+            {
+              "parts": "",
+              "gloss": "",
+              "gloss_index": "",
+              "lex": "",
+              "trans_ru": "",
+              "gloss_ru": "",
+              "gloss_index_ru": "",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 11,
+          "off_end": 15,
+          "sentence_index": 2,
+          "sentence_index_neg": 3,
+          "next_word": 3
+        },
+        {
+          "wtype": "word",
+          "wf": "наши",
+          "ana": [
+            {
+              "parts": "",
+              "gloss": "",
+              "gloss_index": "",
+              "lex": "",
+              "trans_ru": "",
+              "gloss_ru": "",
+              "gloss_index_ru": "",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 16,
+          "off_end": 20,
+          "sentence_index": 3,
+          "sentence_index_neg": 2,
+          "next_word": 4
+        },
+        {
+          "wtype": "word",
+          "wf": "так",
+          "ana": [
+            {
+              "parts": "",
+              "gloss": "",
+              "gloss_index": "",
+              "lex": "",
+              "trans_ru": "",
+              "gloss_ru": "",
+              "gloss_index_ru": "",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 21,
+          "off_end": 24,
+          "sentence_index": 4,
+          "sentence_index_neg": 1,
+          "next_word": 5
+        },
+        {
+          "wtype": "word",
+          "wf": "не",
+          "ana": [
+            {
+              "parts": "",
+              "gloss": "",
+              "gloss_index": "",
+              "lex": "",
+              "trans_ru": "",
+              "gloss_ru": "",
+              "gloss_index_ru": "",
+              "gr.pos": ""
+            }
+          ],
+          "off_start": 25,
+          "off_end": 27,
+          "sentence_index": 5,
+          "sentence_index_neg": 0,
+          "next_word": 6
+        }
+      ],
+      "text": "сейчас уже дети наши так не играют"
+    }
+  ]
+}
