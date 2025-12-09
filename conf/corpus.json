@@ -57,7 +57,7 @@
     "ru"
   ],
   "all_language_search_enabled": true,
-  "gloss_search_enabled": false,
+  "gloss_search_enabled": true,
   "ambiguous_analyses": true,
   "elastic_url": "http://elasticsearch",
   "lang_props":
