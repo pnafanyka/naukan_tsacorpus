@@ -20,5 +20,5 @@ else:
 
 
 if __name__ == "__main__":
-    application.run(port=7342, host='0.0.0.0',
+    application.run(port=7345, host='0.0.0.0',
                     debug=True, use_reloader=False)

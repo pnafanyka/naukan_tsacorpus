@@ -30,7 +30,13 @@ class InterfaceQueryParser:
             self.rxSimpleText = re.compile(self.settings.regex_simple_search)
         self.wordFields = self.settings.word_fields
         self.wr = WordRelations(settings_dir, rp=rp)
-        self.docMetaFields = ['author', 'title', 'genre']
+        self.docMetaFields = []
+        authorMetafield = 'author'
+        if self.settings.author_metafield is not None:
+            authorMetafield = self.settings.author_metafield
+        for importantMetafield in ('title', authorMetafield, 'genre'):
+            if importantMetafield in self.settings.viewable_meta:
+                self.docMetaFields.append(importantMetafield)
         self.docMetaFields += [f for f in self.settings.viewable_meta
                                if f not in self.docMetaFields and f != 'filename'
                                and f not in settings.sentence_meta]
@@ -145,7 +151,7 @@ class InterfaceQueryParser:
                          for part in parts if len(part) > 0)
         return qStart + result + qEnd
 
-    def make_simple_term_query(self, text, field, lang, keyword_query=False):
+    def make_simple_term_query(self, text, field, lang, keyword_query=False, rewrite=True):
         """
         Make a term query that will become one of the inner parts
         of the compound bool query. Recognize simple wildcards and regexps.
@@ -157,7 +163,17 @@ class InterfaceQueryParser:
         if field == 'ana.gloss_index' or field.endswith('.ana.gloss_index'):
             # return {'regexp': {field: text}}
             return {'regexp': {field: self.make_simple_gloss_query(text, lang)}}
-        elif keyword_query:
+        if rewrite:
+            fieldShort = field
+            if field.startswith('words.'):
+                fieldShort = field[6:]
+            if fieldShort.startswith('ana.'):
+                fieldShort = fieldShort[4:]
+            if (fieldShort in self.settings.word_fields_shortcuts
+                    and text in self.settings.word_fields_shortcuts[fieldShort]):
+                text = self.settings.word_fields_shortcuts[fieldShort][text]
+                return self.make_bool_query(text, field, lang, keyword_query=keyword_query, rewrite=False)
+        if keyword_query:
             return {'match': {field: text}}
         elif not (field == 'ana.gr' or field.endswith('.ana.gr')):
             if field in self.settings.viewable_meta:
@@ -176,28 +192,33 @@ class InterfaceQueryParser:
                 if text.endswith('$'):
                     text = text[:-1]
                 return {'regexp': {field: text}}
-        try:
-            field += '.' + self.gramDict[lang][text]
-            return {'match': {field: text}}
-        except KeyError:
-            if (lang in self.settings.lang_props
-                    and 'gramm_shortcuts' in self.settings.lang_props[lang]
-                    and text in self.settings.lang_props[lang]['gramm_shortcuts']):
-                text = self.settings.lang_props[lang]['gramm_shortcuts'][text]
-                return self.make_bool_query(text, field, lang, keyword_query=keyword_query)
+        if (rewrite
+                and lang in self.settings.lang_props
+                and 'gramm_shortcuts' in self.settings.lang_props[lang]
+                and text in self.settings.lang_props[lang]['gramm_shortcuts']):
+            text = self.settings.lang_props[lang]['gramm_shortcuts'][text]
+            return self.make_bool_query(text, field, lang, keyword_query=keyword_query, rewrite=False)
+        else:
+            try:
+                field += '.' + self.gramDict[lang][text]
+                return {'match': {field: text}}
+            except KeyError:
+                pass
         return {'match_none': {}}
 
-    def make_bool_query(self, strQuery, field, lang, start=0, end=-1, keyword_query=False):
+    def make_bool_query(self, strQuery, field, lang, start=0, end=-1, keyword_query=False, rewrite=True):
         """
         Make a bool elasticsearch query from a string like (XXX|Y*Z),~ABC.
         If the field is "ana.gr", find categories for every gramtag. If no
         category is available for some tag, return empty query.
         The function is recursive and only looks at the part of the string
         delimited by start and end parameters.
+        Do not use gramm_shortcuts dictionary if rewrite == True.
         """
         if end == -1:
             if type(strQuery) == int:
-                return self.make_simple_term_query(strQuery, field, lang, keyword_query=True)
+                return self.make_simple_term_query(strQuery, field, lang,
+                                                   keyword_query=True, rewrite=rewrite)
             if not keyword_query:
                 if self.settings.search_remove_whitespaces:
                     strQuery = strQuery.replace(' ', '')
@@ -205,12 +226,13 @@ class InterfaceQueryParser:
                 strQuery = strQuery.strip()
                 if '|' not in strQuery and '~' not in strQuery:
                     # Metadata query: metafields can contain commas and parentheses
-                    return self.make_simple_term_query(strQuery, field, lang, keyword_query=keyword_query)
+                    return self.make_simple_term_query(strQuery, field, lang,
+                                                       keyword_query=keyword_query, rewrite=rewrite)
             end = len(strQuery)
             if end == 0:
                 return {'match_none': {}}
             if not (field == 'ana.gr' or field.endswith('.ana.gr')) and self.rxSimpleText.search(strQuery) is not None:
-                return self.make_simple_term_query(strQuery, field, lang)
+                return self.make_simple_term_query(strQuery, field, lang, rewrite=rewrite)
             if strQuery.count('(') != strQuery.count(')'):
                 return {'match_none': {}}
         if len(strQuery) <= 0 or start >= end:
@@ -219,23 +241,23 @@ class InterfaceQueryParser:
         iOpPos, strOp = self.find_operator(strQuery, start, end, glossField)
         if iOpPos == -1:
             if strQuery[start] == '(' and strQuery[end - 1] == ')':
-                return self.make_bool_query(strQuery, field, lang, start=start + 1, end=end - 1)
+                return self.make_bool_query(strQuery, field, lang, start=start + 1, end=end - 1, rewrite=rewrite)
             else:
-                return self.make_simple_term_query(strQuery[start:end], field, lang)
+                return self.make_simple_term_query(strQuery[start:end], field, lang, rewrite=rewrite)
         if strOp in ',|&':
-            resultLeft = self.make_bool_query(strQuery, field, lang, start=start, end=iOpPos)
-            resultRight = self.make_bool_query(strQuery, field, lang, start=iOpPos + 1, end=end)
+            resultLeft = self.make_bool_query(strQuery, field, lang, start=start, end=iOpPos, rewrite=rewrite)
+            resultRight = self.make_bool_query(strQuery, field, lang, start=iOpPos + 1, end=end, rewrite=rewrite)
             if len(resultLeft) <= 0 or len(resultRight) <= 0:
                 return {}
             return {'bool': {self.dictOperators[strOp]: [resultLeft, resultRight]}}
         elif strOp == '~':
             rest = strQuery[start + 1:end]
             if InterfaceQueryParser.rxParentheses.search(rest) is None:
-                mustNotClause = [self.make_simple_term_query(t, field, lang)
+                mustNotClause = [self.make_simple_term_query(t, field, lang, rewrite=rewrite)
                                  for t in rest.split('|')]
             else:
                 mustNotClause = self.make_bool_query(strQuery, field, lang,
-                                                     start=start+1, end=end)
+                                                     start=start+1, end=end, rewrite=rewrite)
             return {
                 'bool': {
                     'must_not': mustNotClause
@@ -402,7 +424,7 @@ class InterfaceQueryParser:
 
         if not subcorpus:
             if sortOrder == 'random':
-                innerQuery = self.make_random(innerQuery, randomSeed=randomSeed)
+                innerQuery = self.make_random(innerQuery, randomSeed=randomSeed, randomField='id')
             esQuery = {
                 'query': innerQuery,
                 'size': query_size,
@@ -412,7 +434,7 @@ class InterfaceQueryParser:
             esQuery['aggs'] = {
                 'agg_ndocs': {'cardinality': {'field': 'dids'}},
                 'agg_freq': {'sum': {'field': 'freq'}},
-                'agg_noccurrences': {'value_count': {'field': '_id'}}
+                'agg_noccurrences': {'value_count': {'field': 'id'}}
             }
             if groupBy == 'lemma':
                 esQuery['size'] = 0
@@ -436,7 +458,7 @@ class InterfaceQueryParser:
                 }
             }
             if sortOrder == 'random':
-                innerWordFreqQuery = self.make_random(innerWordFreqQuery, randomSeed=randomSeed)
+                innerWordFreqQuery = self.make_random(innerWordFreqQuery, randomSeed=randomSeed, randomField='id')
             mainAgg = {'agg_freq': {'sum': {'field': 'freq'}},
                        'agg_ndocs': {'cardinality': {'field': 'd_id'}}}
             if groupBy == 'word':
@@ -790,11 +812,11 @@ class InterfaceQueryParser:
                     if k.endswith('_kw'):
                         boolQuery = self.make_bool_query(v, k, lang=lang, keyword_query=True)
                     elif (k.endswith('__to')
-                          and k[5:len(k)-3] in self.settings.integer_meta_fields):
-                        boolQuery = self.make_range_query([None, v], k[:-3])
+                          and k[5:len(k)-4] in self.settings.integer_meta_fields):
+                        boolQuery = self.make_range_query([None, v], k[:-4])
                     elif (k.endswith('__from')
-                          and k[5:len(k)-3] in self.settings.integer_meta_fields):
-                        boolQuery = self.make_range_query([v, None], k[:-3])
+                          and k[5:len(k)-6] in self.settings.integer_meta_fields):
+                        boolQuery = self.make_range_query([v, None], k[:-6])
                     else:
                         boolQuery = self.make_bool_query(v, k, lang=lang)
                     if 'match_none' not in boolQuery:
@@ -804,9 +826,9 @@ class InterfaceQueryParser:
             query = {'bool': {'must': query, 'filter': queryFilter}}
 
         if sortOrder in ('random', 'year'):
-            query = self.make_random(query, randomSeed)
+            query = self.make_random(query, randomSeed, randomField='prev_id')
         elif sortOrder not in ('sent_id', 'no'):
-            query = self.make_half_random(query, randomSeed)
+            query = self.make_half_random(query, randomSeed, randomField='prev_id')
 
         esQuery = {'query': query, 'size': query_size, 'from': query_from}
         if sortOrder == 'year':
@@ -840,7 +862,7 @@ class InterfaceQueryParser:
         # if sortOrder in self.sortOrders:
         return esQuery
 
-    def make_random(self, query, randomSeed=None):
+    def make_random(self, query, randomSeed=None, randomField='prev_id'):
         """
         Add random ordering to the ES query.
         """
@@ -850,9 +872,10 @@ class InterfaceQueryParser:
 
         if randomSeed is not None:
             query['function_score']['random_score']['seed'] = str(randomSeed)
+            query['function_score']['random_score']['field'] = randomField
         return query
 
-    def make_half_random(self, query, randomSeed=None):
+    def make_half_random(self, query, randomSeed=None, randomField='prev_id'):
         """
         Add random ordering to the ES query while preserving the ordering
         by number of terms found.
@@ -862,11 +885,13 @@ class InterfaceQueryParser:
                                     'random_score': {}}}
         if randomSeed is not None:
             query['function_score']['random_score']['seed'] = str(randomSeed)
+            query['function_score']['random_score']['field'] = randomField
         return query
 
     def subcorpus_query(self, htmlQuery, query_from=0, query_size=10,
                         sortOrder='random', randomSeed=None,
-                        exclude=None):
+                        exclude=None, primaryLanguages=None,
+                        curLocale=''):
         """
         Make an ES query to the docs index based on subcorpus selection
         fields in htmlQuery.
@@ -875,10 +900,14 @@ class InterfaceQueryParser:
         rangeQueriesFrom = {}
         rangeQueriesTo = {}
         for field in self.docMetaFields:
+            fieldNotLocalized = field
             if field in ('year_from', 'year_to'):
                 continue
             elif field in htmlQuery and (type(htmlQuery[field]) == int or len(htmlQuery[field]) > 0):
-                queryParts.append(self.make_bool_query(htmlQuery[field], field, 'all', keyword_query=True))
+                fieldNotLocalized = field
+                if len(curLocale) > 0 and field in self.settings.localized_meta_values:
+                    field += '_' + curLocale
+                queryParts.append(self.make_bool_query(htmlQuery[fieldNotLocalized], field, 'all', keyword_query=True))
             elif (field + '__from' in htmlQuery
                   and (type(htmlQuery[field + '__from']) == int
                        or len(htmlQuery[field + '__from']) > 0)):
@@ -918,11 +947,14 @@ class InterfaceQueryParser:
         if len(queryParts) > 0:
             query = {'bool': {'must': queryParts}}
             if sortOrder == 'random':
-                query = self.make_random(query, randomSeed)
+                query = self.make_random(query, randomSeed, 'doc_id')
         else:
             query = {'match_all': {}}
 
         aggNWords = {'agg_nwords': {'sum': {'field': 'n_words'}}}
+        if primaryLanguages is not None and len(primaryLanguages) > 0:
+            for lang in primaryLanguages:
+                aggNWords['agg_nwords_' + lang] = {'sum': {'field': 'n_words_' + lang}}
         esQuery = {'query': query, 'from': query_from, 'size': query_size,
                    '_source': {'excludes': ['filename']},
                    'aggs': aggNWords}
@@ -1078,13 +1110,13 @@ class InterfaceQueryParser:
             negQuery = ('negq' + strWordNum in htmlQuery)
             if searchIndex == 'sentences':
                 curPrelimQuery[pathPfx + 'wtype'] = self.make_bool_query('word',
-                                                                         pathPfx + 'wtype', lang)
+                                                                         pathPfx + 'wtype', lang, keyword_query=True)
             elif searchIndex == 'words':
                 curWtype = 'word'
                 if 'wtype' + strWordNum in htmlQuery:
                     curWtype = htmlQuery['wtype' + strWordNum]
                 curPrelimQuery[pathPfx + 'wtype'] = self.make_bool_query(curWtype,
-                                                                         pathPfx + 'wtype', lang)
+                                                                         pathPfx + 'wtype', lang, keyword_query=True)
             for field in ['wf', 'w_id', 'l_id']:
                 if field + strWordNum in htmlQuery and len(htmlQuery[field + strWordNum]) > 0:
                     curPrelimQuery[pathPfx + field] = self.make_bool_query(htmlQuery[field + strWordNum],

@@ -504,7 +504,8 @@ label {
 }
 
 #corpus_header {
-	height: 3em;
+	min-height: 3em;
+	max-height: 4em;
 	margin-bottom: 5px;
 	padding: 5px;
 	line-height: 1.5;
@@ -597,6 +598,19 @@ label {
 	vertical-align: top;
 	cursor: pointer;
 	line-height: 1;
+}
+
+#part_of_collection:hover {
+	background-color: #2664c9;
+    color: white!important;
+}
+
+#part_of_collection {
+    padding: 6px!important;
+	margin-top: -4px;
+    border-radius: 5px;
+	display: inline-block;
+	vertical-align: middle!important;
 }
 
 #corpus_header a.bi:hover {
@@ -732,6 +746,10 @@ hr.separator {
 }
 
 .popup_field {
+}
+
+.popup_key {
+	color: #565659;
 }
 
 .popup_value {
@@ -872,8 +890,35 @@ hr.separator {
 
 .documents_list {
 	border-radius: 4px;
-	overflow: auto;
-	max-height: 50vh;
+	padding-bottom: 20px;
+}
+
+.documents_list_table td:nth-child(1) {
+	position: sticky;
+	z-index: 1;
+	left: 0;
+	width: 30px;
+}
+
+.documents_list_table td:nth-child(2) {
+	position: sticky;
+	z-index: 2;
+	left: 30px;
+	border-right: 1px dotted;
+}
+
+.documents_list_table th:nth-child(1) {
+	position: sticky!important;
+	z-index: 1;
+	left: 0;
+	width: 30px;
+}
+
+.documents_list_table th:nth-child(2) {
+	position: sticky!important;
+	z-index: 2;
+	left: 30px;
+	border-right: 1px dotted;
 }
 
 .modal {
@@ -894,6 +939,7 @@ hr.separator {
 
 .documents_list_table {
 	border: solid 1px gray;
+	border-collapse: separate;
 	border-radius: 4px;
 	margin: auto;
 }
@@ -901,21 +947,32 @@ hr.separator {
 .documents_list_table tr:nth-child(odd) {
 	background-color: #fff9b2; 
 }
+.documents_list_table tr:nth-child(odd) td {
+	background-color: #fff9b2; 
+}
 
 .documents_list_table tr:nth-child(even) {
 	background-color: #f7f0a0;
+}
+.documents_list_table tr:nth-child(even) td {
+	background-color: #f7f0a0;
+}
+
+.documents_list_table thead tr {
+	color: #443d35!important;
+	background-color: #e2d076!important;
 }
 
 .documents_list_table th {
 	padding: 3px 5px;
 	color: #443d35;
-	min-width: 35px;
+	min-width: 30px;
 	background-color: #e2d076;
 	cursor: pointer;
 }
 
 .documents_list_table td {
-	padding: 1px 5px;
+	padding: 3px 5px!important;
 }
 
 
@@ -1393,16 +1450,23 @@ svg circle {
 }
 
 .tab-content {
+	float: none;
+}
+
+#fulltext_div {
+	margin-left: 15px;
 	float: left;
 }
 
-@media (min-height: 700px) and (orientation:landscape) {
+@media (min-height: 700px) and (min-width: 1080px) and (orientation:landscape) {
 	.centered {
 		position: fixed;
-		top: 50%;
+		top: calc(50% + 20px);
 		left: 50%;
 		transform: translate(-50%, -50%);
 		min-inline-size: fit-content;
+		min-width: 550px;
+		max-height: calc(100% - 100px);
 	}
 }
 

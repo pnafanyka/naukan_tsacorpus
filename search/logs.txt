@@ -1,0 +1,119 @@
+compiling catalog translations_pybabel/en/LC_MESSAGES/messages.po to translations_pybabel/en/LC_MESSAGES/messages.mo
+compiling catalog translations_pybabel/zh/LC_MESSAGES/messages.po to translations_pybabel/zh/LC_MESSAGES/messages.mo
+compiling catalog translations_pybabel/ru/LC_MESSAGES/messages.po to translations_pybabel/ru/LC_MESSAGES/messages.mo
+compiling catalog translations_pybabel/sq/LC_MESSAGES/messages.po to translations_pybabel/sq/LC_MESSAGES/messages.mo
+compiling catalog translations_pybabel/hy/LC_MESSAGES/messages.po to translations_pybabel/hy/LC_MESSAGES/messages.mo
+WARNING: msg has more translations than num_plurals of catalog
+WARNING: Problem on line 628: ''
+/usr/local/lib/python3.12/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+  warnings.warn(message, category=ElasticsearchWarning)
+Interface translations compiled.
+ * Serving Flask app 'web_app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7345
+ * Running on http://172.18.0.8:7345
+[33mPress CTRL+C to quit[0m
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [08/Dec/2025 21:25:31] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [08/Dec/2025 21:25:31] "GET get_word_fields HTTP/1.0" 200 -
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [08/Dec/2025 21:25:40] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [08/Dec/2025 21:25:45] "GET search_sent?n_words=1&random_seed=1765229131&wf1=&lex1=&gr1=&w_id1=&l_id1=&n_ana1=any&sentence_index1=&lang1=naukan&txt=&precise=on&page_size=10&sort=random&distance_strict=on&title=&speaker=&village=&narrative_subject=&profession=&age=&gender= HTTP/1.0" 200 -
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [09/Dec/2025 05:48:28] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 05:48:29] "GET get_word_fields HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 05:48:32] "GET search_sent?n_words=1&random_seed=1765259308&wf1=&lex1=&gr1=&w_id1=&l_id1=&n_ana1=any&sentence_index1=&lang1=naukan&txt=&precise=on&page_size=10&sort=random&distance_strict=on&title=&speaker=&village=&narrative_subject=&profession=&age=&gender= HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 05:48:36] "GET search_sent/2 HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 05:48:38] "GET search_sent/18 HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 05:48:45] "GET search_sent/1 HTTP/1.0" 200 -
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [09/Dec/2025 07:10:50] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:10:50] "GET get_word_fields HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:10:58] "GET autocomplete_word/naukan/wf?query=Со HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:11:04] "[35m[1mGET search_word?n_words=1&random_seed=1765264250&wf1=Собака&lex1=&gr1=&w_id1=&l_id1=&n_ana1=any&sentence_index1=&lang1=russian&txt=&precise=on&page_size=10&sort=random&distance_strict=on&title=&speaker=&village=&narrative_subject=&profession=&age=&gender= HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/naukan_tsacorpus/search/web_app/views.py", line 431, in search_word
+    hitsProcessed = find_words_json(searchType=searchType, page=page)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/naukan_tsacorpus/search/web_app/search_pipelines.py", line 798, in find_words_json
+    hits = sc.get_words(query)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/naukan_tsacorpus/search/search_engine/client.py", line 17, in f_decorated
+    hits = f(self, esQuery)
+           ^^^^^^^^^^^^^^^^
+  File "/naukan_tsacorpus/search/search_engine/client.py", line 92, in get_words
+    hits = self.es.search(index=self.name + '.words',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/elasticsearch/client/utils.py", line 347, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/elasticsearch/client/__init__.py", line 1821, in search
+    return self.transport.perform_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/elasticsearch/transport.py", line 466, in perform_request
+    raise e
+  File "/usr/local/lib/python3.12/site-packages/elasticsearch/transport.py", line 427, in perform_request
+    status, headers_response, data = connection.perform_request(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/elasticsearch/connection/http_urllib3.py", line 291, in perform_request
+    self._raise_error(response.status, raw_data)
+  File "/usr/local/lib/python3.12/site-packages/elasticsearch/connection/base.py", line 328, in _raise_error
+    raise HTTP_EXCEPTIONS.get(status_code, TransportError)(
+elasticsearch.exceptions.RequestError: RequestError(400, 'search_phase_execution_exception', 'failed to create query: Field [id] is not mapped on [[naukan.words/Cf11jfwFSniJ_4HMcKrqNw]] and cannot be used as a source of random numbers.')
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [09/Dec/2025 07:48:00] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:48:02] "GET get_word_fields HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:48:08] "GET search_doc?n_words=1&random_seed=1765229131&wf1=&lex1=&gr1=&w_id1=&l_id1=&n_ana1=any&sentence_index1=&lang1=naukan&txt=&precise=on&page_size=10&sort=random&distance_strict=on&title=&speaker=&village=&narrative_subject=&profession=&age=&gender= HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:48:11] "GET doc_stats/title/naukan?n_words=1&random_seed=1765229131&wf1=&lex1=&gr1=&w_id1=&l_id1=&n_ana1=any&sentence_index1=&lang1=naukan&txt=&precise=on&page_size=10&sort=random&distance_strict=on&title=&speaker=&village=&narrative_subject=&profession=&age=&gender= HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:48:12] "GET search_doc?n_words=1&random_seed=1765229131&wf1=&lex1=&gr1=&w_id1=&l_id1=&n_ana1=any&sentence_index1=&lang1=naukan&txt=&precise=on&page_size=10&sort=random&distance_strict=on&title=&speaker=&village=&narrative_subject=&profession=&age=&gender= HTTP/1.0" 200 -
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [09/Dec/2025 07:48:34] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:48:35] "GET get_word_fields HTTP/1.0" 200 -
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [09/Dec/2025 07:49:18] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:49:19] "GET get_word_fields HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:49:22] "GET get_gramm_selector/naukan HTTP/1.0" 200 -
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [09/Dec/2025 07:49:37] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:49:38] "GET get_word_fields HTTP/1.0" 200 -
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [09/Dec/2025 07:49:43] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:49:44] "GET get_word_fields HTTP/1.0" 200 -
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [09/Dec/2025 07:49:55] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:49:56] "GET get_word_fields HTTP/1.0" 200 -
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [09/Dec/2025 07:50:16] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:50:17] "GET get_word_fields HTTP/1.0" 200 -
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [09/Dec/2025 07:50:24] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:50:25] "GET get_word_fields HTTP/1.0" 200 -
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [09/Dec/2025 07:50:33] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:50:34] "GET get_word_fields HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 07:50:35] "GET get_gramm_selector/naukan HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 08:07:17] "GET search_sent?n_words=1&random_seed=1765266577&wf1=&lex1=&gr1=&w_id1=&l_id1=&n_ana1=any&sentence_index1=&lang1=naukan&txt=&precise=on&page_size=10&sort=random&distance_strict=on&title=&speaker=&village=&narrative_subject=&profession=&age=&gender= HTTP/1.0" 200 -
+/bin/sh: 1: /naukan_tsacorpus/search/restart_elasticsearch.sh: Permission denied
+172.18.0.1 - - [09/Dec/2025 08:07:25] "GET /search HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 08:07:26] "GET get_word_fields HTTP/1.0" 200 -
+172.18.0.1 - - [09/Dec/2025 08:07:27] "GET search_sent?n_words=1&random_seed=1765267645&wf1=&lex1=&gr1=&w_id1=&l_id1=&n_ana1=any&sentence_index1=&lang1=naukan&txt=&precise=on&page_size=10&sort=random&distance_strict=on&title=&speaker=&village=&narrative_subject=&profession=&age=&gender= HTTP/1.0" 200 -

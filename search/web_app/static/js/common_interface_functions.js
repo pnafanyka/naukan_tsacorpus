@@ -43,6 +43,20 @@ function show_help(e) {
 		});
 }
 
+function show_other_corpora(e) {
+	$.ajax({
+			url: "other_corpora_dialogue",
+			type: "GET",
+			success: function(result) {
+				$('#other_corpora_dialogue_body').html(result);
+				$('#other_corpora_dialogue').modal('show');
+			},
+			error: function(errorThrown) {
+				alert( JSON.stringify(errorThrown) );
+			}
+		});
+}
+
 function show_dictionary(e) {
 	var lang = $('#lang1 option:selected').val();
 	$.ajax({
@@ -217,6 +231,32 @@ function toggle_interlinear() {
 		});
 		$('.ana_interlinear').remove();
 	}
+}
+
+	
+function enable_datatables(tableName) {
+	var paging = true;
+	var rowCount = $(tableName + " tr").length;
+	if (rowCount <= 50) {
+		paging = false;
+	}
+	$(tableName).DataTable({
+		fixedHeader: {
+			header: true
+		},
+		layout: {
+			topStart: {
+				search: {
+					text: filterCaption + ': _INPUT_'
+				}
+			},
+			bottomStart: 'paging',
+			topEnd: 'info'
+		},
+		paging: paging,
+		pageLength: 50,
+		lengthChange: false
+	});
 }
 
 function html_decode(input){

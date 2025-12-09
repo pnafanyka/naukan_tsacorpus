@@ -3,7 +3,7 @@
   "citation": "Naukan corpora",
   "input_format": "json",
   "debug": false,
-  "media": true,
+  "media": false,
   "video": false,
   "media_length": 60,
   "max_context_expand": 10,
@@ -59,7 +59,7 @@
   "all_language_search_enabled": true,
   "gloss_search_enabled": false,
   "ambiguous_analyses": true,
-  "elastic_url": "http://127.0.0.1:9200",
+  "elastic_url": "http://elasticsearch",
   "lang_props":
   {
     "naukan":

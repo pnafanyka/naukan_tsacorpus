@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, url_for
 from elasticsearch.exceptions import ConnectionError, NotFoundError
 import sys
 import subprocess
@@ -90,6 +90,12 @@ MAX_PAGE_SIZE = 100     # maximum number of sentences per page
 MIN_TOTAL_FREQ_WORD_QUERY = 2000  # minimal number of processed tokens after which
                                   # the word/lemma search involving multiple words
                                   # may be stopped due to timeout
+MIN_HITS_PARTITION = 100    # minimal number of hits in a partition for the result of
+                            # a partition query to be extrapolated to the entire corpus
+                            # (for large corpora that are split into partitions for
+                            # faster processing)
+MAX_CI_PARTITION = 0.05     # maximal relative width of the confidence interval
+                            # for partition queries
 sessionData = {}        # session key -> dictionary with the data for current session
 random.seed()
 
@@ -121,7 +127,12 @@ sc.qp.rp = sentView
 sc.qp.wr.rp = sentView
 
 try:
-    settings.corpus_size = sc.get_n_words()  # size of the corpus in words
+    settings.corpus_size = sc.get_n_words(primaryLanguages=settings.primary_languages)  # size of the corpus in words
+    settings.corpus_size_total = sc.get_n_words(primaryLanguages=None)
+    settings.partition_sizes_words = []     # partition size in words, if any
+    for iPart in range(1, int(settings.partitions) + 1):
+        settings.partition_sizes_words.append(sc.get_n_words(primaryLanguages=None, partition=iPart))
+    # print(settings.partition_sizes_words)
     for lang in settings.languages:
         # number of word types for each frequency rank
         settings.word_freq_by_rank.append(sentView.extract_cumulative_freq_by_rank(sc.get_word_freq_by_rank(lang)))
@@ -131,6 +142,7 @@ try:
 except (ConnectionError, NotFoundError):
     # Elasticsearch is down
     settings.corpus_size = 0
+    settings.corpus_size_total = 0
     for lang in settings.languages:
         settings.word_freq_by_rank.append({})
         settings.lemma_freq_by_rank.append({})

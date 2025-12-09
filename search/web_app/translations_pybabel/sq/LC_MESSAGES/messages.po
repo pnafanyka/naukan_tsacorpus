@@ -1108,9 +1108,6 @@ msgstr "seksi (postim)"
 msgid "metafield_speaker"
 msgstr "folësi"
 
-msgid "metafield_speaker_type"
-msgstr "lloji i folësit"
-
 msgid "metafield_speakers"
 msgstr "folësit"
 
@@ -1195,17 +1192,11 @@ msgstr "jo plotësisht"
 msgid "metavalue_interview"
 msgstr "intervistë"
 
-msgid "metavalue_linguist"
-msgstr "gjuhëtar"
-
 msgid "metavalue_male"
 msgstr "mashkull"
 
 msgid "metavalue_monologue"
 msgstr "monolog"
-
-msgid "metavalue_native"
-msgstr "amtare"
 
 msgid "metavalue_nonfiction"
 msgstr "tekstet joletrare"

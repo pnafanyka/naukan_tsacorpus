@@ -44,6 +44,7 @@ class CorpusSettings:
         # Indexation and search options
         self.debug = False
         self.sample_size = 1.0
+        self.partitions = 0
         self.all_language_search_enabled = True
         self.fulltext_search_enabled = True
         self.negative_search_enabled = True
@@ -62,6 +63,7 @@ class CorpusSettings:
         # Interface options and tools
         self.interface_languages = ['en', 'ru']
         self.default_locale = 'en'
+        self.localized_meta_values = []
         self.transliterations = None
         self.input_methods = None
         self.keyboards = {}
@@ -78,12 +80,14 @@ class CorpusSettings:
         self.word_search_display_gr = True
         self.citation = None
         self.start_page_url = None
+        self.part_of_collection = False
         self.fulltext_page_size = 100     # Size of one page of the full-text representation in sentences
         self.accidental_word_fields = []
         self.default_view = 'standard'
 
         # Languages and their properties
         self.languages = []
+        self.primary_languages = []
         self.rtl_languages = []
         self.context_header_rtl = False
         self.categories = {}
@@ -93,11 +97,14 @@ class CorpusSettings:
         # Regexes etc.
         self.wf_analyzer_pattern = None
         self.wf_lowercase = True
+        self.meta_analyzer_patterns = {}
+        self.case_sensitive_meta_fields = []
         self.text_fields_analyzer_pattern = None
         self.text_fields_lowercase = True
         self.regex_simple_search = None
         self.search_remove_whitespaces = True
         self.detect_lemma_queries = False
+        self.word_fields_shortcuts = {}
 
         # Server configuration
         self.session_cookie_domain = None
@@ -105,9 +112,11 @@ class CorpusSettings:
         self.try_restart_elastic = True     # Try restarting elasticsearch.service if it is down
 
         # Statistics calculated at runtime
-        self.corpus_size = 0
+        self.corpus_size = 0             # corpus size in words, only counting primary language(s)
+        self.corpus_size_total = 0       # total corpus size in words
         self.word_freq_by_rank = []      # number of word types for each frequency rank
         self.lemma_freq_by_rank = []     # number of lemmata for each frequency rank
+        self.partition_sizes_words = []  # size of partitions in words (if any)
         self.ready_for_work = False      # turns True when all initialization queries have been made
 
         # Parameters restructured for convenience
@@ -120,6 +129,8 @@ class CorpusSettings:
         self.lsFields = {
             'sentence_meta',
             'viewable_meta',
+            'localized_meta_values',
+            'case_sensitive_meta_fields',
             'word_fields',
             'interface_languages',
             'transliterations',
@@ -130,6 +141,7 @@ class CorpusSettings:
             'lemma_table_fields',
             'accidental_word_fields',
             'languages',
+            'primary_languages',
             'rtl_languages',
             'search_meta.stat_options'
         }
@@ -156,7 +168,9 @@ class CorpusSettings:
         # including elements of lang_props.
         self.dict_dFields = {
             'lang_props.gramm_shortcuts',
-            'lang_props.gloss_shortcuts'
+            'lang_props.gloss_shortcuts',
+            'word_fields_shortcuts',
+            'meta_analyzer_patterns'
         }
 
         # Fields that should never be saved to corpus.json.
@@ -225,6 +239,14 @@ class CorpusSettings:
                 curGlossShortcuts = copy.deepcopy(self.lang_props[lang]['gloss_shortcuts'])
                 for k, v in curGlossShortcuts.items():
                     self.lang_props[lang]['gloss_shortcuts'][k.lower()] = v.lower()
+
+        # Only count words in "primary" languages/tiers when calculating subcorpus size,
+        # if these are set
+        # Check if all primary languages are contained in the languages list
+        self.primary_languages = [lang for lang in self.primary_languages
+                                  if lang in self.languages]
+        if len(self.primary_languages) == len(self.languages):
+            self.primary_languages = []     # Trivial coincidence
 
     def as_dict(self):
         """

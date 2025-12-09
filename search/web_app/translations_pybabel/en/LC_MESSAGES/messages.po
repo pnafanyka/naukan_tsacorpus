@@ -760,9 +760,15 @@ msgstr "Full text (opens in a new tab)"
 msgid "Virtual keyboard"
 msgstr "Virtual keyboard"
 
+msgid "Other corpora"
+msgstr "Other corpora"
+
+msgid "Filter"
+msgstr "Filter"
+
 
 msgid "corpus_title"
-msgstr "NAUKAN_CORPORA"
+msgstr "NAUKAN CORPUS"
 
 msgid "inputmethod_normal"
 msgstr "normal"
@@ -1343,6 +1349,48 @@ msgstr "Wikipedia"
 msgid "metavalue_written"
 msgstr "written"
 
+msgid "tooltip_Agreement"
+msgstr "Agreement"
+
+msgid "tooltip_Aspect"
+msgstr "Aspect"
+
+msgid "tooltip_Cases"
+msgstr "Cases"
+
+msgid "tooltip_Denominal derivation"
+msgstr "Denominal derivation"
+
+msgid "tooltip_Mood"
+msgstr "Mood"
+
+msgid "tooltip_Negation"
+msgstr "Negation"
+
+msgid "tooltip_Nominal derivation"
+msgstr "Nominal derivation"
+
+msgid "tooltip_Non-finite"
+msgstr "Non-finite"
+
+msgid "tooltip_Number"
+msgstr "Number"
+
+msgid "tooltip_Other tags"
+msgstr "Other tags"
+
+msgid "tooltip_Particles"
+msgstr "Particles"
+
+msgid "tooltip_Possessiveness"
+msgstr "Possessiveness"
+
+msgid "tooltip_Tense"
+msgstr "Tense"
+
+msgid "tooltip_Valency derivation"
+msgstr "Valency derivation"
+
 msgid "translitname_IPA"
 msgstr "IPA"
 
@@ -1369,6 +1417,9 @@ msgstr "2nd lemma"
 
 msgid "wordfield_logogram"
 msgstr "logogram"
+
+msgid "wordfield_ps"
+msgstr "part of speech (syntax)"
 
 msgid "wordfield_segment"
 msgstr "segment"

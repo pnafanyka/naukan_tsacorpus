@@ -115,13 +115,15 @@ def copy_request_args():
     return query
 
 
-def wilson_confidence_interval(p, n, multiplier, z=1.644854):
+def wilson_confidence_interval(p, n, multiplier=1, z=1.644854):
     """
     Calculate the Wilson confidence interval for Binomial
     distribution, given n trials with p success rate.
     """
     # z: 1.96 for 95%
     # 1.645 for 90%
+    if n <= 0:
+        return 0.0, 1.0 * multiplier
     if p > 1:
         p = 1.0
     elif p < 0:

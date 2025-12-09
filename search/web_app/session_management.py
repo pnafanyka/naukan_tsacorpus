@@ -7,6 +7,7 @@ from flask import session
 import uuid
 import random
 import re
+from datetime import datetime
 from . import settings, sessionData, MAX_PAGE_SIZE
 from .search_context import SearchContext
 
@@ -26,10 +27,10 @@ def initialize_session():
                                           'sort': '',
                                           'distance_strict': False,
                                           'last_query': {},
-                                          'seed': random.randint(1, 1e6),
+                                          'seed': int(datetime.now().timestamp()),
                                           'excluded_doc_ids': set(),
                                           'progress': 100,
-                                          'search_context': SearchContext()}
+                                          'search_context': SearchContext(curLocale=settings.default_locale)}
 
 
 def get_session_data(fieldName):
@@ -54,7 +55,7 @@ def get_session_data(fieldName):
     elif fieldName == 'last_sent_num' and fieldName not in sessionData[session['session_id']]:
         sessionData[session['session_id']]['last_sent_num'] = -1
     elif fieldName == 'seed' and fieldName not in sessionData[session['session_id']]:
-        sessionData[session['session_id']]['seed'] = random.randint(1, 1e6)
+        sessionData[session['session_id']]['seed'] = int(datetime.now().timestamp())
     elif fieldName == 'excluded_doc_ids' and fieldName not in sessionData[session['session_id']]:
         sessionData[session['session_id']]['excluded_doc_ids'] = set()
     elif fieldName == 'progress' and fieldName not in sessionData[session['session_id']]:
@@ -80,6 +81,8 @@ def set_session_data(fieldName, value):
     if session['session_id'] not in sessionData:
         sessionData[session['session_id']] = {}
     sessionData[session['session_id']][fieldName] = value
+    if fieldName == 'locale':
+        sessionData[session['session_id']]['search_context'].locale = value
 
 
 def in_session(fieldName):

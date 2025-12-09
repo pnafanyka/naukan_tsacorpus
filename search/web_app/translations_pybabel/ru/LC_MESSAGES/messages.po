@@ -52,7 +52,7 @@ msgstr "до "
 
 #: templates/index.html:26
 msgid "Select combinations of tags"
-msgstr "Выбор грамматических тэгов"
+msgstr "Выбор тэгов"
 
 #: templates/index.html:27
 msgid "Select glosses"
@@ -769,6 +769,12 @@ msgstr "Полный текст (откроется в новой вкладке
 msgid "Virtual keyboard"
 msgstr "Виртуальная клавиатура"
 
+msgid "Other corpora"
+msgstr "Другие корпуса"
+
+msgid "Filter"
+msgstr "Фильтр"
+
 
 msgid "corpus_title"
 msgstr "КОРПУС НАУКАНСКОГО ЯЗЫКА"
@@ -1378,6 +1384,9 @@ msgstr "лемма 2"
 
 msgid "wordfield_logogram"
 msgstr "логограмма"
+
+msgid "wordfield_ps"
+msgstr "часть речи (синтаксис)"
 
 msgid "wordfield_segment"
 msgstr "сегмент"
