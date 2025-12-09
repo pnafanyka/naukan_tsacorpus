@@ -3,7 +3,7 @@
   "citation": "Naukan corpora",
   "input_format": "json",
   "debug": false,
-  "media": false,
+  "media": true,
   "video": false,
   "media_length": 60,
   "max_context_expand": 10,

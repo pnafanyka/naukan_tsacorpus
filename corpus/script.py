@@ -32,13 +32,9 @@ def split_parts_with_delims(parts: str):
 
 def tags_from_gloss(gloss: str, n_affixes: int):
     """
-    Take gloss like "кончаться-NPST.3SG" or "спускаться-БЕСКОНЕЧНО-CVB.DELIM-3SG"
-    and return a list of morphological tags to align with affixes.
-
-    Strategy:
-      - split on '-' → first piece = lexical meaning; rest = morph tags
-      - if there are more tags than affixes → take the *last* n_affixes
-      - if fewer → left-pad with "" to keep lengths equal
+    Take gloss like "кончаться-NPST.3SG" or
+    "спускаться-БЕСКОНЕЧНО-CVB.DELIM-3SG.S" and
+    return a list of morphological tags to align with affixes.
     """
     if not gloss:
         return [""] * n_affixes
@@ -67,7 +63,6 @@ def build_gloss_index(parts: str, gloss: str) -> str:
     if not parts:
         return ""
 
-    # No segmentation: just give STEM{parts}-
     if "-" not in parts and "=" not in parts:
         return f"STEM{{{parts}}}-"
 
@@ -141,11 +136,60 @@ def enrich_ana(ana: dict):
         ana["gr.pos"] = ""
 
 
+def add_word_indices(sent: dict):
+    """
+    Add off_start, off_end, next_word, sentence_index, sentence_index_neg
+    to each word in a sentence.
+    """
+    text = sent.get("text", "") or ""
+    words = sent.get("words", [])
+    n = len(words)
+    if n == 0:
+        return
+
+    # char-based search: move cursor through the text
+    cursor = 0
+    for word in words:
+        wf = word.get("wf", "")
+        if not wf:
+            continue
+
+        # try to find from current cursor
+        idx = text.find(wf, cursor)
+        if idx == -1:
+            # fallback: search from beginning (may be imperfect but better than nothing)
+            idx = text.find(wf)
+        if idx == -1:
+            # can't find: skip offsets
+            continue
+
+        off_start = idx
+        off_end = idx + len(wf)
+        cursor = off_end
+
+        if "off_start" not in word:
+            word["off_start"] = off_start
+        if "off_end" not in word:
+            word["off_end"] = off_end
+
+    # sentence_index, sentence_index_neg, next_word
+    for i, word in enumerate(words):
+        # indices from both sides
+        word.setdefault("sentence_index", i)
+        word.setdefault("sentence_index_neg", n - 1 - i)
+        # next_word: index of following word (can be == len(words) for last one)
+        word.setdefault("next_word", i + 1)
+
+
 def add_missing_fields(in_path: Path, out_path: Path):
     with in_path.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
     for sent in data.get("sentences", []):
+        # word-level indices
+        add_word_indices(sent)
+
+        # ana-level fields
         for word in sent.get("words", []):
             for ana in word.get("ana", []):
                 enrich_ana(ana)
