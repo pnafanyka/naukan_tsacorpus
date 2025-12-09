@@ -11,7 +11,12 @@
             {
               "parts": "unikpaʁaq",
               "gloss": "сказка",
-              "gloss_index": "STEM{unikpaʁaq}-"
+              "gloss_index": "STEM{unikpaʁaq}-",
+              "lex": "unikpaʁaq",
+              "trans_ru": "сказка",
+              "gloss_ru": "сказка",
+              "gloss_index_ru": "STEM{unikpaʁaq}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -28,7 +33,12 @@
             {
               "parts": "mɨtɨχl̥uk",
               "gloss": "ворон",
-              "gloss_index": "STEM{mɨtɨχl̥uk}-"
+              "gloss_index": "STEM{mɨtɨχl̥uk}-",
+              "lex": "mɨtɨχl̥uk",
+              "trans_ru": "ворон",
+              "gloss_ru": "ворон",
+              "gloss_index_ru": "STEM{mɨtɨχl̥uk}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -39,7 +49,12 @@
             {
               "parts": "ɨnkam",
               "gloss": "и",
-              "gloss_index": "STEM{ɨnkam}-"
+              "gloss_index": "STEM{ɨnkam}-",
+              "lex": "ɨnkam",
+              "trans_ru": "и",
+              "gloss_ru": "и",
+              "gloss_index_ru": "STEM{ɨnkam}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -56,7 +71,12 @@
             {
               "parts": "taːna",
               "gloss": "этот",
-              "gloss_index": "STEM{taːna}-"
+              "gloss_index": "STEM{taːna}-",
+              "lex": "taːna",
+              "trans_ru": "этот",
+              "gloss_ru": "этот",
+              "gloss_index_ru": "STEM{taːna}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -67,7 +87,12 @@
             {
               "parts": "xuːq",
               "gloss": "мол",
-              "gloss_index": "STEM{xuːq}-"
+              "gloss_index": "STEM{xuːq}-",
+              "lex": "xuːq",
+              "trans_ru": "мол",
+              "gloss_ru": "мол",
+              "gloss_index_ru": "STEM{xuːq}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -78,7 +103,12 @@
             {
               "parts": "mɨtɨχl̥uk",
               "gloss": "ворон",
-              "gloss_index": "STEM{mɨtɨχl̥uk}-"
+              "gloss_index": "STEM{mɨtɨχl̥uk}-",
+              "lex": "mɨtɨχl̥uk",
+              "trans_ru": "ворон",
+              "gloss_ru": "ворон",
+              "gloss_index_ru": "STEM{mɨtɨχl̥uk}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -89,7 +119,12 @@
             {
               "parts": "situ-χaːʁ?-aq-u-q",
               "gloss": "катиться-БЕСКОНЕЧНО?-PRS-IND-3SG.S",
-              "gloss_index": "STEM{situ}-БЕСКОНЕЧНО?{χaːʁ?}-PRS{aq}-IND{u}-3SG.S{q}-"
+              "gloss_index": "STEM{situ}-БЕСКОНЕЧНО?{χaːʁ?}-PRS{aq}-IND{u}-3SG.S{q}-",
+              "lex": "situ",
+              "trans_ru": "катиться",
+              "gloss_ru": "катиться-БЕСКОНЕЧНО?-PRS-IND-3SG.S",
+              "gloss_index_ru": "STEM{situ}-БЕСКОНЕЧНО?{χaːʁ?}-PRS{aq}-IND{u}-3SG.S{q}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -106,7 +141,12 @@
             {
               "parts": "situ-aq-u-q",
               "gloss": "катиться-PRS-IND-3SG.S",
-              "gloss_index": "STEM{situ}-PRS{aq}-IND{u}-3SG.S{q}-"
+              "gloss_index": "STEM{situ}-PRS{aq}-IND{u}-3SG.S{q}-",
+              "lex": "situ",
+              "trans_ru": "катиться",
+              "gloss_ru": "катиться-PRS-IND-3SG.S",
+              "gloss_index_ru": "STEM{situ}-PRS{aq}-IND{u}-3SG.S{q}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -123,7 +163,12 @@
             {
               "parts": "naqam",
               "gloss": "так",
-              "gloss_index": "STEM{naqam}-"
+              "gloss_index": "STEM{naqam}-",
+              "lex": "naqam",
+              "trans_ru": "так",
+              "gloss_ru": "так",
+              "gloss_index_ru": "STEM{naqam}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -134,7 +179,12 @@
             {
               "parts": "taɣʷeːnaq",
               "gloss": "только",
-              "gloss_index": "STEM{taɣʷeːnaq}-"
+              "gloss_index": "STEM{taɣʷeːnaq}-",
+              "lex": "taɣʷeːnaq",
+              "trans_ru": "только",
+              "gloss_ru": "только",
+              "gloss_index_ru": "STEM{taɣʷeːnaq}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -145,7 +195,12 @@
             {
               "parts": "pi-t",
               "gloss": "HES-PL",
-              "gloss_index": "STEM{pi}-PL{t}-"
+              "gloss_index": "STEM{pi}-PL{t}-",
+              "lex": "pi",
+              "trans_ru": "HES",
+              "gloss_ru": "HES-PL",
+              "gloss_index_ru": "STEM{pi}-PL{t}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -156,7 +211,12 @@
             {
               "parts": "situ-iːt",
               "gloss": "коготь-PL.POSS.3PL",
-              "gloss_index": "STEM{situ}-PL.POSS.3PL{iːt}-"
+              "gloss_index": "STEM{situ}-PL.POSS.3PL{iːt}-",
+              "lex": "situ",
+              "trans_ru": "коготь",
+              "gloss_ru": "коготь-PL.POSS.3PL",
+              "gloss_index_ru": "STEM{situ}-PL.POSS.3PL{iːt}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -167,7 +227,12 @@
             {
               "parts": "pikun",
               "gloss": "HES-PROL",
-              "gloss_index": "STEM{pikun}-"
+              "gloss_index": "STEM{pikun}-",
+              "lex": "pikun",
+              "trans_ru": "HES",
+              "gloss_ru": "HES-PROL",
+              "gloss_index_ru": "STEM{pikun}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -178,7 +243,12 @@
             {
               "parts": "apɨkun",
               "gloss": "снег-PROL",
-              "gloss_index": "STEM{apɨkun}-"
+              "gloss_index": "STEM{apɨkun}-",
+              "lex": "apɨkun",
+              "trans_ru": "снег",
+              "gloss_ru": "снег-PROL",
+              "gloss_index_ru": "STEM{apɨkun}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -189,7 +259,12 @@
             {
               "parts": "l̥aχaχ-q-aq-u-t",
               "gloss": "шелестеть-??-PRS-IND-3PL",
-              "gloss_index": "STEM{l̥aχaχ}-??{q}-PRS{aq}-IND{u}-3PL{t}-"
+              "gloss_index": "STEM{l̥aχaχ}-??{q}-PRS{aq}-IND{u}-3PL{t}-",
+              "lex": "l̥aχaχ",
+              "trans_ru": "шелестеть",
+              "gloss_ru": "шелестеть-??-PRS-IND-3PL",
+              "gloss_index_ru": "STEM{l̥aχaχ}-??{q}-PRS{aq}-IND{u}-3PL{t}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -200,7 +275,12 @@
             {
               "parts": "",
               "gloss": "",
-              "gloss_index": ""
+              "gloss_index": "",
+              "lex": "",
+              "trans_ru": "",
+              "gloss_ru": "",
+              "gloss_index_ru": "",
+              "gr.pos": ""
             }
           ]
         }
@@ -217,7 +297,12 @@
             {
               "parts": "taɣʷatɨn",
               "gloss": "так",
-              "gloss_index": "STEM{taɣʷatɨn}-"
+              "gloss_index": "STEM{taɣʷatɨn}-",
+              "lex": "taɣʷatɨn",
+              "trans_ru": "так",
+              "gloss_ru": "так",
+              "gloss_index_ru": "STEM{taɣʷatɨn}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -228,7 +313,12 @@
             {
               "parts": "situ-aq-u-q",
               "gloss": "катиться-PRS-IND-3SG",
-              "gloss_index": "STEM{situ}-PRS{aq}-IND{u}-3SG{q}-"
+              "gloss_index": "STEM{situ}-PRS{aq}-IND{u}-3SG{q}-",
+              "lex": "situ",
+              "trans_ru": "катиться",
+              "gloss_ru": "катиться-PRS-IND-3SG",
+              "gloss_index_ru": "STEM{situ}-PRS{aq}-IND{u}-3SG{q}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -245,7 +335,12 @@
             {
               "parts": "tutɨ-aqŋ̊a-mi",
               "gloss": "прибыть-CVB.PREC-3SG.S",
-              "gloss_index": "STEM{tutɨ}-CVB.PREC{aqŋ̊a}-3SG.S{mi}-"
+              "gloss_index": "STEM{tutɨ}-CVB.PREC{aqŋ̊a}-3SG.S{mi}-",
+              "lex": "tutɨ",
+              "trans_ru": "прибыть",
+              "gloss_ru": "прибыть-CVB.PREC-3SG.S",
+              "gloss_index_ru": "STEM{tutɨ}-CVB.PREC{aqŋ̊a}-3SG.S{mi}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -256,7 +351,12 @@
             {
               "parts": "ɨpn̥a-m",
               "gloss": "утес-ERG",
-              "gloss_index": "STEM{ɨpn̥a}-ERG{m}-"
+              "gloss_index": "STEM{ɨpn̥a}-ERG{m}-",
+              "lex": "ɨpn̥a",
+              "trans_ru": "утес",
+              "gloss_ru": "утес-ERG",
+              "gloss_index_ru": "STEM{ɨpn̥a}-ERG{m}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -267,7 +367,12 @@
             {
               "parts": "kaŋi-aː-nun",
               "gloss": "край-ERG.POSS.3SG-LAT??",
-              "gloss_index": "STEM{kaŋi}-ERG.POSS.3SG{aː}-LAT??{nun}-"
+              "gloss_index": "STEM{kaŋi}-ERG.POSS.3SG{aː}-LAT??{nun}-",
+              "lex": "kaŋi",
+              "trans_ru": "край",
+              "gloss_ru": "край-ERG.POSS.3SG-LAT??",
+              "gloss_index_ru": "STEM{kaŋi}-ERG.POSS.3SG{aː}-LAT??{nun}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -284,7 +389,12 @@
             {
               "parts": "tanɨm",
               "gloss": "опять",
-              "gloss_index": "STEM{tanɨm}-"
+              "gloss_index": "STEM{tanɨm}-",
+              "lex": "tanɨm",
+              "trans_ru": "опять",
+              "gloss_ru": "опять",
+              "gloss_index_ru": "STEM{tanɨm}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -295,7 +405,12 @@
             {
               "parts": "utɨχtɨ-aq-u-q",
               "gloss": "возвращаться-PRS-IND-3SG",
-              "gloss_index": "STEM{utɨχtɨ}-PRS{aq}-IND{u}-3SG{q}-"
+              "gloss_index": "STEM{utɨχtɨ}-PRS{aq}-IND{u}-3SG{q}-",
+              "lex": "utɨχtɨ",
+              "trans_ru": "возвращаться",
+              "gloss_ru": "возвращаться-PRS-IND-3SG",
+              "gloss_index_ru": "STEM{utɨχtɨ}-PRS{aq}-IND{u}-3SG{q}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -306,7 +421,12 @@
             {
               "parts": "taɣʷatɨn",
               "gloss": "так",
-              "gloss_index": "STEM{taɣʷatɨn}-"
+              "gloss_index": "STEM{taɣʷatɨn}-",
+              "lex": "taɣʷatɨn",
+              "trans_ru": "так",
+              "gloss_ru": "так",
+              "gloss_index_ru": "STEM{taɣʷatɨn}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -323,7 +443,12 @@
             {
               "parts": "situ-χaʁ-malu-ki",
               "gloss": "спускаться-БЕСКОНЕЧНО-CVB.DELIM-3PL.O",
-              "gloss_index": "STEM{situ}-БЕСКОНЕЧНО{χaʁ}-CVB.DELIM{malu}-3PL.O{ki}-"
+              "gloss_index": "STEM{situ}-БЕСКОНЕЧНО{χaʁ}-CVB.DELIM{malu}-3PL.O{ki}-",
+              "lex": "situ",
+              "trans_ru": "спускаться",
+              "gloss_ru": "спускаться-БЕСКОНЕЧНО-CVB.DELIM-3PL.O",
+              "gloss_index_ru": "STEM{situ}-БЕСКОНЕЧНО{χaʁ}-CVB.DELIM{malu}-3PL.O{ki}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -334,7 +459,12 @@
             {
               "parts": "ta",
               "gloss": "этот",
-              "gloss_index": "STEM{ta}-"
+              "gloss_index": "STEM{ta}-",
+              "lex": "ta",
+              "trans_ru": "этот",
+              "gloss_ru": "этот",
+              "gloss_index_ru": "STEM{ta}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -345,7 +475,12 @@
             {
               "parts": "situ-χaʁ-u?malu-ku",
               "gloss": "спускаться-БЕСКОНЕЧНО-CVB.DELIM-3SG.O",
-              "gloss_index": "STEM{situ}-БЕСКОНЕЧНО{χaʁ}-CVB.DELIM{u?malu}-3SG.O{ku}-"
+              "gloss_index": "STEM{situ}-БЕСКОНЕЧНО{χaʁ}-CVB.DELIM{u?malu}-3SG.O{ku}-",
+              "lex": "situ",
+              "trans_ru": "спускаться",
+              "gloss_ru": "спускаться-БЕСКОНЕЧНО-CVB.DELIM-3SG.O",
+              "gloss_index_ru": "STEM{situ}-БЕСКОНЕЧНО{χaʁ}-CVB.DELIM{u?malu}-3SG.O{ku}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -356,7 +491,12 @@
             {
               "parts": "mɨtɨχl̥uk",
               "gloss": "ворон",
-              "gloss_index": "STEM{mɨtɨχl̥uk}-"
+              "gloss_index": "STEM{mɨtɨχl̥uk}-",
+              "lex": "mɨtɨχl̥uk",
+              "trans_ru": "ворон",
+              "gloss_ru": "ворон",
+              "gloss_index_ru": "STEM{mɨtɨχl̥uk}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -367,7 +507,12 @@
             {
               "parts": "kavilŋu-raɣaq",
               "gloss": "лиса-DIM",
-              "gloss_index": "STEM{kavilŋu}-DIM{raɣaq}-"
+              "gloss_index": "STEM{kavilŋu}-DIM{raɣaq}-",
+              "lex": "kavilŋu",
+              "trans_ru": "лиса",
+              "gloss_ru": "лиса-DIM",
+              "gloss_index_ru": "STEM{kavilŋu}-DIM{raɣaq}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -389,7 +534,12 @@
             {
               "parts": "pi-aq-u-q",
               "gloss": "сказать-PRS-IND-3SG",
-              "gloss_index": "STEM{pi}-PRS{aq}-IND{u}-3SG{q}-"
+              "gloss_index": "STEM{pi}-PRS{aq}-IND{u}-3SG{q}-",
+              "lex": "pi",
+              "trans_ru": "сказать",
+              "gloss_ru": "сказать-PRS-IND-3SG",
+              "gloss_index_ru": "STEM{pi}-PRS{aq}-IND{u}-3SG{q}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -400,7 +550,12 @@
             {
               "parts": "ɣʷi",
               "gloss": "тоже",
-              "gloss_index": "STEM{ɣʷi}-"
+              "gloss_index": "STEM{ɣʷi}-",
+              "lex": "ɣʷi",
+              "trans_ru": "тоже",
+              "gloss_ru": "тоже",
+              "gloss_index_ru": "STEM{ɣʷi}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -411,7 +566,12 @@
             {
               "parts": "amta",
               "gloss": "спускаться-БЕСКОНЕЧНО-DES-PRS-IND-1SG",
-              "gloss_index": "STEM{amta}-"
+              "gloss_index": "STEM{amta}-",
+              "lex": "amta",
+              "trans_ru": "спускаться",
+              "gloss_ru": "спускаться-БЕСКОНЕЧНО-DES-PRS-IND-1SG",
+              "gloss_index_ru": "STEM{amta}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -428,7 +588,12 @@
             {
               "parts": "mɨtɨχl̥u-m",
               "gloss": "ворон-ERG",
-              "gloss_index": "STEM{mɨtɨχl̥u}-ERG{m}-"
+              "gloss_index": "STEM{mɨtɨχl̥u}-ERG{m}-",
+              "lex": "mɨtɨχl̥u",
+              "trans_ru": "ворон",
+              "gloss_ru": "ворон-ERG",
+              "gloss_index_ru": "STEM{mɨtɨχl̥u}-ERG{m}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -439,7 +604,12 @@
             {
               "parts": "pi-aq-a-a",
               "gloss": "сказать-PRS-IND-3SG.S.3SG.O",
-              "gloss_index": "STEM{pi}-PRS{aq}-IND{a}-3SG.S.3SG.O{a}-"
+              "gloss_index": "STEM{pi}-PRS{aq}-IND{a}-3SG.S.3SG.O{a}-",
+              "lex": "pi",
+              "trans_ru": "сказать",
+              "gloss_ru": "сказать-PRS-IND-3SG.S.3SG.O",
+              "gloss_index_ru": "STEM{pi}-PRS{aq}-IND{a}-3SG.S.3SG.O{a}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -450,7 +620,12 @@
             {
               "parts": "ima-mun",
               "gloss": "море-LAT",
-              "gloss_index": "STEM{ima}-LAT{mun}-"
+              "gloss_index": "STEM{ima}-LAT{mun}-",
+              "lex": "ima",
+              "trans_ru": "море",
+              "gloss_ru": "море-LAT",
+              "gloss_index_ru": "STEM{ima}-LAT{mun}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -472,7 +647,12 @@
             {
               "parts": "naːmi",
               "gloss": "нет",
-              "gloss_index": "STEM{naːmi}-"
+              "gloss_index": "STEM{naːmi}-",
+              "lex": "naːmi",
+              "trans_ru": "нет",
+              "gloss_ru": "нет",
+              "gloss_index_ru": "STEM{naːmi}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -489,7 +669,12 @@
             {
               "parts": "amta",
               "gloss": "тоже",
-              "gloss_index": "STEM{amta}-"
+              "gloss_index": "STEM{amta}-",
+              "lex": "amta",
+              "trans_ru": "тоже",
+              "gloss_ru": "тоже",
+              "gloss_index_ru": "STEM{amta}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -500,7 +685,12 @@
             {
               "parts": "ɣʷi",
               "gloss": "я",
-              "gloss_index": "STEM{ɣʷi}-"
+              "gloss_index": "STEM{ɣʷi}-",
+              "lex": "ɣʷi",
+              "trans_ru": "я",
+              "gloss_ru": "я",
+              "gloss_index_ru": "STEM{ɣʷi}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -511,7 +701,12 @@
             {
               "parts": "situ-χaʁ-juɣ-aq-u-ŋa",
               "gloss": "спускаться-БЕСКОНЕЧНО-DES-PRS-IND-1SG",
-              "gloss_index": "STEM{situ}-БЕСКОНЕЧНО{χaʁ}-DES{juɣ}-PRS{aq}-IND{u}-1SG{ŋa}-"
+              "gloss_index": "STEM{situ}-БЕСКОНЕЧНО{χaʁ}-DES{juɣ}-PRS{aq}-IND{u}-1SG{ŋa}-",
+              "lex": "situ",
+              "trans_ru": "спускаться",
+              "gloss_ru": "спускаться-БЕСКОНЕЧНО-DES-PRS-IND-1SG",
+              "gloss_index_ru": "STEM{situ}-БЕСКОНЕЧНО{χaʁ}-DES{juɣ}-PRS{aq}-IND{u}-1SG{ŋa}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -522,7 +717,12 @@
             {
               "parts": "tan??",
               "gloss": "опять",
-              "gloss_index": "STEM{tan??}-"
+              "gloss_index": "STEM{tan??}-",
+              "lex": "tan??",
+              "trans_ru": "опять",
+              "gloss_ru": "опять",
+              "gloss_index_ru": "STEM{tan??}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -533,7 +733,12 @@
             {
               "parts": "pi-aq-a-mkɨn",
               "gloss": "сказать-PRS-IND-1SG.S.2SG.O",
-              "gloss_index": "STEM{pi}-PRS{aq}-IND{a}-1SG.S.2SG.O{mkɨn}-"
+              "gloss_index": "STEM{pi}-PRS{aq}-IND{a}-1SG.S.2SG.O{mkɨn}-",
+              "lex": "pi",
+              "trans_ru": "сказать",
+              "gloss_ru": "сказать-PRS-IND-1SG.S.2SG.O",
+              "gloss_index_ru": "STEM{pi}-PRS{aq}-IND{a}-1SG.S.2SG.O{mkɨn}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -550,7 +755,12 @@
             {
               "parts": "ipn̥a-kun",
               "gloss": "утес-PROL",
-              "gloss_index": "STEM{ipn̥a}-PROL{kun}-"
+              "gloss_index": "STEM{ipn̥a}-PROL{kun}-",
+              "lex": "ipn̥a",
+              "trans_ru": "утес",
+              "gloss_ru": "утес-PROL",
+              "gloss_index_ru": "STEM{ipn̥a}-PROL{kun}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -561,7 +771,12 @@
             {
               "parts": "ix-l̥ɨq-u-tɨn",
               "gloss": "упасть-FUT-IND-2SG",
-              "gloss_index": "STEM{ix}-FUT{l̥ɨq}-IND{u}-2SG{tɨn}-"
+              "gloss_index": "STEM{ix}-FUT{l̥ɨq}-IND{u}-2SG{tɨn}-",
+              "lex": "ix",
+              "trans_ru": "упасть",
+              "gloss_ru": "упасть-FUT-IND-2SG",
+              "gloss_index_ru": "STEM{ix}-FUT{l̥ɨq}-IND{u}-2SG{tɨn}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -572,7 +787,12 @@
             {
               "parts": "ima-mun",
               "gloss": "море-LAT",
-              "gloss_index": "STEM{ima}-LAT{mun}-"
+              "gloss_index": "STEM{ima}-LAT{mun}-",
+              "lex": "ima",
+              "trans_ru": "море",
+              "gloss_ru": "море-LAT",
+              "gloss_index_ru": "STEM{ima}-LAT{mun}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -594,7 +814,12 @@
             {
               "parts": "ii",
               "gloss": "хорошо",
-              "gloss_index": "STEM{ii}-"
+              "gloss_index": "STEM{ii}-",
+              "lex": "ii",
+              "trans_ru": "хорошо",
+              "gloss_ru": "хорошо",
+              "gloss_index_ru": "STEM{ii}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -605,7 +830,12 @@
             {
               "parts": "qɨnɣʷat",
               "gloss": "наконец",
-              "gloss_index": "STEM{qɨnɣʷat}-"
+              "gloss_index": "STEM{qɨnɣʷat}-",
+              "lex": "qɨnɣʷat",
+              "trans_ru": "наконец",
+              "gloss_ru": "наконец",
+              "gloss_index_ru": "STEM{qɨnɣʷat}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -616,7 +846,12 @@
             {
               "parts": "taːna",
               "gloss": "этот",
-              "gloss_index": "STEM{taːna}-"
+              "gloss_index": "STEM{taːna}-",
+              "lex": "taːna",
+              "trans_ru": "этот",
+              "gloss_ru": "этот",
+              "gloss_index_ru": "STEM{taːna}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -627,7 +862,12 @@
             {
               "parts": "aŋɨχ-t-u-q",
               "gloss": "согласиться-PROX-IND-3SG",
-              "gloss_index": "STEM{aŋɨχ}-PROX{t}-IND{u}-3SG{q}-"
+              "gloss_index": "STEM{aŋɨχ}-PROX{t}-IND{u}-3SG{q}-",
+              "lex": "aŋɨχ",
+              "trans_ru": "согласиться",
+              "gloss_ru": "согласиться-PROX-IND-3SG",
+              "gloss_index_ru": "STEM{aŋɨχ}-PROX{t}-IND{u}-3SG{q}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -649,7 +889,12 @@
             {
               "parts": "situ-aq-u-q",
               "gloss": "катиться-PRS-IND-3SG",
-              "gloss_index": "STEM{situ}-PRS{aq}-IND{u}-3SG{q}-"
+              "gloss_index": "STEM{situ}-PRS{aq}-IND{u}-3SG{q}-",
+              "lex": "situ",
+              "trans_ru": "катиться",
+              "gloss_ru": "катиться-PRS-IND-3SG",
+              "gloss_index_ru": "STEM{situ}-PRS{aq}-IND{u}-3SG{q}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -660,7 +905,12 @@
             {
               "parts": "ta:na",
               "gloss": "этот",
-              "gloss_index": "STEM{ta:na}-"
+              "gloss_index": "STEM{ta:na}-",
+              "lex": "ta:na",
+              "trans_ru": "этот",
+              "gloss_ru": "этот",
+              "gloss_index_ru": "STEM{ta:na}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -677,7 +927,12 @@
             {
               "parts": "taɣʷeːnaq",
               "gloss": "только",
-              "gloss_index": "STEM{taɣʷeːnaq}-"
+              "gloss_index": "STEM{taɣʷeːnaq}-",
+              "lex": "taɣʷeːnaq",
+              "trans_ru": "только",
+              "gloss_ru": "только",
+              "gloss_index_ru": "STEM{taɣʷeːnaq}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -688,7 +943,12 @@
             {
               "parts": "situ-it",
               "gloss": "коготь-PL.POSS.3PL",
-              "gloss_index": "STEM{situ}-PL.POSS.3PL{it}-"
+              "gloss_index": "STEM{situ}-PL.POSS.3PL{it}-",
+              "lex": "situ",
+              "trans_ru": "коготь",
+              "gloss_ru": "коготь-PL.POSS.3PL",
+              "gloss_index_ru": "STEM{situ}-PL.POSS.3PL{it}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -699,7 +959,12 @@
             {
               "parts": "apɨ-kun",
               "gloss": "снег-PROL",
-              "gloss_index": "STEM{apɨ}-PROL{kun}-"
+              "gloss_index": "STEM{apɨ}-PROL{kun}-",
+              "lex": "apɨ",
+              "trans_ru": "снег",
+              "gloss_ru": "снег-PROL",
+              "gloss_index_ru": "STEM{apɨ}-PROL{kun}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -710,7 +975,12 @@
             {
               "parts": "l̥aχoχ",
               "gloss": "шелестеть??-PRS-IND-3PL",
-              "gloss_index": "STEM{l̥aχoχ}-"
+              "gloss_index": "STEM{l̥aχoχ}-",
+              "lex": "l̥aχoχ",
+              "trans_ru": "шелестеть??",
+              "gloss_ru": "шелестеть??-PRS-IND-3PL",
+              "gloss_index_ru": "STEM{l̥aχoχ}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -721,7 +991,12 @@
             {
               "parts": "",
               "gloss": "",
-              "gloss_index": ""
+              "gloss_index": "",
+              "lex": "",
+              "trans_ru": "",
+              "gloss_ru": "",
+              "gloss_index_ru": "",
+              "gr.pos": ""
             }
           ]
         },
@@ -732,7 +1007,12 @@
             {
               "parts": "",
               "gloss": "",
-              "gloss_index": ""
+              "gloss_index": "",
+              "lex": "",
+              "trans_ru": "",
+              "gloss_ru": "",
+              "gloss_index_ru": "",
+              "gr.pos": ""
             }
           ]
         }
@@ -749,7 +1029,12 @@
             {
               "parts": "taːna",
               "gloss": "этот",
-              "gloss_index": "STEM{taːna}-"
+              "gloss_index": "STEM{taːna}-",
+              "lex": "taːna",
+              "trans_ru": "этот",
+              "gloss_ru": "этот",
+              "gloss_index_ru": "STEM{taːna}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -760,7 +1045,12 @@
             {
               "parts": "situ-aq-u-q",
               "gloss": "катиться-PRS-IND-3SG",
-              "gloss_index": "STEM{situ}-PRS{aq}-IND{u}-3SG{q}-"
+              "gloss_index": "STEM{situ}-PRS{aq}-IND{u}-3SG{q}-",
+              "lex": "situ",
+              "trans_ru": "катиться",
+              "gloss_ru": "катиться-PRS-IND-3SG",
+              "gloss_index_ru": "STEM{situ}-PRS{aq}-IND{u}-3SG{q}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -771,7 +1061,12 @@
             {
               "parts": "kavilŋu-raɣaq",
               "gloss": "лиса-DIM",
-              "gloss_index": "STEM{kavilŋu}-DIM{raɣaq}-"
+              "gloss_index": "STEM{kavilŋu}-DIM{raɣaq}-",
+              "lex": "kavilŋu",
+              "trans_ru": "лиса",
+              "gloss_ru": "лиса-DIM",
+              "gloss_index_ru": "STEM{kavilŋu}-DIM{raɣaq}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -788,7 +1083,12 @@
             {
               "parts": "ɨpn̥a",
               "gloss": "утес?",
-              "gloss_index": "STEM{ɨpn̥a}-"
+              "gloss_index": "STEM{ɨpn̥a}-",
+              "lex": "ɨpn̥a",
+              "trans_ru": "утес?",
+              "gloss_ru": "утес?",
+              "gloss_index_ru": "STEM{ɨpn̥a}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -799,7 +1099,12 @@
             {
               "parts": "ɨpn̥aq",
               "gloss": "утес",
-              "gloss_index": "STEM{ɨpn̥aq}-"
+              "gloss_index": "STEM{ɨpn̥aq}-",
+              "lex": "ɨpn̥aq",
+              "trans_ru": "утес",
+              "gloss_ru": "утес",
+              "gloss_index_ru": "STEM{ɨpn̥aq}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -810,7 +1115,12 @@
             {
               "parts": "naŋɨ-∅-u-q",
               "gloss": "кончиться-PROX-IND-3SG",
-              "gloss_index": "STEM{naŋɨ}-PROX{∅}-IND{u}-3SG{q}-"
+              "gloss_index": "STEM{naŋɨ}-PROX{∅}-IND{u}-3SG{q}-",
+              "lex": "naŋɨ",
+              "trans_ru": "кончиться",
+              "gloss_ru": "кончиться-PROX-IND-3SG",
+              "gloss_index_ru": "STEM{naŋɨ}-PROX{∅}-IND{u}-3SG{q}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -821,7 +1131,12 @@
             {
               "parts": "ixtɨ-∅-u-q",
               "gloss": "упасть-PROX-IND-3SG",
-              "gloss_index": "STEM{ixtɨ}-PROX{∅}-IND{u}-3SG{q}-"
+              "gloss_index": "STEM{ixtɨ}-PROX{∅}-IND{u}-3SG{q}-",
+              "lex": "ixtɨ",
+              "trans_ru": "упасть",
+              "gloss_ru": "упасть-PROX-IND-3SG",
+              "gloss_index_ru": "STEM{ixtɨ}-PROX{∅}-IND{u}-3SG{q}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -838,7 +1153,12 @@
             {
               "parts": "eːsxi",
               "gloss": "как.только",
-              "gloss_index": "STEM{eːsxi}-"
+              "gloss_index": "STEM{eːsxi}-",
+              "lex": "eːsxi",
+              "trans_ru": "как.только",
+              "gloss_ru": "как.только",
+              "gloss_index_ru": "STEM{eːsxi}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -849,7 +1169,12 @@
             {
               "parts": "kitɨ-kata-aq-u-q",
               "gloss": "тонуть-НАЧАТЬ-PRS-IND-3SG",
-              "gloss_index": "STEM{kitɨ}-НАЧАТЬ{kata}-PRS{aq}-IND{u}-3SG{q}-"
+              "gloss_index": "STEM{kitɨ}-НАЧАТЬ{kata}-PRS{aq}-IND{u}-3SG{q}-",
+              "lex": "kitɨ",
+              "trans_ru": "тонуть",
+              "gloss_ru": "тонуть-НАЧАТЬ-PRS-IND-3SG",
+              "gloss_index_ru": "STEM{kitɨ}-НАЧАТЬ{kata}-PRS{aq}-IND{u}-3SG{q}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -866,7 +1191,12 @@
             {
               "parts": "amu-?-ŋa",
               "gloss": "вытащить-IMP?-2SG.S.1SG.O",
-              "gloss_index": "STEM{amu}-IMP?{?}-2SG.S.1SG.O{ŋa}-"
+              "gloss_index": "STEM{amu}-IMP?{?}-2SG.S.1SG.O{ŋa}-",
+              "lex": "amu",
+              "trans_ru": "вытащить",
+              "gloss_ru": "вытащить-IMP?-2SG.S.1SG.O",
+              "gloss_index_ru": "STEM{amu}-IMP?{?}-2SG.S.1SG.O{ŋa}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -877,7 +1207,12 @@
             {
               "parts": "amu-?-ŋa",
               "gloss": "вытащить--IMP?-2SG.S.1SG.O",
-              "gloss_index": "STEM{amu}-IMP?{?}-2SG.S.1SG.O{ŋa}-"
+              "gloss_index": "STEM{amu}-IMP?{?}-2SG.S.1SG.O{ŋa}-",
+              "lex": "amu",
+              "trans_ru": "вытащить",
+              "gloss_ru": "вытащить--IMP?-2SG.S.1SG.O",
+              "gloss_index_ru": "STEM{amu}-IMP?{?}-2SG.S.1SG.O{ŋa}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -894,7 +1229,12 @@
             {
               "parts": "mɨtɨχl̥u-m",
               "gloss": "ворон-ERG",
-              "gloss_index": "STEM{mɨtɨχl̥u}-ERG{m}-"
+              "gloss_index": "STEM{mɨtɨχl̥u}-ERG{m}-",
+              "lex": "mɨtɨχl̥u",
+              "trans_ru": "ворон",
+              "gloss_ru": "ворон-ERG",
+              "gloss_index_ru": "STEM{mɨtɨχl̥u}-ERG{m}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -905,7 +1245,12 @@
             {
               "parts": "pi-aq-a-a",
               "gloss": "сказать-PRS-IND-3SG.S.3SG.O",
-              "gloss_index": "STEM{pi}-PRS{aq}-IND{a}-3SG.S.3SG.O{a}-"
+              "gloss_index": "STEM{pi}-PRS{aq}-IND{a}-3SG.S.3SG.O{a}-",
+              "lex": "pi",
+              "trans_ru": "сказать",
+              "gloss_ru": "сказать-PRS-IND-3SG.S.3SG.O",
+              "gloss_index_ru": "STEM{pi}-PRS{aq}-IND{a}-3SG.S.3SG.O{a}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -916,7 +1261,12 @@
             {
               "parts": "ɣʷaninɨŋ",
               "gloss": "заранее",
-              "gloss_index": "STEM{ɣʷaninɨŋ}-"
+              "gloss_index": "STEM{ɣʷaninɨŋ}-",
+              "lex": "ɣʷaninɨŋ",
+              "trans_ru": "заранее",
+              "gloss_ru": "заранее",
+              "gloss_index_ru": "STEM{ɣʷaninɨŋ}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -933,7 +1283,12 @@
             {
               "parts": "ki-l̥ɨq-u-tɨn",
               "gloss": "тонуть-FUT-IND-2SG",
-              "gloss_index": "STEM{ki}-FUT{l̥ɨq}-IND{u}-2SG{tɨn}-"
+              "gloss_index": "STEM{ki}-FUT{l̥ɨq}-IND{u}-2SG{tɨn}-",
+              "lex": "ki",
+              "trans_ru": "тонуть",
+              "gloss_ru": "тонуть-FUT-IND-2SG",
+              "gloss_index_ru": "STEM{ki}-FUT{l̥ɨq}-IND{u}-2SG{tɨn}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -944,7 +1299,12 @@
             {
               "parts": "ux",
               "gloss": "??",
-              "gloss_index": "STEM{ux}-"
+              "gloss_index": "STEM{ux}-",
+              "lex": "ux",
+              "trans_ru": "??",
+              "gloss_ru": "??",
+              "gloss_index_ru": "STEM{ux}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -955,7 +1315,12 @@
             {
               "parts": "ix-l̥ɨq-u-tɨn",
               "gloss": "упасть-FUT-IND-2SG",
-              "gloss_index": "STEM{ix}-FUT{l̥ɨq}-IND{u}-2SG{tɨn}-"
+              "gloss_index": "STEM{ix}-FUT{l̥ɨq}-IND{u}-2SG{tɨn}-",
+              "lex": "ix",
+              "trans_ru": "упасть",
+              "gloss_ru": "упасть-FUT-IND-2SG",
+              "gloss_index_ru": "STEM{ix}-FUT{l̥ɨq}-IND{u}-2SG{tɨn}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -972,7 +1337,12 @@
             {
               "parts": "amu-∅-a-a",
               "gloss": "вытащить-PROX-IND-3SG.S.3SG.O",
-              "gloss_index": "STEM{amu}-PROX{∅}-IND{a}-3SG.S.3SG.O{a}-"
+              "gloss_index": "STEM{amu}-PROX{∅}-IND{a}-3SG.S.3SG.O{a}-",
+              "lex": "amu",
+              "trans_ru": "вытащить",
+              "gloss_ru": "вытащить-PROX-IND-3SG.S.3SG.O",
+              "gloss_index_ru": "STEM{amu}-PROX{∅}-IND{a}-3SG.S.3SG.O{a}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -989,7 +1359,12 @@
             {
               "parts": "kavilŋu-m",
               "gloss": "лиса-ERG",
-              "gloss_index": "STEM{kavilŋu}-ERG{m}-"
+              "gloss_index": "STEM{kavilŋu}-ERG{m}-",
+              "lex": "kavilŋu",
+              "trans_ru": "лиса",
+              "gloss_ru": "лиса-ERG",
+              "gloss_index_ru": "STEM{kavilŋu}-ERG{m}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1006,7 +1381,12 @@
             {
               "parts": "quja-pix-t-u-ŋa",
               "gloss": "радоваться?-INTS-??-IND-1SG",
-              "gloss_index": "STEM{quja}-INTS{pix}-??{t}-IND{u}-1SG{ŋa}-"
+              "gloss_index": "STEM{quja}-INTS{pix}-??{t}-IND{u}-1SG{ŋa}-",
+              "lex": "quja",
+              "trans_ru": "радоваться?",
+              "gloss_ru": "радоваться?-INTS-??-IND-1SG",
+              "gloss_index_ru": "STEM{quja}-INTS{pix}-??{t}-IND{u}-1SG{ŋa}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1023,7 +1403,12 @@
             {
               "parts": "ɣʷaŋkut-mun",
               "gloss": "1PL-LAT",
-              "gloss_index": "STEM{ɣʷaŋkut}-LAT{mun}-"
+              "gloss_index": "STEM{ɣʷaŋkut}-LAT{mun}-",
+              "lex": "ɣʷaŋkut",
+              "trans_ru": "1PL",
+              "gloss_ru": "1PL-LAT",
+              "gloss_index_ru": "STEM{ɣʷaŋkut}-LAT{mun}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1034,7 +1419,12 @@
             {
               "parts": "aɣɨ-l̥-ta",
               "gloss": "обойти-IMP-1PL",
-              "gloss_index": "STEM{aɣɨ}-IMP{l̥}-1PL{ta}-"
+              "gloss_index": "STEM{aɣɨ}-IMP{l̥}-1PL{ta}-",
+              "lex": "aɣɨ",
+              "trans_ru": "обойти",
+              "gloss_ru": "обойти-IMP-1PL",
+              "gloss_index_ru": "STEM{aɣɨ}-IMP{l̥}-1PL{ta}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1045,7 +1435,12 @@
             {
               "parts": "==",
               "gloss": "там?",
-              "gloss_index": "STEM{}-=MORPH{}-=MORPH{}-"
+              "gloss_index": "STEM{}-=MORPH{}-=MORPH{}-",
+              "lex": "",
+              "trans_ru": "там?",
+              "gloss_ru": "там?",
+              "gloss_index_ru": "STEM{}-=MORPH{}-=MORPH{}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1062,7 +1457,12 @@
             {
               "parts": "quiŋiq",
               "gloss": "олень",
-              "gloss_index": "STEM{quiŋiq}-"
+              "gloss_index": "STEM{quiŋiq}-",
+              "lex": "quiŋiq",
+              "trans_ru": "олень",
+              "gloss_ru": "олень",
+              "gloss_index_ru": "STEM{quiŋiq}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1079,7 +1479,12 @@
             {
               "parts": "quiŋi-mɨŋ",
               "gloss": "олень-INS",
-              "gloss_index": "STEM{quiŋi}-INS{mɨŋ}-"
+              "gloss_index": "STEM{quiŋi}-INS{mɨŋ}-",
+              "lex": "quiŋi",
+              "trans_ru": "олень",
+              "gloss_ru": "олень-INS",
+              "gloss_index_ru": "STEM{quiŋi}-INS{mɨŋ}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1101,7 +1506,12 @@
             {
               "parts": "ɨɣlɨχtɨ-aq-u-t",
               "gloss": "идти-PRS-IND-3PL",
-              "gloss_index": "STEM{ɨɣlɨχtɨ}-PRS{aq}-IND{u}-3PL{t}-"
+              "gloss_index": "STEM{ɨɣlɨχtɨ}-PRS{aq}-IND{u}-3PL{t}-",
+              "lex": "ɨɣlɨχtɨ",
+              "trans_ru": "идти",
+              "gloss_ru": "идти-PRS-IND-3PL",
+              "gloss_index_ru": "STEM{ɨɣlɨχtɨ}-PRS{aq}-IND{u}-3PL{t}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1118,7 +1528,12 @@
             {
               "parts": "pɨŋuχqaq",
               "gloss": "холм",
-              "gloss_index": "STEM{pɨŋuχqaq}-"
+              "gloss_index": "STEM{pɨŋuχqaq}-",
+              "lex": "pɨŋuχqaq",
+              "trans_ru": "холм",
+              "gloss_ru": "холм",
+              "gloss_index_ru": "STEM{pɨŋuχqaq}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1135,7 +1550,12 @@
             {
               "parts": "na=am",
               "gloss": "где=CONJ",
-              "gloss_index": "STEM{na}-=MORPH{am}-"
+              "gloss_index": "STEM{na}-=MORPH{am}-",
+              "lex": "na",
+              "trans_ru": "где=CONJ",
+              "gloss_ru": "где=CONJ",
+              "gloss_index_ru": "STEM{na}-=MORPH{am}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1146,7 +1566,12 @@
             {
               "parts": "taku-t",
               "gloss": "этот-PL",
-              "gloss_index": "STEM{taku}-PL{t}-"
+              "gloss_index": "STEM{taku}-PL{t}-",
+              "lex": "taku",
+              "trans_ru": "этот",
+              "gloss_ru": "этот-PL",
+              "gloss_index_ru": "STEM{taku}-PL{t}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1163,7 +1588,12 @@
             {
               "parts": "pɨŋuχqa-m",
               "gloss": "холм-ERG",
-              "gloss_index": "STEM{pɨŋuχqa}-ERG{m}-"
+              "gloss_index": "STEM{pɨŋuχqa}-ERG{m}-",
+              "lex": "pɨŋuχqa",
+              "trans_ru": "холм",
+              "gloss_ru": "холм-ERG",
+              "gloss_index_ru": "STEM{pɨŋuχqa}-ERG{m}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1174,7 +1604,12 @@
             {
               "parts": "ila-i?",
               "gloss": "??другой-POSS.3SG",
-              "gloss_index": "STEM{ila}-POSS.3SG{i?}-"
+              "gloss_index": "STEM{ila}-POSS.3SG{i?}-",
+              "lex": "ila",
+              "trans_ru": "??другой",
+              "gloss_ru": "??другой-POSS.3SG",
+              "gloss_index_ru": "STEM{ila}-POSS.3SG{i?}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1185,7 +1620,12 @@
             {
               "parts": "ila-i-ni?",
               "gloss": "другой-OBL.POSS.3SG-LOC",
-              "gloss_index": "STEM{ila}-OBL.POSS.3SG{i}-LOC{ni?}-"
+              "gloss_index": "STEM{ila}-OBL.POSS.3SG{i}-LOC{ni?}-",
+              "lex": "ila",
+              "trans_ru": "другой",
+              "gloss_ru": "другой-OBL.POSS.3SG-LOC",
+              "gloss_index_ru": "STEM{ila}-OBL.POSS.3SG{i}-LOC{ni?}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1196,7 +1636,12 @@
             {
               "parts": "pɨŋuχqa-m",
               "gloss": "холм-ERG",
-              "gloss_index": "STEM{pɨŋuχqa}-ERG{m}-"
+              "gloss_index": "STEM{pɨŋuχqa}-ERG{m}-",
+              "lex": "pɨŋuχqa",
+              "trans_ru": "холм",
+              "gloss_ru": "холм-ERG",
+              "gloss_index_ru": "STEM{pɨŋuχqa}-ERG{m}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1207,7 +1652,12 @@
             {
               "parts": "amatn̥a-ni",
               "gloss": "позади-LOC?",
-              "gloss_index": "STEM{amatn̥a}-LOC?{ni}-"
+              "gloss_index": "STEM{amatn̥a}-LOC?{ni}-",
+              "lex": "amatn̥a",
+              "trans_ru": "позади",
+              "gloss_ru": "позади-LOC?",
+              "gloss_index_ru": "STEM{amatn̥a}-LOC?{ni}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1218,7 +1668,12 @@
             {
               "parts": "quiŋi-t",
               "gloss": "олень-PL",
-              "gloss_index": "STEM{quiŋi}-PL{t}-"
+              "gloss_index": "STEM{quiŋi}-PL{t}-",
+              "lex": "quiŋi",
+              "trans_ru": "олень",
+              "gloss_ru": "олень-PL",
+              "gloss_index_ru": "STEM{quiŋi}-PL{t}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1229,7 +1684,12 @@
             {
               "parts": "ɨtɨ-aq-u-t",
               "gloss": "быть-PRS-IND-3SG",
-              "gloss_index": "STEM{ɨtɨ}-PRS{aq}-IND{u}-3SG{t}-"
+              "gloss_index": "STEM{ɨtɨ}-PRS{aq}-IND{u}-3SG{t}-",
+              "lex": "ɨtɨ",
+              "trans_ru": "быть",
+              "gloss_ru": "быть-PRS-IND-3SG",
+              "gloss_index_ru": "STEM{ɨtɨ}-PRS{aq}-IND{u}-3SG{t}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1240,7 +1700,12 @@
             {
               "parts": "",
               "gloss": "",
-              "gloss_index": ""
+              "gloss_index": "",
+              "lex": "",
+              "trans_ru": "",
+              "gloss_ru": "",
+              "gloss_index_ru": "",
+              "gr.pos": ""
             }
           ]
         }
@@ -1257,7 +1722,12 @@
             {
               "parts": "tanɨm",
               "gloss": "опять",
-              "gloss_index": "STEM{tanɨm}-"
+              "gloss_index": "STEM{tanɨm}-",
+              "lex": "tanɨm",
+              "trans_ru": "опять",
+              "gloss_ru": "опять",
+              "gloss_index_ru": "STEM{tanɨm}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1268,7 +1738,12 @@
             {
               "parts": "pɨŋuχqaq",
               "gloss": "холм",
-              "gloss_index": "STEM{pɨŋuχqaq}-"
+              "gloss_index": "STEM{pɨŋuχqaq}-",
+              "lex": "pɨŋuχqaq",
+              "trans_ru": "холм",
+              "gloss_ru": "холм",
+              "gloss_index_ru": "STEM{pɨŋuχqaq}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1279,7 +1754,12 @@
             {
               "parts": "taːna",
               "gloss": "этот",
-              "gloss_index": "STEM{taːna}-"
+              "gloss_index": "STEM{taːna}-",
+              "lex": "taːna",
+              "trans_ru": "этот",
+              "gloss_ru": "этот",
+              "gloss_index_ru": "STEM{taːna}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1306,7 +1786,12 @@
             {
               "parts": "na=am",
               "gloss": "где=CONJ",
-              "gloss_index": "STEM{na}-=MORPH{am}-"
+              "gloss_index": "STEM{na}-=MORPH{am}-",
+              "lex": "na",
+              "trans_ru": "где=CONJ",
+              "gloss_ru": "где=CONJ",
+              "gloss_index_ru": "STEM{na}-=MORPH{am}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1323,7 +1808,12 @@
             {
               "parts": "ila-i-ni",
               "gloss": "??другой-OBL.POSS.3SG-LOC",
-              "gloss_index": "STEM{ila}-OBL.POSS.3SG{i}-LOC{ni}-"
+              "gloss_index": "STEM{ila}-OBL.POSS.3SG{i}-LOC{ni}-",
+              "lex": "ila",
+              "trans_ru": "??другой",
+              "gloss_ru": "??другой-OBL.POSS.3SG-LOC",
+              "gloss_index_ru": "STEM{ila}-OBL.POSS.3SG{i}-LOC{ni}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1334,7 +1824,12 @@
             {
               "parts": "ila-i-n",
               "gloss": "другой-OBL.POSS.3SG-LOC",
-              "gloss_index": "STEM{ila}-OBL.POSS.3SG{i}-LOC{n}-"
+              "gloss_index": "STEM{ila}-OBL.POSS.3SG{i}-LOC{n}-",
+              "lex": "ila",
+              "trans_ru": "другой",
+              "gloss_ru": "другой-OBL.POSS.3SG-LOC",
+              "gloss_index_ru": "STEM{ila}-OBL.POSS.3SG{i}-LOC{n}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1345,7 +1840,12 @@
             {
               "parts": "pɨŋuχqa-m",
               "gloss": "холм-ERG",
-              "gloss_index": "STEM{pɨŋuχqa}-ERG{m}-"
+              "gloss_index": "STEM{pɨŋuχqa}-ERG{m}-",
+              "lex": "pɨŋuχqa",
+              "trans_ru": "холм",
+              "gloss_ru": "холм-ERG",
+              "gloss_index_ru": "STEM{pɨŋuχqa}-ERG{m}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1362,7 +1862,12 @@
             {
               "parts": "taɣʷatɨn",
               "gloss": "так",
-              "gloss_index": "STEM{taɣʷatɨn}-"
+              "gloss_index": "STEM{taɣʷatɨn}-",
+              "lex": "taɣʷatɨn",
+              "trans_ru": "так",
+              "gloss_ru": "так",
+              "gloss_index_ru": "STEM{taɣʷatɨn}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1379,7 +1884,12 @@
             {
               "parts": "tanɨm",
               "gloss": "опять",
-              "gloss_index": "STEM{tanɨm}-"
+              "gloss_index": "STEM{tanɨm}-",
+              "lex": "tanɨm",
+              "trans_ru": "опять",
+              "gloss_ru": "опять",
+              "gloss_index_ru": "STEM{tanɨm}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1396,7 +1906,12 @@
             {
               "parts": "pɨŋuχqaq",
               "gloss": "холм",
-              "gloss_index": "STEM{pɨŋuχqaq}-"
+              "gloss_index": "STEM{pɨŋuχqaq}-",
+              "lex": "pɨŋuχqaq",
+              "trans_ru": "холм",
+              "gloss_ru": "холм",
+              "gloss_index_ru": "STEM{pɨŋuχqaq}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1407,7 +1922,12 @@
             {
               "parts": "kituʁ-∅-a-at?",
               "gloss": "обойти-PROX-IND-3PL.S.3SG.S",
-              "gloss_index": "STEM{kituʁ}-PROX{∅}-IND{a}-3PL.S.3SG.S{at?}-"
+              "gloss_index": "STEM{kituʁ}-PROX{∅}-IND{a}-3PL.S.3SG.S{at?}-",
+              "lex": "kituʁ",
+              "trans_ru": "обойти",
+              "gloss_ru": "обойти-PROX-IND-3PL.S.3SG.S",
+              "gloss_index_ru": "STEM{kituʁ}-PROX{∅}-IND{a}-3PL.S.3SG.S{at?}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1418,7 +1938,12 @@
             {
               "parts": "tanɨm",
               "gloss": "опять",
-              "gloss_index": "STEM{tanɨm}-"
+              "gloss_index": "STEM{tanɨm}-",
+              "lex": "tanɨm",
+              "trans_ru": "опять",
+              "gloss_ru": "опять",
+              "gloss_index_ru": "STEM{tanɨm}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1435,7 +1960,12 @@
             {
               "parts": "amal̥i",
               "gloss": "наверное",
-              "gloss_index": "STEM{amal̥i}-"
+              "gloss_index": "STEM{amal̥i}-",
+              "lex": "amal̥i",
+              "trans_ru": "наверное",
+              "gloss_ru": "наверное",
+              "gloss_index_ru": "STEM{amal̥i}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1446,7 +1976,12 @@
             {
               "parts": "ɨl̥pɨk",
               "gloss": "2SG",
-              "gloss_index": "STEM{ɨl̥pɨk}-"
+              "gloss_index": "STEM{ɨl̥pɨk}-",
+              "lex": "ɨl̥pɨk",
+              "trans_ru": "2SG",
+              "gloss_ru": "2SG",
+              "gloss_index_ru": "STEM{ɨl̥pɨk}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1463,7 +1998,12 @@
             {
               "parts": "qɨnɣʷat",
               "gloss": "наконец",
-              "gloss_index": "STEM{qɨnɣʷat}-"
+              "gloss_index": "STEM{qɨnɣʷat}-",
+              "lex": "qɨnɣʷat",
+              "trans_ru": "наконец",
+              "gloss_ru": "наконец",
+              "gloss_index_ru": "STEM{qɨnɣʷat}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1474,7 +2014,12 @@
             {
               "parts": "mɨtɨχl̥uk",
               "gloss": "ворон",
-              "gloss_index": "STEM{mɨtɨχl̥uk}-"
+              "gloss_index": "STEM{mɨtɨχl̥uk}-",
+              "lex": "mɨtɨχl̥uk",
+              "trans_ru": "ворон",
+              "gloss_ru": "ворон",
+              "gloss_index_ru": "STEM{mɨtɨχl̥uk}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1491,7 +2036,12 @@
             {
               "parts": "qɨvɨ-ŋa-mi",
               "gloss": "сердиться-CVB.PREC-3SG",
-              "gloss_index": "STEM{qɨvɨ}-CVB.PREC{ŋa}-3SG{mi}-"
+              "gloss_index": "STEM{qɨvɨ}-CVB.PREC{ŋa}-3SG{mi}-",
+              "lex": "qɨvɨ",
+              "trans_ru": "сердиться",
+              "gloss_ru": "сердиться-CVB.PREC-3SG",
+              "gloss_index_ru": "STEM{qɨvɨ}-CVB.PREC{ŋa}-3SG{mi}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1502,7 +2052,12 @@
             {
               "parts": "ɨtχ??-a-kun",
               "gloss": "зад-OBL.POSS.3SG-PROL",
-              "gloss_index": "STEM{ɨtχ??}-OBL.POSS.3SG{a}-PROL{kun}-"
+              "gloss_index": "STEM{ɨtχ??}-OBL.POSS.3SG{a}-PROL{kun}-",
+              "lex": "ɨtχ??",
+              "trans_ru": "зад",
+              "gloss_ru": "зад-OBL.POSS.3SG-PROL",
+              "gloss_index_ru": "STEM{ɨtχ??}-OBL.POSS.3SG{a}-PROL{kun}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1519,7 +2074,12 @@
             {
               "parts": "kavilŋu-m",
               "gloss": "лиса-ERG",
-              "gloss_index": "STEM{kavilŋu}-ERG{m}-"
+              "gloss_index": "STEM{kavilŋu}-ERG{m}-",
+              "lex": "kavilŋu",
+              "trans_ru": "лиса",
+              "gloss_ru": "лиса-ERG",
+              "gloss_index_ru": "STEM{kavilŋu}-ERG{m}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1530,7 +2090,12 @@
             {
               "parts": "ilu-a-ni",
               "gloss": "внутренность-OBL.POSS.3SG-LOC",
-              "gloss_index": "STEM{ilu}-OBL.POSS.3SG{a}-LOC{ni}-"
+              "gloss_index": "STEM{ilu}-OBL.POSS.3SG{a}-LOC{ni}-",
+              "lex": "ilu",
+              "trans_ru": "внутренность",
+              "gloss_ru": "внутренность-OBL.POSS.3SG-LOC",
+              "gloss_index_ru": "STEM{ilu}-OBL.POSS.3SG{a}-LOC{ni}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1541,7 +2106,12 @@
             {
               "parts": "taku-t",
               "gloss": "этот-PL",
-              "gloss_index": "STEM{taku}-PL{t}-"
+              "gloss_index": "STEM{taku}-PL{t}-",
+              "lex": "taku",
+              "trans_ru": "этот",
+              "gloss_ru": "этот-PL",
+              "gloss_index_ru": "STEM{taku}-PL{t}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1552,7 +2122,12 @@
             {
               "parts": "",
               "gloss": "",
-              "gloss_index": ""
+              "gloss_index": "",
+              "lex": "",
+              "trans_ru": "",
+              "gloss_ru": "",
+              "gloss_index_ru": "",
+              "gr.pos": ""
             }
           ]
         }
@@ -1569,7 +2144,12 @@
             {
               "parts": "ɨlʁavi-t",
               "gloss": "внутренность-?PL",
-              "gloss_index": "STEM{ɨlʁavi}-?PL{t}-"
+              "gloss_index": "STEM{ɨlʁavi}-?PL{t}-",
+              "lex": "ɨlʁavi",
+              "trans_ru": "внутренность",
+              "gloss_ru": "внутренность-?PL",
+              "gloss_index_ru": "STEM{ɨlʁavi}-?PL{t}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1586,7 +2166,12 @@
             {
               "parts": "iχsaqu-a",
               "gloss": "сердце-POSS.3SG",
-              "gloss_index": "STEM{iχsaqu}-POSS.3SG{a}-"
+              "gloss_index": "STEM{iχsaqu}-POSS.3SG{a}-",
+              "lex": "iχsaqu",
+              "trans_ru": "сердце",
+              "gloss_ru": "сердце-POSS.3SG",
+              "gloss_index_ru": "STEM{iχsaqu}-POSS.3SG{a}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1597,7 +2182,12 @@
             {
               "parts": "pukuɣ-naq-aq-a-a",
               "gloss": "клевать-INT-PRS-IND-3SG.S.3SG.O",
-              "gloss_index": "STEM{pukuɣ}-INT{naq}-PRS{aq}-IND{a}-3SG.S.3SG.O{a}-"
+              "gloss_index": "STEM{pukuɣ}-INT{naq}-PRS{aq}-IND{a}-3SG.S.3SG.O{a}-",
+              "lex": "pukuɣ",
+              "trans_ru": "клевать",
+              "gloss_ru": "клевать-INT-PRS-IND-3SG.S.3SG.O",
+              "gloss_index_ru": "STEM{pukuɣ}-INT{naq}-PRS{aq}-IND{a}-3SG.S.3SG.O{a}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1608,7 +2198,12 @@
             {
               "parts": "iχsaqu-a",
               "gloss": "сердце-POSS.3SG",
-              "gloss_index": "STEM{iχsaqu}-POSS.3SG{a}-"
+              "gloss_index": "STEM{iχsaqu}-POSS.3SG{a}-",
+              "lex": "iχsaqu",
+              "trans_ru": "сердце",
+              "gloss_ru": "сердце-POSS.3SG",
+              "gloss_index_ru": "STEM{iχsaqu}-POSS.3SG{a}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1619,7 +2214,12 @@
             {
               "parts": "taːna",
               "gloss": "этот",
-              "gloss_index": "STEM{taːna}-"
+              "gloss_index": "STEM{taːna}-",
+              "lex": "taːna",
+              "trans_ru": "этот",
+              "gloss_ru": "этот",
+              "gloss_index_ru": "STEM{taːna}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1636,7 +2236,12 @@
             {
               "parts": "qɨnɣʷat",
               "gloss": "наконец",
-              "gloss_index": "STEM{qɨnɣʷat}-"
+              "gloss_index": "STEM{qɨnɣʷat}-",
+              "lex": "qɨnɣʷat",
+              "trans_ru": "наконец",
+              "gloss_ru": "наконец",
+              "gloss_index_ru": "STEM{qɨnɣʷat}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1647,7 +2252,12 @@
             {
               "parts": "pukuɣ-∅-a-a",
               "gloss": "клюнуть-PROX-IND-3SG.S.3SG.O",
-              "gloss_index": "STEM{pukuɣ}-PROX{∅}-IND{a}-3SG.S.3SG.O{a}-"
+              "gloss_index": "STEM{pukuɣ}-PROX{∅}-IND{a}-3SG.S.3SG.O{a}-",
+              "lex": "pukuɣ",
+              "trans_ru": "клюнуть",
+              "gloss_ru": "клюнуть-PROX-IND-3SG.S.3SG.O",
+              "gloss_index_ru": "STEM{pukuɣ}-PROX{∅}-IND{a}-3SG.S.3SG.O{a}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1658,7 +2268,12 @@
             {
               "parts": "taːna",
               "gloss": "этот",
-              "gloss_index": "STEM{taːna}-"
+              "gloss_index": "STEM{taːna}-",
+              "lex": "taːna",
+              "trans_ru": "этот",
+              "gloss_ru": "этот",
+              "gloss_index_ru": "STEM{taːna}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1675,7 +2290,12 @@
             {
               "parts": "kavilŋu-raɣaq",
               "gloss": "лиса-DIM",
-              "gloss_index": "STEM{kavilŋu}-DIM{raɣaq}-"
+              "gloss_index": "STEM{kavilŋu}-DIM{raɣaq}-",
+              "lex": "kavilŋu",
+              "trans_ru": "лиса",
+              "gloss_ru": "лиса-DIM",
+              "gloss_index_ru": "STEM{kavilŋu}-DIM{raɣaq}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1686,7 +2306,12 @@
             {
               "parts": "uvɨʁ-t-u-q",
               "gloss": "опрокинуть-PROX-IND-3SG",
-              "gloss_index": "STEM{uvɨʁ}-PROX{t}-IND{u}-3SG{q}-"
+              "gloss_index": "STEM{uvɨʁ}-PROX{t}-IND{u}-3SG{q}-",
+              "lex": "uvɨʁ",
+              "trans_ru": "опрокинуть",
+              "gloss_ru": "опрокинуть-PROX-IND-3SG",
+              "gloss_index_ru": "STEM{uvɨʁ}-PROX{t}-IND{u}-3SG{q}-",
+              "gr.pos": ""
             }
           ]
         }
@@ -1703,7 +2328,12 @@
             {
               "parts": "taːna",
               "gloss": "этот",
-              "gloss_index": "STEM{taːna}-"
+              "gloss_index": "STEM{taːna}-",
+              "lex": "taːna",
+              "trans_ru": "этот",
+              "gloss_ru": "этот",
+              "gloss_index_ru": "STEM{taːna}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1714,7 +2344,12 @@
             {
               "parts": "mɨtɨχl̥uk",
               "gloss": "ворон",
-              "gloss_index": "STEM{mɨtɨχl̥uk}-"
+              "gloss_index": "STEM{mɨtɨχl̥uk}-",
+              "lex": "mɨtɨχl̥uk",
+              "trans_ru": "ворон",
+              "gloss_ru": "ворон",
+              "gloss_index_ru": "STEM{mɨtɨχl̥uk}-",
+              "gr.pos": ""
             }
           ]
         },
@@ -1725,7 +2360,12 @@
             {
               "parts": "anɨ-∅-u-q",
               "gloss": "выйти-PROX-IND-3SG",
-              "gloss_index": "STEM{anɨ}-PROX{∅}-IND{u}-3SG{q}-"
+              "gloss_index": "STEM{anɨ}-PROX{∅}-IND{u}-3SG{q}-",
+              "lex": "anɨ",
+              "trans_ru": "выйти",
+              "gloss_ru": "выйти-PROX-IND-3SG",
+              "gloss_index_ru": "STEM{anɨ}-PROX{∅}-IND{u}-3SG{q}-",
+              "gr.pos": ""
             }
           ]
         }

@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import json
 import re
 import sys
@@ -15,7 +14,6 @@ def split_parts_with_delims(parts: str):
       segments = ["r'ejs", "ät"]
       delimiters = ["="]
     """
-    # Split and keep delimiters
     pieces = re.split(r'(-|=)', parts)
     if not pieces:
         return [], []
@@ -34,7 +32,7 @@ def split_parts_with_delims(parts: str):
 
 def tags_from_gloss(gloss: str, n_affixes: int):
     """
-    Take gloss like "кончаться-NPST.3SG" or "спускаться-БЕСКОНЕЧНО-CVB.DELIM-3PL.O"
+    Take gloss like "кончаться-NPST.3SG" or "спускаться-БЕСКОНЕЧНО-CVB.DELIM-3SG"
     and return a list of morphological tags to align with affixes.
 
     Strategy:
@@ -46,7 +44,6 @@ def tags_from_gloss(gloss: str, n_affixes: int):
         return [""] * n_affixes
 
     pieces = gloss.split("-")
-    # everything after the first dash is morph tags
     morph_tags = pieces[1:] if len(pieces) > 1 else []
 
     if len(morph_tags) >= n_affixes:
@@ -59,7 +56,12 @@ def tags_from_gloss(gloss: str, n_affixes: int):
 
 def build_gloss_index(parts: str, gloss: str) -> str:
     """
-    Build a gloss_index string in the spirit of your second file.
+    Build a gloss_index-style string.
+
+    If there is no segmentation in `parts`, returns:  STEM{parts}-
+    Otherwise:
+      STEM{stem}-TAG{seg1}-TAG{seg2}-...
+    with '='-segments marked as =TAG{seg}-.
     """
     parts = parts.strip()
     if not parts:
@@ -76,18 +78,14 @@ def build_gloss_index(parts: str, gloss: str) -> str:
     stem = segments[0]
     affixes = segments[1:]
     n_affixes = len(affixes)
-
     tags = tags_from_gloss(gloss, n_affixes)
 
-    # Start with the stem
     out = f"STEM{{{stem}}}-"
 
-    # Then each affix with its tag
     for i, seg in enumerate(affixes):
         delim = delimiters[i] if i < len(delimiters) else "-"
         tag = tags[i] if i < len(tags) else ""
 
-        # If we don't have a clear tag, just leave it empty but keep structure
         if not tag:
             tag = "MORPH"
 
@@ -97,19 +95,60 @@ def build_gloss_index(parts: str, gloss: str) -> str:
     return out
 
 
-def add_gloss_index_to_file(in_path: Path, out_path: Path):
+def enrich_ana(ana: dict):
+    """
+    Add all missing fields inside one 'ana' dict:
+      - gloss_index
+      - lex
+      - trans_ru
+      - gloss_ru
+      - gloss_index_ru
+      - gr.pos
+    """
+    parts = ana.get("parts", "") or ""
+    gloss = ana.get("gloss", "") or ""
+
+    # gloss_index (Latin-style)
+    if "gloss_index" not in ana or not ana.get("gloss_index"):
+        ana["gloss_index"] = build_gloss_index(parts, gloss)
+
+    # lex: first segment of parts (before - or =)
+    if "lex" not in ana or not ana.get("lex"):
+        if parts:
+            lex_candidate = re.split(r"[-=]", parts)[0]
+        else:
+            lex_candidate = ""
+        ana["lex"] = lex_candidate
+
+    # trans_ru: lexical Russian translation (before first '-')
+    if "trans_ru" not in ana or not ana.get("trans_ru"):
+        if gloss:
+            trans = gloss.split("-")[0]
+        else:
+            trans = ""
+        ana["trans_ru"] = trans
+
+    # gloss_ru: keep Russian gloss as-is
+    if "gloss_ru" not in ana or not ana.get("gloss_ru"):
+        ana["gloss_ru"] = gloss
+
+    # gloss_index_ru: placeholder – same pattern, based on Russian gloss
+    if "gloss_index_ru" not in ana or not ana.get("gloss_index_ru"):
+        ana["gloss_index_ru"] = build_gloss_index(parts, ana["gloss_ru"])
+
+    # gr.pos: cannot be reliably inferred, so leave empty if absent
+    if "gr.pos" not in ana:
+        ana["gr.pos"] = ""
+
+
+def add_missing_fields(in_path: Path, out_path: Path):
     with in_path.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
     for sent in data.get("sentences", []):
         for word in sent.get("words", []):
             for ana in word.get("ana", []):
-                parts = ana.get("parts", "")
-                gloss = ana.get("gloss", "")
-
-                # Don't overwrite if gloss_index already exists
-                if "gloss_index" not in ana:
-                    ana["gloss_index"] = build_gloss_index(parts, gloss)
+                enrich_ana(ana)
 
     with out_path.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -118,7 +157,7 @@ def add_gloss_index_to_file(in_path: Path, out_path: Path):
 def main():
     in_path = Path("corpus/naukan/DEA_raven and fox_240623.json")
     out_path = Path("corpus/DEA_raven and fox_240623_corrected.json")
-    add_gloss_index_to_file(in_path, out_path)
+    add_missing_fields(in_path, out_path)
 
 
 if __name__ == "__main__":
