@@ -140,7 +140,8 @@
             {"type": "gloss", "value": "TERM", "tooltip": "TERM"},
             {"type": "gloss", "value": "TRY", "tooltip": "TRY"}
           ]
-        ],
+        ]
+      },
       "gramm_selection": {
         "columns": [
           [
